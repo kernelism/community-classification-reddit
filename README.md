@@ -47,8 +47,9 @@ We converted each graph into an `128` dimensional embedding using [Graph2Vec](ht
 The GNN architecture and results are given below.
 
 ![gnnarch.png](./results/gnnarchitecture.png)
-![testacc.png](./results/testacc.png)
-![losscurves.png](./results/losscurvesthr.png)
+
+| ![Test Accuracy](./results/testacc.png) | ![Loss Curves](./results/losscurvesthr.png) |
+|----------------------------------------|--------------------------------------------|
 
 Through cross-validation, we were able to achieve an `~84%` average test accuracy across folds, for `~200` graphs per label for a total of `13` labels.
 
@@ -91,16 +92,17 @@ Since we cannot really control the number of clusters returned, we decided to ta
 
 We used homogeneity, which takes into account the MCC (most common category) in any given community and calculates the **homogeneity** of that community. 
 
-![homog.png](./results/homogeneity.png)
+| ![homog.png](./results/homogeneity.png) | ![overlappinghomog.png](./results/homogeneity_OCD.png) |
+|--------------------------------|--------------------------------|
 
 When it comes to Overlapping communities, we weight the contribution based on how many communities a given node has been assigned. 
 
-![overlappinghomog.png](./results/homogeneity_OCD.png)
-
 The results are provided below.
-| ![CD1](./results/louvaingnewman.png) | ![CD2](./results/leadineigwalktrap.png) | ![CD3](./results/labelpropfastgreedy.png) |
-|--------------------------------|--------------------------------|--------------------------------|
-| ![OCD1](./results/graphencoreexp.png) | ![OCD2](./results/angeldemon.png) | ![OCD3](./results/slpamulticom.png) |
+| ![CD1](./results/louvaingnewman.png) | ![CD2](./results/leadineigwalktrap.png) |
+|--------------------------------------|--------------------------------------|
+| ![CD3](./results/labelpropfastgreedy.png) | ![OCD1](./results/graphencoreexp.png) |
+| ![OCD2](./results/angeldemon.png) | ![OCD3](./results/slpamulticom.png) |
+
 
 #### Clustering
 
@@ -111,3 +113,4 @@ Upcoming.
 - Dayanand V
 - Pranav Deepak
 - Arjhun Sreedar
+
