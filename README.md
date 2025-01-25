@@ -1,0 +1,113 @@
+
+#  Supervised vs Unsupervised Learning Approaches to Topic Classification on Reddit Conversational Graphs
+
+This project attempts to follow several (supervised & unsupervised) approaches towards topical classification on Reddit data that is modelled as a conversational graph. More on the data setup below. 
+
+We strictly use *only* the network structure itself in our methods and have not leveraged the content for this study. 
+
+**This project is part of a research paper that is still work-in-progress.**
+
+## Data
+The raw Reddit JSON data is structured like this.
+- `id`: the post's unique identifier
+- `post_user`: the post's author
+- `post_time`: the time at which the post was created, in unix time
+- `post_body`: the post's body
+- `post_polarity`: the post's polarity, as a number between -1 and 1
+- `post_sentiment`: the post's sentiment, 0 for neutral, 1 for positive, -1 for negative
+- `comments`: a list of comments on the post, where each comment is a dictionary with the following keys:
+  - `id`: the comment's unique identifier
+  - `user`: the comment's author
+  - `time`: the time at which the comment was created, in unix time
+  - `body`: the comment's body
+  - `comment_polarity`: the comment's polarity, as a number between -1 and 1
+  - `comment_sentiment`: the comment's sentiment, 0 for neutral, 1 for positive, -1 for negative
+  - `replies`: a list of replies to the comment, where each reply is a dictionary with the same keys as a comment
+
+This was processed into a graph with the following rules:
+- Every user is a node
+- There is an edge between each comment owner to the post owner
+- There is an edge between each reply owner to the comment owner.
+- Edge weight representing the normalized sentiment score of all interactions between the two users in a specific direction. (This was done initially but the sentiment scores as such was not used in any of the research paths we followed).
+
+These graphs will be referred to as `Level 1` graphs.
+
+The raw dataset can be found [here](https://zenodo.org/records/13343578).
+
+## Approaches
+
+Both supervised and unsupervised techniques were explored. 
+
+### Supervised
+We trained a GNN to do graph classification. However, its not in the traditional way one would assume. 
+The `Level 1` graphs mentioned above are huge in size. Moreover, we had resource contstraints, due to which we had to simplify the data in hand. 
+
+We converted each graph into an `128` dimensional embedding using [Graph2Vec](https://karateclub.readthedocs.io/en/latest/_modules/karateclub/graph_embedding/graph2vec.html) (which runs `WeisfeilerLehman`), and then built a `Level 2` graph where each `Level 1` graph is represented by a single node and an edge between any 2 nodes would exist based on cosine similarity scores of the respective embedding is greater than a given threshold. 
+
+The GNN architecture and results are given below.
+
+![gnnarch.png](./results/gnnarchitecture.png)
+![testacc.png](./results/testacc.png)
+![losscurves.png](./results/losscurvesthr.png)
+
+Through cross-validation, we were able to achieve an `~84%` average test accuracy across folds, for `~200` graphs per label for a total of `13` labels.
+
+We believe that, for a larger dataset, it should be possible to achieve better results.
+
+
+### Unsupervised
+
+#### Community and Overlapping Community Detection.
+Since we had the `Level 2` graphs generated for different thresholds above, we tried to use them to use natural clustering algorithms, however, the threshold selection process did not turn up to as easy as the supervised example. We resorted to using KDE (Kernel Density Estimate), which was helpful for identifying potential thresholds as it smooths out the randomness in the distribution and highlights underlying patterns. Through KDE, we can locate potential inflection points.
+
+Once we had the thresholds, we built the new `Level 2` graphs.
+
+```
+Initialize an empty dictionary `graphs`
+
+For each `threshold` in `inflection_points`:
+    Initialize an empty graph `G`
+
+    # Add nodes to the graph
+    For each `graph` in `list_of_files`:
+        Add `graph` as a node to `G`
+        Assign attributes:
+            topic = (optional topic value, can be skipped)
+            subreddit = (optional subreddit value, can be skipped)
+
+    # Add edges based on similarity matrix and threshold
+    For `i` from 0 to (number of rows in similarity_matrix - 1):
+        For `j` from (i + 1) to (number of columns in similarity_matrix):
+            If `similarity_matrix[i][j]` > `threshold`:
+                Add an edge between nodes `list_of_files[i]` and `list_of_files[j]`
+                Assign weight = `similarity_matrix[i][j]`
+
+    Store graph `G` in `graphs`
+```
+
+Once we have the graphs, we ran both community and overlapping community detection algorithms. 
+
+Since we cannot really control the number of clusters returned, we decided to take a more democratised approach to validating the results in this case.
+
+We used homogeneity, which takes into account the MCC (most common category) in any given community and calculates the **homogeneity** of that community. 
+
+![homog.png](./results/homogeneity.png)
+
+When it comes to Overlapping communities, we weight the contribution based on how many communities a given node has been assigned. 
+
+![overlappinghomog.png](./results/homogeneity_OCD.png)
+
+The results are provided below.
+| ![CD1](./results/louvaingnewman.png) | ![CD2](./results/leadineigwalktrap.png) | ![CD3](./results/labelpropfastgreedy.png) |
+|--------------------------------|--------------------------------|--------------------------------|
+| ![OCD1](./results/graphencoreexp.png) | ![OCD2](./results/angeldemon.png) | ![OCD3](./results/slpamulticom.png) |
+
+#### Clustering
+
+Upcoming.
+
+
+### Contributors
+- Dayanand V
+- Pranav Deepak
+- Arjhun Sreedar
