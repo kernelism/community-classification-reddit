@@ -1,0 +1,344 @@
+2024-07-06 20:10:44,329 - INFO - Processing algorithm: louvain, threshold: 2.002002002002002e-05
+2024-07-06 20:16:36,968 - INFO - louvain 2.002002002002002e-05: Modularity=0.1498, Mean Homogeneity=0.4658, Median Homogeneity=0.3630
+2024-07-06 20:16:36,984 - INFO - Processing algorithm: louvain, threshold: 0.0014614614614614613
+2024-07-06 20:17:37,942 - INFO - louvain 0.0014614614614614613: Modularity=0.2145, Mean Homogeneity=0.4594, Median Homogeneity=0.4135
+2024-07-06 20:17:37,954 - INFO - Processing algorithm: louvain, threshold: 0.0036136136136136134
+2024-07-06 20:17:52,012 - INFO - louvain 0.0036136136136136134: Modularity=0.3245, Mean Homogeneity=0.6457, Median Homogeneity=0.7408
+2024-07-06 20:17:52,019 - INFO - Processing algorithm: louvain, threshold: 0.004194194194194194
+2024-07-06 20:18:02,364 - INFO - louvain 0.004194194194194194: Modularity=0.3420, Mean Homogeneity=0.5572, Median Homogeneity=0.5593
+2024-07-06 20:18:02,367 - INFO - Processing algorithm: louvain, threshold: 0.004824824824824825
+2024-07-06 20:18:11,483 - INFO - louvain 0.004824824824824825: Modularity=0.3657, Mean Homogeneity=0.6707, Median Homogeneity=0.7755
+2024-07-06 20:18:11,484 - INFO - Processing algorithm: louvain, threshold: 0.005205205205205205
+2024-07-06 20:18:33,693 - INFO - louvain 0.005205205205205205: Modularity=0.3815, Mean Homogeneity=0.5742, Median Homogeneity=0.5111
+2024-07-06 20:18:33,696 - INFO - Processing algorithm: louvain, threshold: 0.005495495495495496
+2024-07-06 20:18:39,243 - INFO - louvain 0.005495495495495496: Modularity=0.3908, Mean Homogeneity=0.7024, Median Homogeneity=0.7719
+2024-07-06 20:18:39,243 - INFO - Processing algorithm: louvain, threshold: 0.005995995995995996
+2024-07-06 20:18:44,489 - INFO - louvain 0.005995995995995996: Modularity=0.4063, Mean Homogeneity=0.7220, Median Homogeneity=0.7542
+2024-07-06 20:18:44,489 - INFO - Processing algorithm: louvain, threshold: 0.006666666666666666
+2024-07-06 20:18:47,815 - INFO - louvain 0.006666666666666666: Modularity=0.4275, Mean Homogeneity=0.7159, Median Homogeneity=0.7500
+2024-07-06 20:18:47,816 - INFO - Processing algorithm: louvain, threshold: 0.007417417417417417
+2024-07-06 20:18:50,559 - INFO - louvain 0.007417417417417417: Modularity=0.4486, Mean Homogeneity=0.6332, Median Homogeneity=0.5000
+2024-07-06 20:18:50,560 - INFO - Processing algorithm: louvain, threshold: 0.007787787787787787
+2024-07-06 20:18:53,238 - INFO - louvain 0.007787787787787787: Modularity=0.4592, Mean Homogeneity=0.6969, Median Homogeneity=0.7283
+2024-07-06 20:18:53,239 - INFO - Processing algorithm: louvain, threshold: 0.008128128128128128
+2024-07-06 20:18:56,461 - INFO - louvain 0.008128128128128128: Modularity=0.4677, Mean Homogeneity=0.7052, Median Homogeneity=0.6861
+2024-07-06 20:18:56,462 - INFO - Processing algorithm: louvain, threshold: 0.008558558558558558
+2024-07-06 20:18:59,048 - INFO - louvain 0.008558558558558558: Modularity=0.4816, Mean Homogeneity=0.6901, Median Homogeneity=0.6828
+2024-07-06 20:18:59,049 - INFO - Processing algorithm: louvain, threshold: 0.009219219219219218
+2024-07-06 20:19:01,314 - INFO - louvain 0.009219219219219218: Modularity=0.4935, Mean Homogeneity=0.7920, Median Homogeneity=0.9003
+2024-07-06 20:19:01,314 - INFO - Processing algorithm: louvain, threshold: 0.00965965965965966
+2024-07-06 20:19:03,180 - INFO - louvain 0.00965965965965966: Modularity=0.5029, Mean Homogeneity=0.7576, Median Homogeneity=0.8361
+2024-07-06 20:19:03,180 - INFO - Processing algorithm: louvain, threshold: 0.00048048048048048047
+2024-07-06 20:21:55,900 - INFO - louvain 0.00048048048048048047: Modularity=0.1579, Mean Homogeneity=0.4407, Median Homogeneity=0.3761
+2024-07-06 20:21:55,918 - INFO - Processing algorithm: louvain, threshold: 0.0035135135135135136
+2024-07-06 20:22:15,737 - INFO - louvain 0.0035135135135135136: Modularity=0.3182, Mean Homogeneity=0.5271, Median Homogeneity=0.4518
+2024-07-06 20:22:15,739 - INFO - Processing algorithm: louvain, threshold: 0.004024024024024024
+2024-07-06 20:22:26,597 - INFO - louvain 0.004024024024024024: Modularity=0.3364, Mean Homogeneity=0.4714, Median Homogeneity=0.3768
+2024-07-06 20:22:26,600 - INFO - Processing algorithm: louvain, threshold: 0.004454454454454454
+2024-07-06 20:22:32,380 - INFO - louvain 0.004454454454454454: Modularity=0.3560, Mean Homogeneity=0.6903, Median Homogeneity=0.7603
+2024-07-06 20:22:32,383 - INFO - Processing algorithm: louvain, threshold: 0.005045045045045045
+2024-07-06 20:22:39,475 - INFO - louvain 0.005045045045045045: Modularity=0.3736, Mean Homogeneity=0.7493, Median Homogeneity=0.8118
+2024-07-06 20:22:39,477 - INFO - Processing algorithm: louvain, threshold: 0.005335335335335335
+2024-07-06 20:22:45,288 - INFO - louvain 0.005335335335335335: Modularity=0.3861, Mean Homogeneity=0.6552, Median Homogeneity=0.7500
+2024-07-06 20:22:45,288 - INFO - Processing algorithm: louvain, threshold: 0.005735735735735736
+2024-07-06 20:22:50,785 - INFO - louvain 0.005735735735735736: Modularity=0.3982, Mean Homogeneity=0.6336, Median Homogeneity=0.7500
+2024-07-06 20:22:50,787 - INFO - Processing algorithm: louvain, threshold: 0.006286286286286286
+2024-07-06 20:23:08,807 - INFO - louvain 0.006286286286286286: Modularity=0.4130, Mean Homogeneity=0.6466, Median Homogeneity=0.5891
+2024-07-06 20:23:08,808 - INFO - Processing algorithm: louvain, threshold: 0.007177177177177177
+2024-07-06 20:23:12,963 - INFO - louvain 0.007177177177177177: Modularity=0.4414, Mean Homogeneity=0.6522, Median Homogeneity=0.5131
+2024-07-06 20:23:12,964 - INFO - Processing algorithm: louvain, threshold: 0.007587587587587588
+2024-07-06 20:23:15,695 - INFO - louvain 0.007587587587587588: Modularity=0.4562, Mean Homogeneity=0.6791, Median Homogeneity=0.7609
+2024-07-06 20:23:15,696 - INFO - Processing algorithm: louvain, threshold: 0.008008008008008008
+2024-07-06 20:23:18,168 - INFO - louvain 0.008008008008008008: Modularity=0.4679, Mean Homogeneity=0.6800, Median Homogeneity=0.7078
+2024-07-06 20:23:18,168 - INFO - Processing algorithm: louvain, threshold: 0.008308308308308308
+2024-07-06 20:23:20,663 - INFO - louvain 0.008308308308308308: Modularity=0.4725, Mean Homogeneity=0.7589, Median Homogeneity=0.7999
+2024-07-06 20:23:20,663 - INFO - Processing algorithm: louvain, threshold: 0.008948948948948949
+2024-07-06 20:23:23,357 - INFO - louvain 0.008948948948948949: Modularity=0.4909, Mean Homogeneity=0.7732, Median Homogeneity=0.8846
+2024-07-06 20:23:23,357 - INFO - Processing algorithm: louvain, threshold: 0.009429429429429429
+2024-07-06 20:23:25,153 - INFO - louvain 0.009429429429429429: Modularity=0.5025, Mean Homogeneity=0.7606, Median Homogeneity=0.8616
+2024-07-06 20:23:25,154 - INFO - Processing algorithm: louvain, threshold: 0.0098998998998999
+2024-07-06 20:23:26,707 - INFO - louvain 0.0098998998998999: Modularity=0.5135, Mean Homogeneity=0.7520, Median Homogeneity=0.8675
+2024-07-06 20:23:26,707 - INFO - Processing algorithm: louvain, threshold: 0.00476995213776347
+2024-07-06 20:23:32,838 - INFO - louvain 0.00476995213776347: Modularity=0.3662, Mean Homogeneity=0.5837, Median Homogeneity=0.6054
+2024-07-06 20:23:32,840 - INFO - Processing algorithm: louvain, threshold: 0.004
+2024-07-06 20:23:42,384 - INFO - louvain 0.004: Modularity=0.3359, Mean Homogeneity=0.6170, Median Homogeneity=0.7273
+2024-07-10 22:18:28,632 - INFO - Processing algorithm: girvan_newman, threshold: 0.004194194194194194
+2024-07-11 00:07:54,821 - INFO - girvan_newman 0.004194194194194194: Modularity=0.0000, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
+2024-07-11 00:07:54,827 - INFO - Processing algorithm: girvan_newman, threshold: 0.004824824824824825
+2024-07-11 03:02:29,670 - INFO - girvan_newman 0.004824824824824825: Modularity=0.0000, Mean Homogeneity=0.5492, Median Homogeneity=0.5000
+2024-07-11 03:02:29,678 - INFO - Processing algorithm: girvan_newman, threshold: 0.005205205205205205
+2024-07-11 05:38:50,665 - INFO - girvan_newman 0.005205205205205205: Modularity=0.0000, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
+2024-07-11 05:38:50,673 - INFO - Processing algorithm: girvan_newman, threshold: 0.005495495495495496
+2024-07-11 06:44:14,915 - INFO - girvan_newman 0.005495495495495496: Modularity=0.0001, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
+2024-07-11 06:44:14,922 - INFO - Processing algorithm: girvan_newman, threshold: 0.005995995995995996
+2024-07-11 07:08:36,827 - INFO - girvan_newman 0.005995995995995996: Modularity=0.0002, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
+2024-07-11 07:08:36,835 - INFO - Processing algorithm: girvan_newman, threshold: 0.006666666666666666
+2024-07-11 07:42:31,822 - INFO - girvan_newman 0.006666666666666666: Modularity=0.0002, Mean Homogeneity=0.8750, Median Homogeneity=1.0000
+2024-07-11 07:42:31,830 - INFO - Processing algorithm: girvan_newman, threshold: 0.007417417417417417
+2024-07-11 09:59:43,396 - INFO - girvan_newman 0.007417417417417417: Modularity=0.0003, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-11 09:59:43,406 - INFO - Processing algorithm: girvan_newman, threshold: 0.007787787787787787
+2024-07-11 12:35:29,042 - INFO - girvan_newman 0.007787787787787787: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-11 12:35:29,050 - INFO - Processing algorithm: girvan_newman, threshold: 0.008128128128128128
+2024-07-11 14:39:33,749 - INFO - girvan_newman 0.008128128128128128: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-11 14:39:33,771 - INFO - Processing algorithm: girvan_newman, threshold: 0.008558558558558558
+2024-07-11 16:37:28,728 - INFO - girvan_newman 0.008558558558558558: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-11 16:37:28,737 - INFO - Processing algorithm: girvan_newman, threshold: 0.009219219219219218
+2024-07-11 18:04:58,773 - INFO - girvan_newman 0.009219219219219218: Modularity=0.0010, Mean Homogeneity=0.8889, Median Homogeneity=1.0000
+2024-07-11 18:04:58,775 - INFO - Processing algorithm: girvan_newman, threshold: 0.00965965965965966
+2024-07-11 18:54:18,451 - INFO - girvan_newman 0.00965965965965966: Modularity=0.0010, Mean Homogeneity=0.9000, Median Homogeneity=1.0000
+2024-07-11 20:02:39,270 - INFO - Processing algorithm: girvan_newman, threshold: 0.004454454454454454
+2024-07-11 22:08:06,648 - INFO - girvan_newman 0.004454454454454454: Modularity=0.0000, Mean Homogeneity=0.5493, Median Homogeneity=0.5000
+2024-07-11 22:08:06,655 - INFO - Processing algorithm: girvan_newman, threshold: 0.005045045045045045
+2024-07-11 23:44:25,347 - INFO - girvan_newman 0.005045045045045045: Modularity=0.0000, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
+2024-07-11 23:44:25,355 - INFO - Processing algorithm: girvan_newman, threshold: 0.005335335335335335
+2024-07-12 01:34:40,796 - INFO - girvan_newman 0.005335335335335335: Modularity=0.0000, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
+2024-07-12 01:34:40,805 - INFO - Processing algorithm: girvan_newman, threshold: 0.005735735735735736
+2024-07-12 01:57:26,971 - INFO - girvan_newman 0.005735735735735736: Modularity=0.0001, Mean Homogeneity=0.8333, Median Homogeneity=1.0000
+2024-07-12 01:57:26,972 - INFO - Processing algorithm: girvan_newman, threshold: 0.006286286286286286
+2024-07-12 02:30:26,679 - INFO - girvan_newman 0.006286286286286286: Modularity=0.0002, Mean Homogeneity=0.7500, Median Homogeneity=0.7500
+2024-07-12 02:30:26,687 - INFO - Processing algorithm: girvan_newman, threshold: 0.007177177177177177
+2024-07-12 03:23:45,901 - INFO - girvan_newman 0.007177177177177177: Modularity=0.0002, Mean Homogeneity=0.8333, Median Homogeneity=1.0000
+2024-07-12 03:23:45,908 - INFO - Processing algorithm: girvan_newman, threshold: 0.007587587587587588
+2024-07-12 05:55:15,782 - INFO - girvan_newman 0.007587587587587588: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-12 05:55:15,789 - INFO - Processing algorithm: girvan_newman, threshold: 0.008008008008008008
+2024-07-12 07:44:44,158 - INFO - girvan_newman 0.008008008008008008: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-12 07:44:44,166 - INFO - Processing algorithm: girvan_newman, threshold: 0.008308308308308308
+2024-07-12 08:56:21,251 - INFO - girvan_newman 0.008308308308308308: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-12 08:56:21,258 - INFO - Processing algorithm: girvan_newman, threshold: 0.008948948948948949
+2024-07-12 09:55:44,991 - INFO - girvan_newman 0.008948948948948949: Modularity=0.0008, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-12 09:55:44,998 - INFO - Processing algorithm: girvan_newman, threshold: 0.009429429429429429
+2024-07-12 10:48:00,955 - INFO - girvan_newman 0.009429429429429429: Modularity=0.0010, Mean Homogeneity=0.9000, Median Homogeneity=1.0000
+2024-07-12 10:48:00,963 - INFO - Processing algorithm: girvan_newman, threshold: 0.0098998998998999
+2024-07-12 11:20:58,696 - INFO - girvan_newman 0.0098998998998999: Modularity=0.0010, Mean Homogeneity=0.9000, Median Homogeneity=1.0000
+2024-07-12 11:20:58,697 - INFO - Processing algorithm: girvan_newman, threshold: 0.00476995213776347
+2024-07-12 12:24:36,307 - INFO - girvan_newman 0.00476995213776347: Modularity=0.0000, Mean Homogeneity=0.5492, Median Homogeneity=0.5000
+2024-07-07 03:37:08,960 - INFO - Processing algorithm: label_propagation, threshold: 0.004194194194194194
+2024-07-07 03:37:10,401 - INFO - label_propagation 0.004194194194194194: Modularity=0.0001, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
+2024-07-07 03:37:10,402 - INFO - Processing algorithm: label_propagation, threshold: 0.004824824824824825
+2024-07-07 03:37:11,529 - INFO - label_propagation 0.004824824824824825: Modularity=0.0006, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
+2024-07-07 03:37:11,530 - INFO - Processing algorithm: label_propagation, threshold: 0.005205205205205205
+2024-07-07 03:37:12,420 - INFO - label_propagation 0.005205205205205205: Modularity=0.0015, Mean Homogeneity=0.9872, Median Homogeneity=1.0000
+2024-07-07 03:37:12,420 - INFO - Processing algorithm: label_propagation, threshold: 0.005495495495495496
+2024-07-07 03:37:13,228 - INFO - label_propagation 0.005495495495495496: Modularity=0.0019, Mean Homogeneity=0.9667, Median Homogeneity=1.0000
+2024-07-07 03:37:13,228 - INFO - Processing algorithm: label_propagation, threshold: 0.005995995995995996
+2024-07-07 03:37:14,013 - INFO - label_propagation 0.005995995995995996: Modularity=0.0028, Mean Homogeneity=0.7961, Median Homogeneity=0.8875
+2024-07-07 03:37:14,014 - INFO - Processing algorithm: label_propagation, threshold: 0.006666666666666666
+2024-07-07 03:37:14,998 - INFO - label_propagation 0.006666666666666666: Modularity=0.0029, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
+2024-07-07 03:37:14,998 - INFO - Processing algorithm: label_propagation, threshold: 0.007417417417417417
+2024-07-07 03:37:15,706 - INFO - label_propagation 0.007417417417417417: Modularity=0.0354, Mean Homogeneity=0.8895, Median Homogeneity=1.0000
+2024-07-07 03:37:15,706 - INFO - Processing algorithm: label_propagation, threshold: 0.007787787787787787
+2024-07-07 03:37:16,490 - INFO - label_propagation 0.007787787787787787: Modularity=0.0069, Mean Homogeneity=0.8907, Median Homogeneity=1.0000
+2024-07-07 03:37:16,490 - INFO - Processing algorithm: label_propagation, threshold: 0.008128128128128128
+2024-07-07 03:37:17,231 - INFO - label_propagation 0.008128128128128128: Modularity=0.0075, Mean Homogeneity=0.8949, Median Homogeneity=1.0000
+2024-07-07 03:37:17,231 - INFO - Processing algorithm: label_propagation, threshold: 0.008558558558558558
+2024-07-07 03:37:17,875 - INFO - label_propagation 0.008558558558558558: Modularity=0.0487, Mean Homogeneity=0.9057, Median Homogeneity=1.0000
+2024-07-07 03:37:17,876 - INFO - Processing algorithm: label_propagation, threshold: 0.009219219219219218
+2024-07-07 03:37:18,539 - INFO - label_propagation 0.009219219219219218: Modularity=0.0931, Mean Homogeneity=0.8966, Median Homogeneity=1.0000
+2024-07-07 03:37:18,539 - INFO - Processing algorithm: label_propagation, threshold: 0.00965965965965966
+2024-07-07 03:37:19,223 - INFO - label_propagation 0.00965965965965966: Modularity=0.1205, Mean Homogeneity=0.8978, Median Homogeneity=1.0000
+2024-07-07 03:37:26,192 - INFO - Processing algorithm: label_propagation, threshold: 0.004024024024024024
+2024-07-07 03:37:27,893 - INFO - label_propagation 0.004024024024024024: Modularity=0.0001, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
+2024-07-07 03:37:27,894 - INFO - Processing algorithm: label_propagation, threshold: 0.004454454454454454
+2024-07-07 03:37:28,998 - INFO - label_propagation 0.004454454454454454: Modularity=0.0003, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
+2024-07-07 03:37:28,999 - INFO - Processing algorithm: label_propagation, threshold: 0.005045045045045045
+2024-07-07 03:37:30,038 - INFO - label_propagation 0.005045045045045045: Modularity=0.0014, Mean Homogeneity=0.9872, Median Homogeneity=1.0000
+2024-07-07 03:37:30,039 - INFO - Processing algorithm: label_propagation, threshold: 0.005335335335335335
+2024-07-07 03:37:30,963 - INFO - label_propagation 0.005335335335335335: Modularity=0.0015, Mean Homogeneity=0.9705, Median Homogeneity=1.0000
+2024-07-07 03:37:30,964 - INFO - Processing algorithm: label_propagation, threshold: 0.005735735735735736
+2024-07-07 03:37:31,826 - INFO - label_propagation 0.005735735735735736: Modularity=0.0027, Mean Homogeneity=0.8544, Median Homogeneity=0.9500
+2024-07-07 03:37:31,826 - INFO - Processing algorithm: label_propagation, threshold: 0.006286286286286286
+2024-07-07 03:37:32,674 - INFO - label_propagation 0.006286286286286286: Modularity=0.0032, Mean Homogeneity=0.8286, Median Homogeneity=1.0000
+2024-07-07 03:37:32,674 - INFO - Processing algorithm: label_propagation, threshold: 0.007177177177177177
+2024-07-07 03:37:33,478 - INFO - label_propagation 0.007177177177177177: Modularity=0.0294, Mean Homogeneity=0.8736, Median Homogeneity=1.0000
+2024-07-07 03:37:33,479 - INFO - Processing algorithm: label_propagation, threshold: 0.007587587587587588
+2024-07-07 03:37:34,331 - INFO - label_propagation 0.007587587587587588: Modularity=0.0068, Mean Homogeneity=0.8907, Median Homogeneity=1.0000
+2024-07-07 03:37:34,332 - INFO - Processing algorithm: label_propagation, threshold: 0.008008008008008008
+2024-07-07 03:37:35,164 - INFO - label_propagation 0.008008008008008008: Modularity=0.0076, Mean Homogeneity=0.9029, Median Homogeneity=1.0000
+2024-07-07 03:37:35,165 - INFO - Processing algorithm: label_propagation, threshold: 0.008308308308308308
+2024-07-07 03:37:35,864 - INFO - label_propagation 0.008308308308308308: Modularity=0.0444, Mean Homogeneity=0.8947, Median Homogeneity=1.0000
+2024-07-07 03:37:35,865 - INFO - Processing algorithm: label_propagation, threshold: 0.008948948948948949
+2024-07-07 03:37:36,495 - INFO - label_propagation 0.008948948948948949: Modularity=0.0904, Mean Homogeneity=0.9054, Median Homogeneity=1.0000
+2024-07-07 03:37:36,495 - INFO - Processing algorithm: label_propagation, threshold: 0.009429429429429429
+2024-07-07 03:37:37,235 - INFO - label_propagation 0.009429429429429429: Modularity=0.0886, Mean Homogeneity=0.8981, Median Homogeneity=1.0000
+2024-07-07 03:37:37,236 - INFO - Processing algorithm: label_propagation, threshold: 0.0098998998998999
+2024-07-07 03:37:37,944 - INFO - label_propagation 0.0098998998998999: Modularity=0.1351, Mean Homogeneity=0.9113, Median Homogeneity=1.0000
+2024-07-07 03:37:37,944 - INFO - Processing algorithm: label_propagation, threshold: 0.00476995213776347
+2024-07-07 03:37:38,879 - INFO - label_propagation 0.00476995213776347: Modularity=0.0006, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
+2024-07-07 03:37:38,880 - INFO - Processing algorithm: label_propagation, threshold: 0.004
+2024-07-07 03:37:40,658 - INFO - label_propagation 0.004: Modularity=0.0001, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
+2024-07-07 13:01:29,601 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0014614614614614613
+2024-07-07 13:01:39,496 - INFO - leading_eigenvector 0.0014614614614614613: Modularity=0.1732, Mean Homogeneity=0.3202, Median Homogeneity=0.3143
+2024-07-07 13:01:39,498 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0036136136136136134
+2024-07-07 13:01:42,819 - INFO - leading_eigenvector 0.0036136136136136134: Modularity=0.2590, Mean Homogeneity=0.3690, Median Homogeneity=0.3305
+2024-07-07 13:01:42,820 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004194194194194194
+2024-07-07 13:01:45,652 - INFO - leading_eigenvector 0.004194194194194194: Modularity=0.2773, Mean Homogeneity=0.4896, Median Homogeneity=0.5859
+2024-07-07 13:01:45,653 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004824824824824825
+2024-07-07 13:01:48,071 - INFO - leading_eigenvector 0.004824824824824825: Modularity=0.2936, Mean Homogeneity=0.5830, Median Homogeneity=0.5000
+2024-07-07 13:01:48,072 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005205205205205205
+2024-07-07 13:01:50,216 - INFO - leading_eigenvector 0.005205205205205205: Modularity=0.2964, Mean Homogeneity=0.4831, Median Homogeneity=0.4881
+2024-07-07 13:01:50,217 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005495495495495496
+2024-07-07 13:01:52,349 - INFO - leading_eigenvector 0.005495495495495496: Modularity=0.3097, Mean Homogeneity=0.4919, Median Homogeneity=0.4973
+2024-07-07 13:01:52,351 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005995995995995996
+2024-07-07 13:01:54,011 - INFO - leading_eigenvector 0.005995995995995996: Modularity=0.3197, Mean Homogeneity=0.4741, Median Homogeneity=0.4727
+2024-07-07 13:01:54,012 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.006666666666666666
+2024-07-07 13:01:55,496 - INFO - leading_eigenvector 0.006666666666666666: Modularity=0.3323, Mean Homogeneity=0.5046, Median Homogeneity=0.4202
+2024-07-07 13:01:55,497 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007417417417417417
+2024-07-07 13:01:56,967 - INFO - leading_eigenvector 0.007417417417417417: Modularity=0.3600, Mean Homogeneity=0.7595, Median Homogeneity=0.9058
+2024-07-07 13:01:58,969 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008128128128128128
+2024-07-07 13:02:00,124 - INFO - leading_eigenvector 0.008128128128128128: Modularity=0.3813, Mean Homogeneity=0.6602, Median Homogeneity=0.6209
+2024-07-07 13:02:00,125 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008558558558558558
+2024-07-07 13:02:00,988 - INFO - leading_eigenvector 0.008558558558558558: Modularity=0.3915, Mean Homogeneity=0.7058, Median Homogeneity=0.8010
+2024-07-07 13:02:00,989 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.009219219219219218
+2024-07-07 13:02:02,288 - INFO - leading_eigenvector 0.009219219219219218: Modularity=0.4154, Mean Homogeneity=0.7222, Median Homogeneity=0.5000
+2024-07-07 13:02:04,119 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.00048048048048048047
+2024-07-07 13:02:29,726 - INFO - leading_eigenvector 0.00048048048048048047: Modularity=0.0917, Mean Homogeneity=0.2483, Median Homogeneity=0.2483
+2024-07-07 13:02:29,734 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0035135135135135136
+2024-07-07 13:02:33,005 - INFO - leading_eigenvector 0.0035135135135135136: Modularity=0.2543, Mean Homogeneity=0.3628, Median Homogeneity=0.3219
+2024-07-07 13:02:33,006 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004024024024024024
+2024-07-07 13:02:35,906 - INFO - leading_eigenvector 0.004024024024024024: Modularity=0.2701, Mean Homogeneity=0.4844, Median Homogeneity=0.5624
+2024-07-07 13:02:35,908 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004454454454454454
+2024-07-07 13:02:38,305 - INFO - leading_eigenvector 0.004454454454454454: Modularity=0.2875, Mean Homogeneity=0.3731, Median Homogeneity=0.3357
+2024-07-07 13:02:38,305 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005045045045045045
+2024-07-07 13:02:40,022 - INFO - leading_eigenvector 0.005045045045045045: Modularity=0.2879, Mean Homogeneity=0.3686, Median Homogeneity=0.3126
+2024-07-07 13:02:40,023 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005335335335335335
+2024-07-07 13:02:42,118 - INFO - leading_eigenvector 0.005335335335335335: Modularity=0.3057, Mean Homogeneity=0.4891, Median Homogeneity=0.4910
+2024-07-07 13:02:42,119 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005735735735735736
+2024-07-07 13:02:44,149 - INFO - leading_eigenvector 0.005735735735735736: Modularity=0.3149, Mean Homogeneity=0.4946, Median Homogeneity=0.4956
+2024-07-07 13:02:44,149 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.006286286286286286
+2024-07-07 13:02:45,997 - INFO - leading_eigenvector 0.006286286286286286: Modularity=0.3322, Mean Homogeneity=0.5060, Median Homogeneity=0.4444
+2024-07-07 13:02:45,998 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007177177177177177
+2024-07-07 13:02:47,413 - INFO - leading_eigenvector 0.007177177177177177: Modularity=0.3471, Mean Homogeneity=0.7149, Median Homogeneity=0.7621
+2024-07-07 13:02:47,414 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007587587587587588
+2024-07-07 13:02:48,946 - INFO - leading_eigenvector 0.007587587587587588: Modularity=0.3669, Mean Homogeneity=0.7648, Median Homogeneity=0.9123
+2024-07-07 13:02:50,415 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008308308308308308
+2024-07-07 13:02:51,344 - INFO - leading_eigenvector 0.008308308308308308: Modularity=0.3848, Mean Homogeneity=0.7017, Median Homogeneity=0.7866
+2024-07-07 13:02:51,345 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008948948948948949
+2024-07-07 13:02:52,221 - INFO - leading_eigenvector 0.008948948948948949: Modularity=0.4027, Mean Homogeneity=0.7088, Median Homogeneity=0.8042
+2024-07-07 13:02:55,073 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.00476995213776347
+2024-07-07 13:02:57,046 - INFO - leading_eigenvector 0.00476995213776347: Modularity=0.2835, Mean Homogeneity=0.3658, Median Homogeneity=0.3165
+2024-07-07 13:02:57,047 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004
+2024-07-07 13:02:59,720 - INFO - leading_eigenvector 0.004: Modularity=0.2655, Mean Homogeneity=0.3611, Median Homogeneity=0.3333
+2024-07-07 13:06:53,453 - INFO - Processing algorithm: walktrap, threshold: 0.0014614614614614613
+2024-07-07 13:07:55,855 - INFO - walktrap 0.0014614614614614613: Modularity=0.1214, Mean Homogeneity=0.2800, Median Homogeneity=0.3141
+2024-07-07 13:07:55,856 - INFO - Processing algorithm: walktrap, threshold: 0.0036136136136136134
+2024-07-07 13:08:12,456 - INFO - walktrap 0.0036136136136136134: Modularity=0.2137, Mean Homogeneity=0.8320, Median Homogeneity=0.9831
+2024-07-07 13:08:12,457 - INFO - Processing algorithm: walktrap, threshold: 0.004194194194194194
+2024-07-07 13:08:25,538 - INFO - walktrap 0.004194194194194194: Modularity=0.2172, Mean Homogeneity=0.8298, Median Homogeneity=0.9371
+2024-07-07 13:08:25,538 - INFO - Processing algorithm: walktrap, threshold: 0.004824824824824825
+2024-07-07 13:08:35,876 - INFO - walktrap 0.004824824824824825: Modularity=0.2585, Mean Homogeneity=0.8336, Median Homogeneity=0.9400
+2024-07-07 13:08:35,877 - INFO - Processing algorithm: walktrap, threshold: 0.005205205205205205
+2024-07-07 13:08:44,995 - INFO - walktrap 0.005205205205205205: Modularity=0.2357, Mean Homogeneity=0.8165, Median Homogeneity=0.9554
+2024-07-07 13:08:44,996 - INFO - Processing algorithm: walktrap, threshold: 0.005495495495495496
+2024-07-07 13:08:53,318 - INFO - walktrap 0.005495495495495496: Modularity=0.2631, Mean Homogeneity=0.8352, Median Homogeneity=1.0000
+2024-07-07 13:08:53,318 - INFO - Processing algorithm: walktrap, threshold: 0.005995995995995996
+2024-07-07 13:09:15,282 - INFO - walktrap 0.005995995995995996: Modularity=0.2991, Mean Homogeneity=0.8402, Median Homogeneity=1.0000
+2024-07-07 13:09:15,285 - INFO - Processing algorithm: walktrap, threshold: 0.006666666666666666
+2024-07-07 13:09:21,343 - INFO - walktrap 0.006666666666666666: Modularity=0.3141, Mean Homogeneity=0.8723, Median Homogeneity=1.0000
+2024-07-07 13:09:21,343 - INFO - Processing algorithm: walktrap, threshold: 0.007417417417417417
+2024-07-07 13:09:26,428 - INFO - walktrap 0.007417417417417417: Modularity=0.3255, Mean Homogeneity=0.8827, Median Homogeneity=1.0000
+2024-07-07 13:09:26,428 - INFO - Processing algorithm: walktrap, threshold: 0.007787787787787787
+2024-07-07 13:09:31,090 - INFO - walktrap 0.007787787787787787: Modularity=0.3237, Mean Homogeneity=0.8720, Median Homogeneity=1.0000
+2024-07-07 13:09:31,091 - INFO - Processing algorithm: walktrap, threshold: 0.008128128128128128
+2024-07-07 13:09:35,415 - INFO - walktrap 0.008128128128128128: Modularity=0.3448, Mean Homogeneity=0.8865, Median Homogeneity=1.0000
+2024-07-07 13:09:35,416 - INFO - Processing algorithm: walktrap, threshold: 0.008558558558558558
+2024-07-07 13:09:39,458 - INFO - walktrap 0.008558558558558558: Modularity=0.3650, Mean Homogeneity=0.8917, Median Homogeneity=1.0000
+2024-07-07 13:09:39,459 - INFO - Processing algorithm: walktrap, threshold: 0.009219219219219218
+2024-07-07 13:09:42,937 - INFO - walktrap 0.009219219219219218: Modularity=0.3732, Mean Homogeneity=0.8936, Median Homogeneity=1.0000
+2024-07-07 13:09:42,938 - INFO - Processing algorithm: walktrap, threshold: 0.00965965965965966
+2024-07-07 13:09:46,135 - INFO - walktrap 0.00965965965965966: Modularity=0.4060, Mean Homogeneity=0.9053, Median Homogeneity=1.0000
+2024-07-07 13:09:46,136 - INFO - Processing algorithm: walktrap, threshold: 0.00048048048048048047
+2024-07-07 13:13:00,396 - INFO - walktrap 0.00048048048048048047: Modularity=0.0589, Mean Homogeneity=0.2538, Median Homogeneity=0.2538
+2024-07-07 13:13:00,399 - INFO - Processing algorithm: walktrap, threshold: 0.0035135135135135136
+2024-07-07 13:13:18,423 - INFO - walktrap 0.0035135135135135136: Modularity=0.2264, Mean Homogeneity=0.8455, Median Homogeneity=0.9545
+2024-07-07 13:13:18,425 - INFO - Processing algorithm: walktrap, threshold: 0.004024024024024024
+2024-07-07 13:13:33,051 - INFO - walktrap 0.004024024024024024: Modularity=0.2407, Mean Homogeneity=0.8125, Median Homogeneity=0.9231
+2024-07-07 13:13:33,052 - INFO - Processing algorithm: walktrap, threshold: 0.004454454454454454
+2024-07-07 13:13:45,080 - INFO - walktrap 0.004454454454454454: Modularity=0.2430, Mean Homogeneity=0.8174, Median Homogeneity=0.9512
+2024-07-07 13:13:45,082 - INFO - Processing algorithm: walktrap, threshold: 0.005045045045045045
+2024-07-07 13:13:55,191 - INFO - walktrap 0.005045045045045045: Modularity=0.2598, Mean Homogeneity=0.8289, Median Homogeneity=0.9630
+2024-07-07 13:13:55,192 - INFO - Processing algorithm: walktrap, threshold: 0.005335335335335335
+2024-07-07 13:14:04,097 - INFO - walktrap 0.005335335335335335: Modularity=0.2475, Mean Homogeneity=0.8263, Median Homogeneity=0.9615
+2024-07-07 13:14:04,099 - INFO - Processing algorithm: walktrap, threshold: 0.005735735735735736
+2024-07-07 13:14:12,201 - INFO - walktrap 0.005735735735735736: Modularity=0.2698, Mean Homogeneity=0.8465, Median Homogeneity=1.0000
+2024-07-07 13:14:12,201 - INFO - Processing algorithm: walktrap, threshold: 0.006286286286286286
+2024-07-07 13:14:19,187 - INFO - walktrap 0.006286286286286286: Modularity=0.3145, Mean Homogeneity=0.8339, Median Homogeneity=1.0000
+2024-07-07 13:14:19,189 - INFO - Processing algorithm: walktrap, threshold: 0.007177177177177177
+2024-07-07 13:14:24,621 - INFO - walktrap 0.007177177177177177: Modularity=0.3139, Mean Homogeneity=0.8807, Median Homogeneity=1.0000
+2024-07-07 13:14:24,621 - INFO - Processing algorithm: walktrap, threshold: 0.007587587587587588
+2024-07-07 13:14:29,524 - INFO - walktrap 0.007587587587587588: Modularity=0.3522, Mean Homogeneity=0.8646, Median Homogeneity=1.0000
+2024-07-07 13:14:29,525 - INFO - Processing algorithm: walktrap, threshold: 0.008008008008008008
+2024-07-07 13:14:34,032 - INFO - walktrap 0.008008008008008008: Modularity=0.3423, Mean Homogeneity=0.8858, Median Homogeneity=1.0000
+2024-07-07 13:14:34,032 - INFO - Processing algorithm: walktrap, threshold: 0.008308308308308308
+2024-07-07 13:14:38,281 - INFO - walktrap 0.008308308308308308: Modularity=0.3603, Mean Homogeneity=0.8910, Median Homogeneity=1.0000
+2024-07-07 13:14:38,281 - INFO - Processing algorithm: walktrap, threshold: 0.008948948948948949
+2024-07-07 13:14:42,037 - INFO - walktrap 0.008948948948948949: Modularity=0.3982, Mean Homogeneity=0.8850, Median Homogeneity=1.0000
+2024-07-07 13:14:42,038 - INFO - Processing algorithm: walktrap, threshold: 0.009429429429429429
+2024-07-07 13:14:45,367 - INFO - walktrap 0.009429429429429429: Modularity=0.3824, Mean Homogeneity=0.8964, Median Homogeneity=1.0000
+2024-07-07 13:14:45,367 - INFO - Processing algorithm: walktrap, threshold: 0.0098998998998999
+2024-07-07 13:14:48,484 - INFO - walktrap 0.0098998998998999: Modularity=0.3913, Mean Homogeneity=0.9018, Median Homogeneity=1.0000
+2024-07-07 13:14:48,485 - INFO - Processing algorithm: walktrap, threshold: 0.00476995213776347
+2024-07-07 13:14:59,272 - INFO - walktrap 0.00476995213776347: Modularity=0.2689, Mean Homogeneity=0.8279, Median Homogeneity=0.9706
+2024-07-07 13:14:59,274 - INFO - Processing algorithm: walktrap, threshold: 0.004
+2024-07-07 13:15:13,502 - INFO - walktrap 0.004: Modularity=0.2364, Mean Homogeneity=0.8284, Median Homogeneity=0.9600
+2024-07-07 14:00:13,452 - INFO - Processing algorithm: fast_greedy, threshold: 0.0014614614614614613
+2024-07-07 14:00:34,527 - INFO - fast_greedy 0.0014614614614614613: Modularity=0.1564, Mean Homogeneity=0.4944, Median Homogeneity=0.2795
+2024-07-07 14:00:34,527 - INFO - Processing algorithm: fast_greedy, threshold: 0.0036136136136136134
+2024-07-07 14:00:38,221 - INFO - fast_greedy 0.0036136136136136134: Modularity=0.2356, Mean Homogeneity=0.4683, Median Homogeneity=0.3218
+2024-07-07 14:00:38,223 - INFO - Processing algorithm: fast_greedy, threshold: 0.004194194194194194
+2024-07-07 14:00:41,479 - INFO - fast_greedy 0.004194194194194194: Modularity=0.2501, Mean Homogeneity=0.2932, Median Homogeneity=0.2908
+2024-07-07 14:00:41,485 - INFO - Processing algorithm: fast_greedy, threshold: 0.004824824824824825
+2024-07-07 14:00:43,553 - INFO - fast_greedy 0.004824824824824825: Modularity=0.2844, Mean Homogeneity=0.3007, Median Homogeneity=0.3132
+2024-07-07 14:00:43,553 - INFO - Processing algorithm: fast_greedy, threshold: 0.005205205205205205
+2024-07-07 14:00:45,429 - INFO - fast_greedy 0.005205205205205205: Modularity=0.3020, Mean Homogeneity=0.5997, Median Homogeneity=0.5099
+2024-07-07 14:00:45,430 - INFO - Processing algorithm: fast_greedy, threshold: 0.005495495495495496
+2024-07-07 14:00:47,073 - INFO - fast_greedy 0.005495495495495496: Modularity=0.3048, Mean Homogeneity=0.2941, Median Homogeneity=0.3197
+2024-07-07 14:00:47,074 - INFO - Processing algorithm: fast_greedy, threshold: 0.005995995995995996
+2024-07-07 14:00:48,315 - INFO - fast_greedy 0.005995995995995996: Modularity=0.3225, Mean Homogeneity=0.7453, Median Homogeneity=1.0000
+2024-07-07 14:00:48,316 - INFO - Processing algorithm: fast_greedy, threshold: 0.006666666666666666
+2024-07-07 14:00:49,440 - INFO - fast_greedy 0.006666666666666666: Modularity=0.3355, Mean Homogeneity=0.8912, Median Homogeneity=1.0000
+2024-07-07 14:00:49,440 - INFO - Processing algorithm: fast_greedy, threshold: 0.007417417417417417
+2024-07-07 14:00:50,310 - INFO - fast_greedy 0.007417417417417417: Modularity=0.3519, Mean Homogeneity=0.8819, Median Homogeneity=1.0000
+2024-07-07 14:00:50,310 - INFO - Processing algorithm: fast_greedy, threshold: 0.007787787787787787
+2024-07-07 14:00:51,139 - INFO - fast_greedy 0.007787787787787787: Modularity=0.3549, Mean Homogeneity=0.8679, Median Homogeneity=1.0000
+2024-07-07 14:00:51,140 - INFO - Processing algorithm: fast_greedy, threshold: 0.008128128128128128
+2024-07-07 14:00:51,930 - INFO - fast_greedy 0.008128128128128128: Modularity=0.3771, Mean Homogeneity=0.8650, Median Homogeneity=1.0000
+2024-07-07 14:00:51,931 - INFO - Processing algorithm: fast_greedy, threshold: 0.008558558558558558
+2024-07-07 14:00:52,653 - INFO - fast_greedy 0.008558558558558558: Modularity=0.3747, Mean Homogeneity=0.8801, Median Homogeneity=1.0000
+2024-07-07 14:00:52,653 - INFO - Processing algorithm: fast_greedy, threshold: 0.009219219219219218
+2024-07-07 14:00:53,307 - INFO - fast_greedy 0.009219219219219218: Modularity=0.4010, Mean Homogeneity=0.8609, Median Homogeneity=1.0000
+2024-07-07 14:00:53,307 - INFO - Processing algorithm: fast_greedy, threshold: 0.00965965965965966
+2024-07-07 14:00:54,098 - INFO - fast_greedy 0.00965965965965966: Modularity=0.4092, Mean Homogeneity=0.8940, Median Homogeneity=1.0000
+2024-07-07 14:00:54,098 - INFO - Processing algorithm: fast_greedy, threshold: 0.00048048048048048047
+2024-07-07 14:01:43,381 - INFO - fast_greedy 0.00048048048048048047: Modularity=0.0931, Mean Homogeneity=0.2467, Median Homogeneity=0.2467
+2024-07-07 14:01:43,385 - INFO - Processing algorithm: fast_greedy, threshold: 0.0035135135135135136
+2024-07-07 14:01:46,943 - INFO - fast_greedy 0.0035135135135135136: Modularity=0.2337, Mean Homogeneity=0.3439, Median Homogeneity=0.3237
+2024-07-07 14:01:46,944 - INFO - Processing algorithm: fast_greedy, threshold: 0.004024024024024024
+2024-07-07 14:01:49,731 - INFO - fast_greedy 0.004024024024024024: Modularity=0.2502, Mean Homogeneity=0.5657, Median Homogeneity=0.3160
+2024-07-07 14:01:49,732 - INFO - Processing algorithm: fast_greedy, threshold: 0.004454454454454454
+2024-07-07 14:01:51,797 - INFO - fast_greedy 0.004454454454454454: Modularity=0.2728, Mean Homogeneity=0.2941, Median Homogeneity=0.2815
+2024-07-07 14:01:51,797 - INFO - Processing algorithm: fast_greedy, threshold: 0.005045045045045045
+2024-07-07 14:01:53,588 - INFO - fast_greedy 0.005045045045045045: Modularity=0.2903, Mean Homogeneity=0.5971, Median Homogeneity=0.6667
+2024-07-07 14:01:53,589 - INFO - Processing algorithm: fast_greedy, threshold: 0.005335335335335335
+2024-07-07 14:01:55,229 - INFO - fast_greedy 0.005335335335335335: Modularity=0.3028, Mean Homogeneity=0.6267, Median Homogeneity=0.5476
+2024-07-07 14:01:55,230 - INFO - Processing algorithm: fast_greedy, threshold: 0.005735735735735736
+2024-07-07 14:01:56,656 - INFO - fast_greedy 0.005735735735735736: Modularity=0.3077, Mean Homogeneity=0.6811, Median Homogeneity=0.7500
+2024-07-07 14:01:56,657 - INFO - Processing algorithm: fast_greedy, threshold: 0.006286286286286286
+2024-07-07 14:01:57,830 - INFO - fast_greedy 0.006286286286286286: Modularity=0.3254, Mean Homogeneity=0.7501, Median Homogeneity=1.0000
+2024-07-07 14:01:57,830 - INFO - Processing algorithm: fast_greedy, threshold: 0.007177177177177177
+2024-07-07 14:01:58,763 - INFO - fast_greedy 0.007177177177177177: Modularity=0.3506, Mean Homogeneity=0.9091, Median Homogeneity=1.0000
+2024-07-07 14:01:58,763 - INFO - Processing algorithm: fast_greedy, threshold: 0.007587587587587588
+2024-07-07 14:01:59,608 - INFO - fast_greedy 0.007587587587587588: Modularity=0.3570, Mean Homogeneity=0.8802, Median Homogeneity=1.0000
+2024-07-07 14:01:59,609 - INFO - Processing algorithm: fast_greedy, threshold: 0.008008008008008008
+2024-07-07 14:02:00,470 - INFO - fast_greedy 0.008008008008008008: Modularity=0.3734, Mean Homogeneity=0.8907, Median Homogeneity=1.0000
+2024-07-07 14:02:00,470 - INFO - Processing algorithm: fast_greedy, threshold: 0.008308308308308308
+2024-07-07 14:02:01,355 - INFO - fast_greedy 0.008308308308308308: Modularity=0.3818, Mean Homogeneity=0.8578, Median Homogeneity=1.0000
+2024-07-07 14:02:01,356 - INFO - Processing algorithm: fast_greedy, threshold: 0.008948948948948949
+2024-07-07 14:02:02,056 - INFO - fast_greedy 0.008948948948948949: Modularity=0.3810, Mean Homogeneity=0.8722, Median Homogeneity=1.0000
+2024-07-07 14:02:02,057 - INFO - Processing algorithm: fast_greedy, threshold: 0.009429429429429429
+2024-07-07 14:02:02,713 - INFO - fast_greedy 0.009429429429429429: Modularity=0.4037, Mean Homogeneity=0.8887, Median Homogeneity=1.0000
+2024-07-07 14:02:02,714 - INFO - Processing algorithm: fast_greedy, threshold: 0.0098998998998999
+2024-07-07 14:02:03,401 - INFO - fast_greedy 0.0098998998998999: Modularity=0.4281, Mean Homogeneity=0.8944, Median Homogeneity=1.0000
+2024-07-07 14:02:03,402 - INFO - Processing algorithm: fast_greedy, threshold: 0.00476995213776347
+2024-07-07 14:02:05,468 - INFO - fast_greedy 0.00476995213776347: Modularity=0.2707, Mean Homogeneity=0.6936, Median Homogeneity=1.0000
+2024-07-07 14:02:05,470 - INFO - Processing algorithm: fast_greedy, threshold: 0.004
+2024-07-07 14:02:08,787 - INFO - fast_greedy 0.004: Modularity=0.2495, Mean Homogeneity=0.6382, Median Homogeneity=0.6571
