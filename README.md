@@ -74,17 +74,14 @@ For each `threshold` in `inflection_points`:
     Initialize an empty graph `G`
 
     # Add nodes to the graph
-    For each `graph` in `list_of_files`:
+    For each `graph` in `level_1_graphs`:
         Add `graph` as a node to `G`
-        Assign attributes:
-            topic = (optional topic value, can be skipped)
-            subreddit = (optional subreddit value, can be skipped)
 
     # Add edges based on similarity matrix and threshold
     For `i` from 0 to (number of rows in similarity_matrix - 1):
         For `j` from (i + 1) to (number of columns in similarity_matrix):
             If `similarity_matrix[i][j]` > `threshold`:
-                Add an edge between nodes `list_of_files[i]` and `list_of_files[j]`
+                Add an edge between nodes `level_1_graphs[i]` and `level_1_graphs[j]`
                 Assign weight = `similarity_matrix[i][j]`
 
     Store graph `G` in `graphs`
