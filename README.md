@@ -62,6 +62,9 @@ We believe that, for a larger dataset, it should be possible to achieve better r
 #### Community and Overlapping Community Detection.
 Since we had the `Level 2` graphs generated for different thresholds above, we tried to use them to use natural clustering algorithms, however, the threshold selection process did not turn up to as easy as the supervised example. We resorted to using KDE (Kernel Density Estimate), which was helpful for identifying potential thresholds as it smooths out the randomness in the distribution and highlights underlying patterns. Through KDE, we can locate potential inflection points.
 
+| ![infpoints.png](./results/infpoints.png) | ![thredge.png](./results/thresholdedge.png) |
+|----------------------------------------|--------------------------------------------|
+
 Once we had the thresholds, we built the new `Level 2` graphs.
 
 ```
