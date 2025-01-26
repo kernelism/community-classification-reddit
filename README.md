@@ -113,22 +113,23 @@ TBD
 
 ## Algorithm Performance Table
 
-| Algorithm         | Homogeneity | Threshold | Accuracy (GNN) | Clustering Metric (?) |
-|--------------------|-------------|-----------|----------------|-------------------|
-| Louvain           | 0.7920         | 0.00921       | N/A            | N/A               |
-| Girvan Newman     | 1.0         | 0.0059       | N/A            | N/A               |
-| Label Propagation | 1.0         | 0.004       | N/A            | N/A               |
-| Fast Greedy       | 0.9091         | 0.0071       | N/A            | N/A               |
-| Leading Eigenvector | 0.7648       | 0.0075       | N/A            | N/A               |
-| Walktrap        | 0.9053         | 0.0096       | N/A            | N/A               |
-| SLPA            | 0.78         | 0.00385       | N/A            | N/A               |
-| MultiCOM        | 0.76         | 0.0065      | N/A            | N/A            |
-| Angel           | 0.75         | 0.0098       | N/A            | N/A               |
-| Demon           | 0.726         | 0.0095       | N/A            | N/A               |
-| Core Expansion  | 0.69         | 0.0092       | N/A            | N/A            |
-| Graph Entropy   | 0.69         | 0.0089       | N/A            | N/A               |
-| GNN             | N/A         | 0.13       | 84% (average)  | N/A                |
-| Clustering      | TBD         | TBD       | N/A            | TBD           |
+| Algorithm         | Threshold | Homogeneity | Modularity | Accuracy (GNN) | Clustering Metric (?) |
+|--------------------|-----------|-------------|------------|----------------|-----------------------|
+| Louvain           | 0.00921   | 0.7920      | 0.4935     | N/A            | N/A                   |
+| Girvan Newman     | 0.0059    | 1.0         | 0.0002     | N/A            | N/A                   |
+| Label Propagation | 0.004     | 1.0         | 0.0006     | N/A            | N/A                   |
+| Fast Greedy       | 0.0071    | 0.9091      | 0.3506     | N/A            | N/A                   |
+| Leading Eigenvector | 0.0075  | 0.7648      | 0.3669     | N/A            | N/A                   |
+| Walktrap          | 0.0096    | 0.9053      | 0.4060     | N/A            | N/A                   |
+| SLPA              | 0.00385   | 0.78        | 0.2393     | N/A            | N/A                   |
+| MultiCOM          | 0.0065    | 0.76        | 0.1099     | N/A            | N/A                   |
+| Angel             | 0.0098    | 0.75        | 0.0777     | N/A            | N/A                   |
+| Demon             | 0.0095    | 0.726       | 0.2704     | N/A            | N/A                   |
+| Core Expansion    | 0.0092    | 0.69        | 0.3045     | N/A            | N/A                   |
+| Graph Entropy     | 0.0089    | 0.69        | 0.0639     | N/A            | N/A                   |
+| GNN               | 0.13      | N/A         | N/A        | 84% (average)  | N/A                   |
+| Clustering        | TBD       | TBD         | TBD        | N/A            | TBD                   |
+
 
 ## Conclusion
 
