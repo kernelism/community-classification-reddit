@@ -49,7 +49,7 @@ The GNN architecture and results are given below.
 
 ![gnnarch.png](./results/gnnarchitecture.png)
 
-| ![Test Accuracy](./results/testacc.png) | ![Loss Curves](./results/losscurvesthr.png) |
+| ![Test Accuracy](./results/testacc.png) | ![Loss Curves](./results/losscurves3d.png) |
 |----------------------------------------|--------------------------------------------|
 
 Through cross-validation, we were able to achieve an `~84%` average test accuracy across folds, for `~200` graphs per label for a total of `13` labels.
@@ -130,7 +130,7 @@ TBD
 | Demon             | 0.0095    | 0.726       | 0.2704     | N/A            | N/A                   |
 | Core Expansion    | 0.0092    | 0.69        | 0.3045     | N/A            | N/A                   |
 | Graph Entropy     | 0.0089    | 0.69        | 0.0639     | N/A            | N/A                   |
-| GNN               | 0.13      | N/A         | N/A        | 84% (average)  | N/A                   |
+| GNN               | 0.11      | N/A         | N/A        | 84% (average)  | N/A                   |
 | Clustering        | TBD       | TBD         | TBD        | N/A            | TBD                   |
 
 
