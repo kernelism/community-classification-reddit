@@ -126,7 +126,7 @@ Upcoming.
 | Core Expansion  | 0.69         | 0.0092       | N/A            | N/A            |
 | Graph Entropy   | 0.69         | 0.0089       | N/A            | N/A               |
 | GNN             | N/A         | 0.13       | 84% (average)  | N/A                |
-| Clustering      | TBD         | TBD       | N/A            | N/A               |
+| Clustering      | TBD         | TBD       | N/A            | TBD           |
 
 ## Conclusion
 
