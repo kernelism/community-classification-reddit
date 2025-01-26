@@ -39,10 +39,11 @@ The raw dataset can be found [here](https://zenodo.org/records/13343578).
 Both supervised and unsupervised techniques were explored. 
 
 ### Supervised
-We trained a GNN to do graph classification. However, its not in the traditional way one would assume. 
-The `Level 1` graphs mentioned above are huge in size. Moreover, we had resource contstraints, due to which we had to simplify the data in hand. 
+We trained a Graph Neural Network (GNN) to classify `Level 1` graphs, but due to the large graph sizes, we used [Graph2Vec](https://karateclub.readthedocs.io/en/latest/_modules/karateclub/graph_embedding/graph2vec.html) to embed these into 128-dimensional vectors. Graph2Vec leverages Weisfeiler-Lehman subtree kernels to capture structural features, which are then encoded into fixed-size embeddings. While this method simplifies computations, it may lose granular structural details.
 
-We converted each graph into an `128` dimensional embedding using [Graph2Vec](https://karateclub.readthedocs.io/en/latest/_modules/karateclub/graph_embedding/graph2vec.html) (which runs `WeisfeilerLehman`), and then built a `Level 2` graph where each `Level 1` graph is represented by a single node and an edge between any 2 nodes would exist based on cosine similarity scores of the respective embedding is greater than a given threshold. 
+Using the resulting embeddings, we created `Level 2` graphs where nodes represent Level 1 graphs, and edges connect nodes with cosine similarity scores above a chosen threshold. Threshold selection was critical and involved cross-validation to balance connectivity and sparsity.
+
+![l1tol2.png](./results/l1tol2.png)
 
 The GNN architecture and results are given below.
 
@@ -107,6 +108,37 @@ The results are provided below.
 #### Clustering
 
 Upcoming.
+
+## Algorithm Performance Table
+
+| Algorithm         | Homogeneity | Threshold | Accuracy (GNN) | Clustering Metric (?) |
+|--------------------|-------------|-----------|----------------|-------------------|
+| Louvain           | 0.7920         | 0.00921       | N/A            | TBD               |
+| Girvan Newman     | 1.0         | 0.0059       | N/A            | TBD               |
+| Label Propagation | 1.0         | 0.004       | N/A            | TBD               |
+| Fast Greedy       | 0.9091         | 0.0071       | N/A            | TBD               |
+| Leading Eigenvector | 0.7648       | 0.0075       | N/A            | TBD               |
+| Walktrap        | 0.9053         | 0.0096       | N/A            | TBD               |
+| SLPA            | 0.78         | 0.00385       | N/A            | TBD               |
+| MultiCOM        | 0.76         | 0.0065      | N/A            | TBD               |
+| Angel           | 0.75         | 0.0098       | N/A            | TBD               |
+| Demon           | 0.726         | 0.0095       | N/A            | TBD               |
+| Core Expansion  | 0.69         | 0.0092       | N/A            | TBD               |
+| Graph Entropy   | 0.69         | 0.0089       | N/A            | TBD               |
+| GNN             | N/A         | N/A       | 84% (average)  | N/A                 |
+| Clustering      | TBD         | TBD       | N/A            | TBD               |
+
+## Conclusion
+
+This study demonstrates that even unsupervised techniques, such as community and overlapping community detection, can provide a good approximation of which structures belong together based on similarity. However, there are notable challenges:  
+1. **Threshold Selection**: Identifying the right similarity threshold for constructing `Level 2` graphs proved to be a complex task.  
+2. **Graph Collection**: The process of collecting and processing large-scale graphs from raw data presents logistical and computational hurdles.  
+3. **Resource Constraints**: Computational limitations, especially with larger datasets, restricted some experiments and results.
+
+### Future Work
+1. Explore the inclusion of **content embeddings** (e.g., from posts and comments) to complement the network structure for better classification results.  
+2. Scale the study by experimenting with a significantly **larger number of graphs** to improve accuracy and robustness.  
+3. Investigate alternative techniques for threshold selection, including adaptive thresholds or dynamic methods based on graph properties.
 
 
 ### Contributors
