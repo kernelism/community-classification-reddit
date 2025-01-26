@@ -113,20 +113,20 @@ Upcoming.
 
 | Algorithm         | Homogeneity | Threshold | Accuracy (GNN) | Clustering Metric (?) |
 |--------------------|-------------|-----------|----------------|-------------------|
-| Louvain           | 0.7920         | 0.00921       | N/A            | TBD               |
-| Girvan Newman     | 1.0         | 0.0059       | N/A            | TBD               |
-| Label Propagation | 1.0         | 0.004       | N/A            | TBD               |
-| Fast Greedy       | 0.9091         | 0.0071       | N/A            | TBD               |
-| Leading Eigenvector | 0.7648       | 0.0075       | N/A            | TBD               |
-| Walktrap        | 0.9053         | 0.0096       | N/A            | TBD               |
-| SLPA            | 0.78         | 0.00385       | N/A            | TBD               |
-| MultiCOM        | 0.76         | 0.0065      | N/A            | TBD               |
-| Angel           | 0.75         | 0.0098       | N/A            | TBD               |
-| Demon           | 0.726         | 0.0095       | N/A            | TBD               |
-| Core Expansion  | 0.69         | 0.0092       | N/A            | TBD               |
-| Graph Entropy   | 0.69         | 0.0089       | N/A            | TBD               |
-| GNN             | N/A         | 0.13       | 84% (average)  | N/A                 |
-| Clustering      | TBD         | TBD       | N/A            | TBD               |
+| Louvain           | 0.7920         | 0.00921       | N/A            | N/A               |
+| Girvan Newman     | 1.0         | 0.0059       | N/A            | N/A               |
+| Label Propagation | 1.0         | 0.004       | N/A            | N/A               |
+| Fast Greedy       | 0.9091         | 0.0071       | N/A            | N/A               |
+| Leading Eigenvector | 0.7648       | 0.0075       | N/A            | N/A               |
+| Walktrap        | 0.9053         | 0.0096       | N/A            | N/A               |
+| SLPA            | 0.78         | 0.00385       | N/A            | N/A               |
+| MultiCOM        | 0.76         | 0.0065      | N/A            | N/A            |
+| Angel           | 0.75         | 0.0098       | N/A            | N/A               |
+| Demon           | 0.726         | 0.0095       | N/A            | N/A               |
+| Core Expansion  | 0.69         | 0.0092       | N/A            | N/A            |
+| Graph Entropy   | 0.69         | 0.0089       | N/A            | N/A               |
+| GNN             | N/A         | 0.13       | 84% (average)  | N/A                |
+| Clustering      | TBD         | TBD       | N/A            | N/A               |
 
 ## Conclusion
 
