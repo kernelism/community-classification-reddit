@@ -106,8 +106,10 @@ The results are provided below.
 
 
 #### Clustering
+TBD
 
-Upcoming.
+### What do these results mean? 
+TBD
 
 ## Algorithm Performance Table
 
@@ -131,17 +133,17 @@ Upcoming.
 ## Conclusion
 
 This study demonstrates that even unsupervised techniques, such as community and overlapping community detection, can provide a good approximation of which structures belong together based on similarity. However, there are notable challenges:  
-1. **Threshold Selection**: Identifying the right similarity threshold for constructing `Level 2` graphs proved to be a complex task.  
-2. **Graph Collection**: The process of collecting and processing large-scale graphs from raw data presents logistical and computational hurdles.  
-3. **Resource Constraints**: Computational limitations, especially with larger datasets, restricted some experiments and results.
+1. Threshold identification for Level 2 graph generation. 
+2. Level 1 graph data collection.
+3. Computational limitations to processing Level 1 graphs.
 
-### Future Work
-1. Explore the inclusion of **content embeddings** (e.g., from posts and comments) to complement the network structure for better classification results.  
-2. Scale the study by experimenting with a significantly **larger number of graphs** to improve accuracy and robustness.  
+## Future Work
+
+1. Include **content embeddings** (e.g., from posts and comments) to complement the network structure for better classification results.  
+2. Scale the study by experimenting with a significantly **larger number of graphs**.  
 3. Investigate alternative techniques for threshold selection, including adaptive thresholds or dynamic methods based on graph properties.
 
-
-### Contributors
+## Contributors
 - Dayanand V
 - Pranav Deepak
 - Arjhun Sreedar
