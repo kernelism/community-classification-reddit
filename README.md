@@ -125,7 +125,7 @@ Upcoming.
 | Demon           | 0.726         | 0.0095       | N/A            | TBD               |
 | Core Expansion  | 0.69         | 0.0092       | N/A            | TBD               |
 | Graph Entropy   | 0.69         | 0.0089       | N/A            | TBD               |
-| GNN             | N/A         | N/A       | 84% (average)  | N/A                 |
+| GNN             | N/A         | 0.13       | 84% (average)  | N/A                 |
 | Clustering      | TBD         | TBD       | N/A            | TBD               |
 
 ## Conclusion
