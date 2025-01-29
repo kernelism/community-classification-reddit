@@ -101,7 +101,7 @@ When it comes to Overlapping communities, we weight the contribution based on ho
 The results are provided below.
 | ![CD1](./results/louvainlabel.png) | ![CD2](./results/leadingfastgreedy.png) |
 |--------------------------------------|--------------------------------------|
-| ![CD3](./results/walktrap.png) | ![OCD1](./results/graphencoreexp.png) |
+| ![CD3](./results/walktrapinfomap.png) | ![OCD1](./results/graphencoreexp.png) |
 | ![OCD2](./results/angeldemon.png) | ![OCD3](./results/slpamulticom.png) |
 
 
@@ -120,6 +120,7 @@ TBD
 | Fast Greedy           | 0.0071    | 0.9090      | 0.3506     | N/A            | 0.82 | 0.90  | 0.96  |
 | Leading Eigenvector   | 0.0075    | 0.7648      | 0.3669     | N/A            | 0.73 | 0.70  | 0.45  |
 | Walktrap              | 0.0096    | 0.9053      | 0.4060     | N/A            | 0.80 | 0.53  | 0.04  |
+| Infomap               | 0.0096    | 0.844       | 0.462      | N/A            | 0.71 | 0.52  | 0.09  |
 | SLPA                  | 0.00385   | 0.78        | 0.2393     | N/A            | N/A  | N/A   | N/A   |
 | MultiCOM              | 0.0065    | 0.76        | 0.1099     | N/A            | N/A  | N/A   | N/A   |
 | Angel                 | 0.0098    | 0.75        | 0.0777     | N/A            | N/A  | N/A   | N/A   |

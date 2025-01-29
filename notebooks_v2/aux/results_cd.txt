@@ -1,344 +1,577 @@
-2024-07-06 20:10:44,329 - INFO - Processing algorithm: louvain, threshold: 2.002002002002002e-05
-2024-07-06 20:16:36,968 - INFO - louvain 2.002002002002002e-05: Modularity=0.1498, Mean Homogeneity=0.4658, Median Homogeneity=0.3630
-2024-07-06 20:16:36,984 - INFO - Processing algorithm: louvain, threshold: 0.0014614614614614613
-2024-07-06 20:17:37,942 - INFO - louvain 0.0014614614614614613: Modularity=0.2145, Mean Homogeneity=0.4594, Median Homogeneity=0.4135
-2024-07-06 20:17:37,954 - INFO - Processing algorithm: louvain, threshold: 0.0036136136136136134
-2024-07-06 20:17:52,012 - INFO - louvain 0.0036136136136136134: Modularity=0.3245, Mean Homogeneity=0.6457, Median Homogeneity=0.7408
-2024-07-06 20:17:52,019 - INFO - Processing algorithm: louvain, threshold: 0.004194194194194194
-2024-07-06 20:18:02,364 - INFO - louvain 0.004194194194194194: Modularity=0.3420, Mean Homogeneity=0.5572, Median Homogeneity=0.5593
-2024-07-06 20:18:02,367 - INFO - Processing algorithm: louvain, threshold: 0.004824824824824825
-2024-07-06 20:18:11,483 - INFO - louvain 0.004824824824824825: Modularity=0.3657, Mean Homogeneity=0.6707, Median Homogeneity=0.7755
-2024-07-06 20:18:11,484 - INFO - Processing algorithm: louvain, threshold: 0.005205205205205205
-2024-07-06 20:18:33,693 - INFO - louvain 0.005205205205205205: Modularity=0.3815, Mean Homogeneity=0.5742, Median Homogeneity=0.5111
-2024-07-06 20:18:33,696 - INFO - Processing algorithm: louvain, threshold: 0.005495495495495496
-2024-07-06 20:18:39,243 - INFO - louvain 0.005495495495495496: Modularity=0.3908, Mean Homogeneity=0.7024, Median Homogeneity=0.7719
-2024-07-06 20:18:39,243 - INFO - Processing algorithm: louvain, threshold: 0.005995995995995996
-2024-07-06 20:18:44,489 - INFO - louvain 0.005995995995995996: Modularity=0.4063, Mean Homogeneity=0.7220, Median Homogeneity=0.7542
-2024-07-06 20:18:44,489 - INFO - Processing algorithm: louvain, threshold: 0.006666666666666666
-2024-07-06 20:18:47,815 - INFO - louvain 0.006666666666666666: Modularity=0.4275, Mean Homogeneity=0.7159, Median Homogeneity=0.7500
-2024-07-06 20:18:47,816 - INFO - Processing algorithm: louvain, threshold: 0.007417417417417417
-2024-07-06 20:18:50,559 - INFO - louvain 0.007417417417417417: Modularity=0.4486, Mean Homogeneity=0.6332, Median Homogeneity=0.5000
-2024-07-06 20:18:50,560 - INFO - Processing algorithm: louvain, threshold: 0.007787787787787787
-2024-07-06 20:18:53,238 - INFO - louvain 0.007787787787787787: Modularity=0.4592, Mean Homogeneity=0.6969, Median Homogeneity=0.7283
-2024-07-06 20:18:53,239 - INFO - Processing algorithm: louvain, threshold: 0.008128128128128128
-2024-07-06 20:18:56,461 - INFO - louvain 0.008128128128128128: Modularity=0.4677, Mean Homogeneity=0.7052, Median Homogeneity=0.6861
-2024-07-06 20:18:56,462 - INFO - Processing algorithm: louvain, threshold: 0.008558558558558558
-2024-07-06 20:18:59,048 - INFO - louvain 0.008558558558558558: Modularity=0.4816, Mean Homogeneity=0.6901, Median Homogeneity=0.6828
-2024-07-06 20:18:59,049 - INFO - Processing algorithm: louvain, threshold: 0.009219219219219218
-2024-07-06 20:19:01,314 - INFO - louvain 0.009219219219219218: Modularity=0.4935, Mean Homogeneity=0.7920, Median Homogeneity=0.9003
-2024-07-06 20:19:01,314 - INFO - Processing algorithm: louvain, threshold: 0.00965965965965966
-2024-07-06 20:19:03,180 - INFO - louvain 0.00965965965965966: Modularity=0.5029, Mean Homogeneity=0.7576, Median Homogeneity=0.8361
-2024-07-06 20:19:03,180 - INFO - Processing algorithm: louvain, threshold: 0.00048048048048048047
-2024-07-06 20:21:55,900 - INFO - louvain 0.00048048048048048047: Modularity=0.1579, Mean Homogeneity=0.4407, Median Homogeneity=0.3761
-2024-07-06 20:21:55,918 - INFO - Processing algorithm: louvain, threshold: 0.0035135135135135136
-2024-07-06 20:22:15,737 - INFO - louvain 0.0035135135135135136: Modularity=0.3182, Mean Homogeneity=0.5271, Median Homogeneity=0.4518
-2024-07-06 20:22:15,739 - INFO - Processing algorithm: louvain, threshold: 0.004024024024024024
-2024-07-06 20:22:26,597 - INFO - louvain 0.004024024024024024: Modularity=0.3364, Mean Homogeneity=0.4714, Median Homogeneity=0.3768
-2024-07-06 20:22:26,600 - INFO - Processing algorithm: louvain, threshold: 0.004454454454454454
-2024-07-06 20:22:32,380 - INFO - louvain 0.004454454454454454: Modularity=0.3560, Mean Homogeneity=0.6903, Median Homogeneity=0.7603
-2024-07-06 20:22:32,383 - INFO - Processing algorithm: louvain, threshold: 0.005045045045045045
-2024-07-06 20:22:39,475 - INFO - louvain 0.005045045045045045: Modularity=0.3736, Mean Homogeneity=0.7493, Median Homogeneity=0.8118
-2024-07-06 20:22:39,477 - INFO - Processing algorithm: louvain, threshold: 0.005335335335335335
-2024-07-06 20:22:45,288 - INFO - louvain 0.005335335335335335: Modularity=0.3861, Mean Homogeneity=0.6552, Median Homogeneity=0.7500
-2024-07-06 20:22:45,288 - INFO - Processing algorithm: louvain, threshold: 0.005735735735735736
-2024-07-06 20:22:50,785 - INFO - louvain 0.005735735735735736: Modularity=0.3982, Mean Homogeneity=0.6336, Median Homogeneity=0.7500
-2024-07-06 20:22:50,787 - INFO - Processing algorithm: louvain, threshold: 0.006286286286286286
-2024-07-06 20:23:08,807 - INFO - louvain 0.006286286286286286: Modularity=0.4130, Mean Homogeneity=0.6466, Median Homogeneity=0.5891
-2024-07-06 20:23:08,808 - INFO - Processing algorithm: louvain, threshold: 0.007177177177177177
-2024-07-06 20:23:12,963 - INFO - louvain 0.007177177177177177: Modularity=0.4414, Mean Homogeneity=0.6522, Median Homogeneity=0.5131
-2024-07-06 20:23:12,964 - INFO - Processing algorithm: louvain, threshold: 0.007587587587587588
-2024-07-06 20:23:15,695 - INFO - louvain 0.007587587587587588: Modularity=0.4562, Mean Homogeneity=0.6791, Median Homogeneity=0.7609
-2024-07-06 20:23:15,696 - INFO - Processing algorithm: louvain, threshold: 0.008008008008008008
-2024-07-06 20:23:18,168 - INFO - louvain 0.008008008008008008: Modularity=0.4679, Mean Homogeneity=0.6800, Median Homogeneity=0.7078
-2024-07-06 20:23:18,168 - INFO - Processing algorithm: louvain, threshold: 0.008308308308308308
-2024-07-06 20:23:20,663 - INFO - louvain 0.008308308308308308: Modularity=0.4725, Mean Homogeneity=0.7589, Median Homogeneity=0.7999
-2024-07-06 20:23:20,663 - INFO - Processing algorithm: louvain, threshold: 0.008948948948948949
-2024-07-06 20:23:23,357 - INFO - louvain 0.008948948948948949: Modularity=0.4909, Mean Homogeneity=0.7732, Median Homogeneity=0.8846
-2024-07-06 20:23:23,357 - INFO - Processing algorithm: louvain, threshold: 0.009429429429429429
-2024-07-06 20:23:25,153 - INFO - louvain 0.009429429429429429: Modularity=0.5025, Mean Homogeneity=0.7606, Median Homogeneity=0.8616
-2024-07-06 20:23:25,154 - INFO - Processing algorithm: louvain, threshold: 0.0098998998998999
-2024-07-06 20:23:26,707 - INFO - louvain 0.0098998998998999: Modularity=0.5135, Mean Homogeneity=0.7520, Median Homogeneity=0.8675
-2024-07-06 20:23:26,707 - INFO - Processing algorithm: louvain, threshold: 0.00476995213776347
-2024-07-06 20:23:32,838 - INFO - louvain 0.00476995213776347: Modularity=0.3662, Mean Homogeneity=0.5837, Median Homogeneity=0.6054
-2024-07-06 20:23:32,840 - INFO - Processing algorithm: louvain, threshold: 0.004
-2024-07-06 20:23:42,384 - INFO - louvain 0.004: Modularity=0.3359, Mean Homogeneity=0.6170, Median Homogeneity=0.7273
-2024-07-10 22:18:28,632 - INFO - Processing algorithm: girvan_newman, threshold: 0.004194194194194194
-2024-07-11 00:07:54,821 - INFO - girvan_newman 0.004194194194194194: Modularity=0.0000, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
-2024-07-11 00:07:54,827 - INFO - Processing algorithm: girvan_newman, threshold: 0.004824824824824825
-2024-07-11 03:02:29,670 - INFO - girvan_newman 0.004824824824824825: Modularity=0.0000, Mean Homogeneity=0.5492, Median Homogeneity=0.5000
-2024-07-11 03:02:29,678 - INFO - Processing algorithm: girvan_newman, threshold: 0.005205205205205205
-2024-07-11 05:38:50,665 - INFO - girvan_newman 0.005205205205205205: Modularity=0.0000, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
-2024-07-11 05:38:50,673 - INFO - Processing algorithm: girvan_newman, threshold: 0.005495495495495496
-2024-07-11 06:44:14,915 - INFO - girvan_newman 0.005495495495495496: Modularity=0.0001, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
-2024-07-11 06:44:14,922 - INFO - Processing algorithm: girvan_newman, threshold: 0.005995995995995996
-2024-07-11 07:08:36,827 - INFO - girvan_newman 0.005995995995995996: Modularity=0.0002, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
-2024-07-11 07:08:36,835 - INFO - Processing algorithm: girvan_newman, threshold: 0.006666666666666666
-2024-07-11 07:42:31,822 - INFO - girvan_newman 0.006666666666666666: Modularity=0.0002, Mean Homogeneity=0.8750, Median Homogeneity=1.0000
-2024-07-11 07:42:31,830 - INFO - Processing algorithm: girvan_newman, threshold: 0.007417417417417417
-2024-07-11 09:59:43,396 - INFO - girvan_newman 0.007417417417417417: Modularity=0.0003, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-11 09:59:43,406 - INFO - Processing algorithm: girvan_newman, threshold: 0.007787787787787787
-2024-07-11 12:35:29,042 - INFO - girvan_newman 0.007787787787787787: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-11 12:35:29,050 - INFO - Processing algorithm: girvan_newman, threshold: 0.008128128128128128
-2024-07-11 14:39:33,749 - INFO - girvan_newman 0.008128128128128128: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-11 14:39:33,771 - INFO - Processing algorithm: girvan_newman, threshold: 0.008558558558558558
-2024-07-11 16:37:28,728 - INFO - girvan_newman 0.008558558558558558: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-11 16:37:28,737 - INFO - Processing algorithm: girvan_newman, threshold: 0.009219219219219218
-2024-07-11 18:04:58,773 - INFO - girvan_newman 0.009219219219219218: Modularity=0.0010, Mean Homogeneity=0.8889, Median Homogeneity=1.0000
-2024-07-11 18:04:58,775 - INFO - Processing algorithm: girvan_newman, threshold: 0.00965965965965966
-2024-07-11 18:54:18,451 - INFO - girvan_newman 0.00965965965965966: Modularity=0.0010, Mean Homogeneity=0.9000, Median Homogeneity=1.0000
-2024-07-11 20:02:39,270 - INFO - Processing algorithm: girvan_newman, threshold: 0.004454454454454454
-2024-07-11 22:08:06,648 - INFO - girvan_newman 0.004454454454454454: Modularity=0.0000, Mean Homogeneity=0.5493, Median Homogeneity=0.5000
-2024-07-11 22:08:06,655 - INFO - Processing algorithm: girvan_newman, threshold: 0.005045045045045045
-2024-07-11 23:44:25,347 - INFO - girvan_newman 0.005045045045045045: Modularity=0.0000, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
-2024-07-11 23:44:25,355 - INFO - Processing algorithm: girvan_newman, threshold: 0.005335335335335335
-2024-07-12 01:34:40,796 - INFO - girvan_newman 0.005335335335335335: Modularity=0.0000, Mean Homogeneity=0.7160, Median Homogeneity=1.0000
-2024-07-12 01:34:40,805 - INFO - Processing algorithm: girvan_newman, threshold: 0.005735735735735736
-2024-07-12 01:57:26,971 - INFO - girvan_newman 0.005735735735735736: Modularity=0.0001, Mean Homogeneity=0.8333, Median Homogeneity=1.0000
-2024-07-12 01:57:26,972 - INFO - Processing algorithm: girvan_newman, threshold: 0.006286286286286286
-2024-07-12 02:30:26,679 - INFO - girvan_newman 0.006286286286286286: Modularity=0.0002, Mean Homogeneity=0.7500, Median Homogeneity=0.7500
-2024-07-12 02:30:26,687 - INFO - Processing algorithm: girvan_newman, threshold: 0.007177177177177177
-2024-07-12 03:23:45,901 - INFO - girvan_newman 0.007177177177177177: Modularity=0.0002, Mean Homogeneity=0.8333, Median Homogeneity=1.0000
-2024-07-12 03:23:45,908 - INFO - Processing algorithm: girvan_newman, threshold: 0.007587587587587588
-2024-07-12 05:55:15,782 - INFO - girvan_newman 0.007587587587587588: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-12 05:55:15,789 - INFO - Processing algorithm: girvan_newman, threshold: 0.008008008008008008
-2024-07-12 07:44:44,158 - INFO - girvan_newman 0.008008008008008008: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-12 07:44:44,166 - INFO - Processing algorithm: girvan_newman, threshold: 0.008308308308308308
-2024-07-12 08:56:21,251 - INFO - girvan_newman 0.008308308308308308: Modularity=0.0007, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-12 08:56:21,258 - INFO - Processing algorithm: girvan_newman, threshold: 0.008948948948948949
-2024-07-12 09:55:44,991 - INFO - girvan_newman 0.008948948948948949: Modularity=0.0008, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-12 09:55:44,998 - INFO - Processing algorithm: girvan_newman, threshold: 0.009429429429429429
-2024-07-12 10:48:00,955 - INFO - girvan_newman 0.009429429429429429: Modularity=0.0010, Mean Homogeneity=0.9000, Median Homogeneity=1.0000
-2024-07-12 10:48:00,963 - INFO - Processing algorithm: girvan_newman, threshold: 0.0098998998998999
-2024-07-12 11:20:58,696 - INFO - girvan_newman 0.0098998998998999: Modularity=0.0010, Mean Homogeneity=0.9000, Median Homogeneity=1.0000
-2024-07-12 11:20:58,697 - INFO - Processing algorithm: girvan_newman, threshold: 0.00476995213776347
-2024-07-12 12:24:36,307 - INFO - girvan_newman 0.00476995213776347: Modularity=0.0000, Mean Homogeneity=0.5492, Median Homogeneity=0.5000
-2024-07-07 03:37:08,960 - INFO - Processing algorithm: label_propagation, threshold: 0.004194194194194194
-2024-07-07 03:37:10,401 - INFO - label_propagation 0.004194194194194194: Modularity=0.0001, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
-2024-07-07 03:37:10,402 - INFO - Processing algorithm: label_propagation, threshold: 0.004824824824824825
-2024-07-07 03:37:11,529 - INFO - label_propagation 0.004824824824824825: Modularity=0.0006, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
-2024-07-07 03:37:11,530 - INFO - Processing algorithm: label_propagation, threshold: 0.005205205205205205
-2024-07-07 03:37:12,420 - INFO - label_propagation 0.005205205205205205: Modularity=0.0015, Mean Homogeneity=0.9872, Median Homogeneity=1.0000
-2024-07-07 03:37:12,420 - INFO - Processing algorithm: label_propagation, threshold: 0.005495495495495496
-2024-07-07 03:37:13,228 - INFO - label_propagation 0.005495495495495496: Modularity=0.0019, Mean Homogeneity=0.9667, Median Homogeneity=1.0000
-2024-07-07 03:37:13,228 - INFO - Processing algorithm: label_propagation, threshold: 0.005995995995995996
-2024-07-07 03:37:14,013 - INFO - label_propagation 0.005995995995995996: Modularity=0.0028, Mean Homogeneity=0.7961, Median Homogeneity=0.8875
-2024-07-07 03:37:14,014 - INFO - Processing algorithm: label_propagation, threshold: 0.006666666666666666
-2024-07-07 03:37:14,998 - INFO - label_propagation 0.006666666666666666: Modularity=0.0029, Mean Homogeneity=0.8571, Median Homogeneity=1.0000
-2024-07-07 03:37:14,998 - INFO - Processing algorithm: label_propagation, threshold: 0.007417417417417417
-2024-07-07 03:37:15,706 - INFO - label_propagation 0.007417417417417417: Modularity=0.0354, Mean Homogeneity=0.8895, Median Homogeneity=1.0000
-2024-07-07 03:37:15,706 - INFO - Processing algorithm: label_propagation, threshold: 0.007787787787787787
-2024-07-07 03:37:16,490 - INFO - label_propagation 0.007787787787787787: Modularity=0.0069, Mean Homogeneity=0.8907, Median Homogeneity=1.0000
-2024-07-07 03:37:16,490 - INFO - Processing algorithm: label_propagation, threshold: 0.008128128128128128
-2024-07-07 03:37:17,231 - INFO - label_propagation 0.008128128128128128: Modularity=0.0075, Mean Homogeneity=0.8949, Median Homogeneity=1.0000
-2024-07-07 03:37:17,231 - INFO - Processing algorithm: label_propagation, threshold: 0.008558558558558558
-2024-07-07 03:37:17,875 - INFO - label_propagation 0.008558558558558558: Modularity=0.0487, Mean Homogeneity=0.9057, Median Homogeneity=1.0000
-2024-07-07 03:37:17,876 - INFO - Processing algorithm: label_propagation, threshold: 0.009219219219219218
-2024-07-07 03:37:18,539 - INFO - label_propagation 0.009219219219219218: Modularity=0.0931, Mean Homogeneity=0.8966, Median Homogeneity=1.0000
-2024-07-07 03:37:18,539 - INFO - Processing algorithm: label_propagation, threshold: 0.00965965965965966
-2024-07-07 03:37:19,223 - INFO - label_propagation 0.00965965965965966: Modularity=0.1205, Mean Homogeneity=0.8978, Median Homogeneity=1.0000
-2024-07-07 03:37:26,192 - INFO - Processing algorithm: label_propagation, threshold: 0.004024024024024024
-2024-07-07 03:37:27,893 - INFO - label_propagation 0.004024024024024024: Modularity=0.0001, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
-2024-07-07 03:37:27,894 - INFO - Processing algorithm: label_propagation, threshold: 0.004454454454454454
-2024-07-07 03:37:28,998 - INFO - label_propagation 0.004454454454454454: Modularity=0.0003, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
-2024-07-07 03:37:28,999 - INFO - Processing algorithm: label_propagation, threshold: 0.005045045045045045
-2024-07-07 03:37:30,038 - INFO - label_propagation 0.005045045045045045: Modularity=0.0014, Mean Homogeneity=0.9872, Median Homogeneity=1.0000
-2024-07-07 03:37:30,039 - INFO - Processing algorithm: label_propagation, threshold: 0.005335335335335335
-2024-07-07 03:37:30,963 - INFO - label_propagation 0.005335335335335335: Modularity=0.0015, Mean Homogeneity=0.9705, Median Homogeneity=1.0000
-2024-07-07 03:37:30,964 - INFO - Processing algorithm: label_propagation, threshold: 0.005735735735735736
-2024-07-07 03:37:31,826 - INFO - label_propagation 0.005735735735735736: Modularity=0.0027, Mean Homogeneity=0.8544, Median Homogeneity=0.9500
-2024-07-07 03:37:31,826 - INFO - Processing algorithm: label_propagation, threshold: 0.006286286286286286
-2024-07-07 03:37:32,674 - INFO - label_propagation 0.006286286286286286: Modularity=0.0032, Mean Homogeneity=0.8286, Median Homogeneity=1.0000
-2024-07-07 03:37:32,674 - INFO - Processing algorithm: label_propagation, threshold: 0.007177177177177177
-2024-07-07 03:37:33,478 - INFO - label_propagation 0.007177177177177177: Modularity=0.0294, Mean Homogeneity=0.8736, Median Homogeneity=1.0000
-2024-07-07 03:37:33,479 - INFO - Processing algorithm: label_propagation, threshold: 0.007587587587587588
-2024-07-07 03:37:34,331 - INFO - label_propagation 0.007587587587587588: Modularity=0.0068, Mean Homogeneity=0.8907, Median Homogeneity=1.0000
-2024-07-07 03:37:34,332 - INFO - Processing algorithm: label_propagation, threshold: 0.008008008008008008
-2024-07-07 03:37:35,164 - INFO - label_propagation 0.008008008008008008: Modularity=0.0076, Mean Homogeneity=0.9029, Median Homogeneity=1.0000
-2024-07-07 03:37:35,165 - INFO - Processing algorithm: label_propagation, threshold: 0.008308308308308308
-2024-07-07 03:37:35,864 - INFO - label_propagation 0.008308308308308308: Modularity=0.0444, Mean Homogeneity=0.8947, Median Homogeneity=1.0000
-2024-07-07 03:37:35,865 - INFO - Processing algorithm: label_propagation, threshold: 0.008948948948948949
-2024-07-07 03:37:36,495 - INFO - label_propagation 0.008948948948948949: Modularity=0.0904, Mean Homogeneity=0.9054, Median Homogeneity=1.0000
-2024-07-07 03:37:36,495 - INFO - Processing algorithm: label_propagation, threshold: 0.009429429429429429
-2024-07-07 03:37:37,235 - INFO - label_propagation 0.009429429429429429: Modularity=0.0886, Mean Homogeneity=0.8981, Median Homogeneity=1.0000
-2024-07-07 03:37:37,236 - INFO - Processing algorithm: label_propagation, threshold: 0.0098998998998999
-2024-07-07 03:37:37,944 - INFO - label_propagation 0.0098998998998999: Modularity=0.1351, Mean Homogeneity=0.9113, Median Homogeneity=1.0000
-2024-07-07 03:37:37,944 - INFO - Processing algorithm: label_propagation, threshold: 0.00476995213776347
-2024-07-07 03:37:38,879 - INFO - label_propagation 0.00476995213776347: Modularity=0.0006, Mean Homogeneity=1.0000, Median Homogeneity=1.0000
-2024-07-07 03:37:38,880 - INFO - Processing algorithm: label_propagation, threshold: 0.004
-2024-07-07 03:37:40,658 - INFO - label_propagation 0.004: Modularity=0.0001, Mean Homogeneity=0.5739, Median Homogeneity=0.5739
-2024-07-07 13:01:29,601 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0014614614614614613
-2024-07-07 13:01:39,496 - INFO - leading_eigenvector 0.0014614614614614613: Modularity=0.1732, Mean Homogeneity=0.3202, Median Homogeneity=0.3143
-2024-07-07 13:01:39,498 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0036136136136136134
-2024-07-07 13:01:42,819 - INFO - leading_eigenvector 0.0036136136136136134: Modularity=0.2590, Mean Homogeneity=0.3690, Median Homogeneity=0.3305
-2024-07-07 13:01:42,820 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004194194194194194
-2024-07-07 13:01:45,652 - INFO - leading_eigenvector 0.004194194194194194: Modularity=0.2773, Mean Homogeneity=0.4896, Median Homogeneity=0.5859
-2024-07-07 13:01:45,653 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004824824824824825
-2024-07-07 13:01:48,071 - INFO - leading_eigenvector 0.004824824824824825: Modularity=0.2936, Mean Homogeneity=0.5830, Median Homogeneity=0.5000
-2024-07-07 13:01:48,072 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005205205205205205
-2024-07-07 13:01:50,216 - INFO - leading_eigenvector 0.005205205205205205: Modularity=0.2964, Mean Homogeneity=0.4831, Median Homogeneity=0.4881
-2024-07-07 13:01:50,217 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005495495495495496
-2024-07-07 13:01:52,349 - INFO - leading_eigenvector 0.005495495495495496: Modularity=0.3097, Mean Homogeneity=0.4919, Median Homogeneity=0.4973
-2024-07-07 13:01:52,351 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005995995995995996
-2024-07-07 13:01:54,011 - INFO - leading_eigenvector 0.005995995995995996: Modularity=0.3197, Mean Homogeneity=0.4741, Median Homogeneity=0.4727
-2024-07-07 13:01:54,012 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.006666666666666666
-2024-07-07 13:01:55,496 - INFO - leading_eigenvector 0.006666666666666666: Modularity=0.3323, Mean Homogeneity=0.5046, Median Homogeneity=0.4202
-2024-07-07 13:01:55,497 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007417417417417417
-2024-07-07 13:01:56,967 - INFO - leading_eigenvector 0.007417417417417417: Modularity=0.3600, Mean Homogeneity=0.7595, Median Homogeneity=0.9058
-2024-07-07 13:01:58,969 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008128128128128128
-2024-07-07 13:02:00,124 - INFO - leading_eigenvector 0.008128128128128128: Modularity=0.3813, Mean Homogeneity=0.6602, Median Homogeneity=0.6209
-2024-07-07 13:02:00,125 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008558558558558558
-2024-07-07 13:02:00,988 - INFO - leading_eigenvector 0.008558558558558558: Modularity=0.3915, Mean Homogeneity=0.7058, Median Homogeneity=0.8010
-2024-07-07 13:02:00,989 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.009219219219219218
-2024-07-07 13:02:02,288 - INFO - leading_eigenvector 0.009219219219219218: Modularity=0.4154, Mean Homogeneity=0.7222, Median Homogeneity=0.5000
-2024-07-07 13:02:04,119 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.00048048048048048047
-2024-07-07 13:02:29,726 - INFO - leading_eigenvector 0.00048048048048048047: Modularity=0.0917, Mean Homogeneity=0.2483, Median Homogeneity=0.2483
-2024-07-07 13:02:29,734 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0035135135135135136
-2024-07-07 13:02:33,005 - INFO - leading_eigenvector 0.0035135135135135136: Modularity=0.2543, Mean Homogeneity=0.3628, Median Homogeneity=0.3219
-2024-07-07 13:02:33,006 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004024024024024024
-2024-07-07 13:02:35,906 - INFO - leading_eigenvector 0.004024024024024024: Modularity=0.2701, Mean Homogeneity=0.4844, Median Homogeneity=0.5624
-2024-07-07 13:02:35,908 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004454454454454454
-2024-07-07 13:02:38,305 - INFO - leading_eigenvector 0.004454454454454454: Modularity=0.2875, Mean Homogeneity=0.3731, Median Homogeneity=0.3357
-2024-07-07 13:02:38,305 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005045045045045045
-2024-07-07 13:02:40,022 - INFO - leading_eigenvector 0.005045045045045045: Modularity=0.2879, Mean Homogeneity=0.3686, Median Homogeneity=0.3126
-2024-07-07 13:02:40,023 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005335335335335335
-2024-07-07 13:02:42,118 - INFO - leading_eigenvector 0.005335335335335335: Modularity=0.3057, Mean Homogeneity=0.4891, Median Homogeneity=0.4910
-2024-07-07 13:02:42,119 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005735735735735736
-2024-07-07 13:02:44,149 - INFO - leading_eigenvector 0.005735735735735736: Modularity=0.3149, Mean Homogeneity=0.4946, Median Homogeneity=0.4956
-2024-07-07 13:02:44,149 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.006286286286286286
-2024-07-07 13:02:45,997 - INFO - leading_eigenvector 0.006286286286286286: Modularity=0.3322, Mean Homogeneity=0.5060, Median Homogeneity=0.4444
-2024-07-07 13:02:45,998 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007177177177177177
-2024-07-07 13:02:47,413 - INFO - leading_eigenvector 0.007177177177177177: Modularity=0.3471, Mean Homogeneity=0.7149, Median Homogeneity=0.7621
-2024-07-07 13:02:47,414 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007587587587587588
-2024-07-07 13:02:48,946 - INFO - leading_eigenvector 0.007587587587587588: Modularity=0.3669, Mean Homogeneity=0.7648, Median Homogeneity=0.9123
-2024-07-07 13:02:50,415 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008308308308308308
-2024-07-07 13:02:51,344 - INFO - leading_eigenvector 0.008308308308308308: Modularity=0.3848, Mean Homogeneity=0.7017, Median Homogeneity=0.7866
-2024-07-07 13:02:51,345 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008948948948948949
-2024-07-07 13:02:52,221 - INFO - leading_eigenvector 0.008948948948948949: Modularity=0.4027, Mean Homogeneity=0.7088, Median Homogeneity=0.8042
-2024-07-07 13:02:55,073 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.00476995213776347
-2024-07-07 13:02:57,046 - INFO - leading_eigenvector 0.00476995213776347: Modularity=0.2835, Mean Homogeneity=0.3658, Median Homogeneity=0.3165
-2024-07-07 13:02:57,047 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004
-2024-07-07 13:02:59,720 - INFO - leading_eigenvector 0.004: Modularity=0.2655, Mean Homogeneity=0.3611, Median Homogeneity=0.3333
-2024-07-07 13:06:53,453 - INFO - Processing algorithm: walktrap, threshold: 0.0014614614614614613
-2024-07-07 13:07:55,855 - INFO - walktrap 0.0014614614614614613: Modularity=0.1214, Mean Homogeneity=0.2800, Median Homogeneity=0.3141
-2024-07-07 13:07:55,856 - INFO - Processing algorithm: walktrap, threshold: 0.0036136136136136134
-2024-07-07 13:08:12,456 - INFO - walktrap 0.0036136136136136134: Modularity=0.2137, Mean Homogeneity=0.8320, Median Homogeneity=0.9831
-2024-07-07 13:08:12,457 - INFO - Processing algorithm: walktrap, threshold: 0.004194194194194194
-2024-07-07 13:08:25,538 - INFO - walktrap 0.004194194194194194: Modularity=0.2172, Mean Homogeneity=0.8298, Median Homogeneity=0.9371
-2024-07-07 13:08:25,538 - INFO - Processing algorithm: walktrap, threshold: 0.004824824824824825
-2024-07-07 13:08:35,876 - INFO - walktrap 0.004824824824824825: Modularity=0.2585, Mean Homogeneity=0.8336, Median Homogeneity=0.9400
-2024-07-07 13:08:35,877 - INFO - Processing algorithm: walktrap, threshold: 0.005205205205205205
-2024-07-07 13:08:44,995 - INFO - walktrap 0.005205205205205205: Modularity=0.2357, Mean Homogeneity=0.8165, Median Homogeneity=0.9554
-2024-07-07 13:08:44,996 - INFO - Processing algorithm: walktrap, threshold: 0.005495495495495496
-2024-07-07 13:08:53,318 - INFO - walktrap 0.005495495495495496: Modularity=0.2631, Mean Homogeneity=0.8352, Median Homogeneity=1.0000
-2024-07-07 13:08:53,318 - INFO - Processing algorithm: walktrap, threshold: 0.005995995995995996
-2024-07-07 13:09:15,282 - INFO - walktrap 0.005995995995995996: Modularity=0.2991, Mean Homogeneity=0.8402, Median Homogeneity=1.0000
-2024-07-07 13:09:15,285 - INFO - Processing algorithm: walktrap, threshold: 0.006666666666666666
-2024-07-07 13:09:21,343 - INFO - walktrap 0.006666666666666666: Modularity=0.3141, Mean Homogeneity=0.8723, Median Homogeneity=1.0000
-2024-07-07 13:09:21,343 - INFO - Processing algorithm: walktrap, threshold: 0.007417417417417417
-2024-07-07 13:09:26,428 - INFO - walktrap 0.007417417417417417: Modularity=0.3255, Mean Homogeneity=0.8827, Median Homogeneity=1.0000
-2024-07-07 13:09:26,428 - INFO - Processing algorithm: walktrap, threshold: 0.007787787787787787
-2024-07-07 13:09:31,090 - INFO - walktrap 0.007787787787787787: Modularity=0.3237, Mean Homogeneity=0.8720, Median Homogeneity=1.0000
-2024-07-07 13:09:31,091 - INFO - Processing algorithm: walktrap, threshold: 0.008128128128128128
-2024-07-07 13:09:35,415 - INFO - walktrap 0.008128128128128128: Modularity=0.3448, Mean Homogeneity=0.8865, Median Homogeneity=1.0000
-2024-07-07 13:09:35,416 - INFO - Processing algorithm: walktrap, threshold: 0.008558558558558558
-2024-07-07 13:09:39,458 - INFO - walktrap 0.008558558558558558: Modularity=0.3650, Mean Homogeneity=0.8917, Median Homogeneity=1.0000
-2024-07-07 13:09:39,459 - INFO - Processing algorithm: walktrap, threshold: 0.009219219219219218
-2024-07-07 13:09:42,937 - INFO - walktrap 0.009219219219219218: Modularity=0.3732, Mean Homogeneity=0.8936, Median Homogeneity=1.0000
-2024-07-07 13:09:42,938 - INFO - Processing algorithm: walktrap, threshold: 0.00965965965965966
-2024-07-07 13:09:46,135 - INFO - walktrap 0.00965965965965966: Modularity=0.4060, Mean Homogeneity=0.9053, Median Homogeneity=1.0000
-2024-07-07 13:09:46,136 - INFO - Processing algorithm: walktrap, threshold: 0.00048048048048048047
-2024-07-07 13:13:00,396 - INFO - walktrap 0.00048048048048048047: Modularity=0.0589, Mean Homogeneity=0.2538, Median Homogeneity=0.2538
-2024-07-07 13:13:00,399 - INFO - Processing algorithm: walktrap, threshold: 0.0035135135135135136
-2024-07-07 13:13:18,423 - INFO - walktrap 0.0035135135135135136: Modularity=0.2264, Mean Homogeneity=0.8455, Median Homogeneity=0.9545
-2024-07-07 13:13:18,425 - INFO - Processing algorithm: walktrap, threshold: 0.004024024024024024
-2024-07-07 13:13:33,051 - INFO - walktrap 0.004024024024024024: Modularity=0.2407, Mean Homogeneity=0.8125, Median Homogeneity=0.9231
-2024-07-07 13:13:33,052 - INFO - Processing algorithm: walktrap, threshold: 0.004454454454454454
-2024-07-07 13:13:45,080 - INFO - walktrap 0.004454454454454454: Modularity=0.2430, Mean Homogeneity=0.8174, Median Homogeneity=0.9512
-2024-07-07 13:13:45,082 - INFO - Processing algorithm: walktrap, threshold: 0.005045045045045045
-2024-07-07 13:13:55,191 - INFO - walktrap 0.005045045045045045: Modularity=0.2598, Mean Homogeneity=0.8289, Median Homogeneity=0.9630
-2024-07-07 13:13:55,192 - INFO - Processing algorithm: walktrap, threshold: 0.005335335335335335
-2024-07-07 13:14:04,097 - INFO - walktrap 0.005335335335335335: Modularity=0.2475, Mean Homogeneity=0.8263, Median Homogeneity=0.9615
-2024-07-07 13:14:04,099 - INFO - Processing algorithm: walktrap, threshold: 0.005735735735735736
-2024-07-07 13:14:12,201 - INFO - walktrap 0.005735735735735736: Modularity=0.2698, Mean Homogeneity=0.8465, Median Homogeneity=1.0000
-2024-07-07 13:14:12,201 - INFO - Processing algorithm: walktrap, threshold: 0.006286286286286286
-2024-07-07 13:14:19,187 - INFO - walktrap 0.006286286286286286: Modularity=0.3145, Mean Homogeneity=0.8339, Median Homogeneity=1.0000
-2024-07-07 13:14:19,189 - INFO - Processing algorithm: walktrap, threshold: 0.007177177177177177
-2024-07-07 13:14:24,621 - INFO - walktrap 0.007177177177177177: Modularity=0.3139, Mean Homogeneity=0.8807, Median Homogeneity=1.0000
-2024-07-07 13:14:24,621 - INFO - Processing algorithm: walktrap, threshold: 0.007587587587587588
-2024-07-07 13:14:29,524 - INFO - walktrap 0.007587587587587588: Modularity=0.3522, Mean Homogeneity=0.8646, Median Homogeneity=1.0000
-2024-07-07 13:14:29,525 - INFO - Processing algorithm: walktrap, threshold: 0.008008008008008008
-2024-07-07 13:14:34,032 - INFO - walktrap 0.008008008008008008: Modularity=0.3423, Mean Homogeneity=0.8858, Median Homogeneity=1.0000
-2024-07-07 13:14:34,032 - INFO - Processing algorithm: walktrap, threshold: 0.008308308308308308
-2024-07-07 13:14:38,281 - INFO - walktrap 0.008308308308308308: Modularity=0.3603, Mean Homogeneity=0.8910, Median Homogeneity=1.0000
-2024-07-07 13:14:38,281 - INFO - Processing algorithm: walktrap, threshold: 0.008948948948948949
-2024-07-07 13:14:42,037 - INFO - walktrap 0.008948948948948949: Modularity=0.3982, Mean Homogeneity=0.8850, Median Homogeneity=1.0000
-2024-07-07 13:14:42,038 - INFO - Processing algorithm: walktrap, threshold: 0.009429429429429429
-2024-07-07 13:14:45,367 - INFO - walktrap 0.009429429429429429: Modularity=0.3824, Mean Homogeneity=0.8964, Median Homogeneity=1.0000
-2024-07-07 13:14:45,367 - INFO - Processing algorithm: walktrap, threshold: 0.0098998998998999
-2024-07-07 13:14:48,484 - INFO - walktrap 0.0098998998998999: Modularity=0.3913, Mean Homogeneity=0.9018, Median Homogeneity=1.0000
-2024-07-07 13:14:48,485 - INFO - Processing algorithm: walktrap, threshold: 0.00476995213776347
-2024-07-07 13:14:59,272 - INFO - walktrap 0.00476995213776347: Modularity=0.2689, Mean Homogeneity=0.8279, Median Homogeneity=0.9706
-2024-07-07 13:14:59,274 - INFO - Processing algorithm: walktrap, threshold: 0.004
-2024-07-07 13:15:13,502 - INFO - walktrap 0.004: Modularity=0.2364, Mean Homogeneity=0.8284, Median Homogeneity=0.9600
-2024-07-07 14:00:13,452 - INFO - Processing algorithm: fast_greedy, threshold: 0.0014614614614614613
-2024-07-07 14:00:34,527 - INFO - fast_greedy 0.0014614614614614613: Modularity=0.1564, Mean Homogeneity=0.4944, Median Homogeneity=0.2795
-2024-07-07 14:00:34,527 - INFO - Processing algorithm: fast_greedy, threshold: 0.0036136136136136134
-2024-07-07 14:00:38,221 - INFO - fast_greedy 0.0036136136136136134: Modularity=0.2356, Mean Homogeneity=0.4683, Median Homogeneity=0.3218
-2024-07-07 14:00:38,223 - INFO - Processing algorithm: fast_greedy, threshold: 0.004194194194194194
-2024-07-07 14:00:41,479 - INFO - fast_greedy 0.004194194194194194: Modularity=0.2501, Mean Homogeneity=0.2932, Median Homogeneity=0.2908
-2024-07-07 14:00:41,485 - INFO - Processing algorithm: fast_greedy, threshold: 0.004824824824824825
-2024-07-07 14:00:43,553 - INFO - fast_greedy 0.004824824824824825: Modularity=0.2844, Mean Homogeneity=0.3007, Median Homogeneity=0.3132
-2024-07-07 14:00:43,553 - INFO - Processing algorithm: fast_greedy, threshold: 0.005205205205205205
-2024-07-07 14:00:45,429 - INFO - fast_greedy 0.005205205205205205: Modularity=0.3020, Mean Homogeneity=0.5997, Median Homogeneity=0.5099
-2024-07-07 14:00:45,430 - INFO - Processing algorithm: fast_greedy, threshold: 0.005495495495495496
-2024-07-07 14:00:47,073 - INFO - fast_greedy 0.005495495495495496: Modularity=0.3048, Mean Homogeneity=0.2941, Median Homogeneity=0.3197
-2024-07-07 14:00:47,074 - INFO - Processing algorithm: fast_greedy, threshold: 0.005995995995995996
-2024-07-07 14:00:48,315 - INFO - fast_greedy 0.005995995995995996: Modularity=0.3225, Mean Homogeneity=0.7453, Median Homogeneity=1.0000
-2024-07-07 14:00:48,316 - INFO - Processing algorithm: fast_greedy, threshold: 0.006666666666666666
-2024-07-07 14:00:49,440 - INFO - fast_greedy 0.006666666666666666: Modularity=0.3355, Mean Homogeneity=0.8912, Median Homogeneity=1.0000
-2024-07-07 14:00:49,440 - INFO - Processing algorithm: fast_greedy, threshold: 0.007417417417417417
-2024-07-07 14:00:50,310 - INFO - fast_greedy 0.007417417417417417: Modularity=0.3519, Mean Homogeneity=0.8819, Median Homogeneity=1.0000
-2024-07-07 14:00:50,310 - INFO - Processing algorithm: fast_greedy, threshold: 0.007787787787787787
-2024-07-07 14:00:51,139 - INFO - fast_greedy 0.007787787787787787: Modularity=0.3549, Mean Homogeneity=0.8679, Median Homogeneity=1.0000
-2024-07-07 14:00:51,140 - INFO - Processing algorithm: fast_greedy, threshold: 0.008128128128128128
-2024-07-07 14:00:51,930 - INFO - fast_greedy 0.008128128128128128: Modularity=0.3771, Mean Homogeneity=0.8650, Median Homogeneity=1.0000
-2024-07-07 14:00:51,931 - INFO - Processing algorithm: fast_greedy, threshold: 0.008558558558558558
-2024-07-07 14:00:52,653 - INFO - fast_greedy 0.008558558558558558: Modularity=0.3747, Mean Homogeneity=0.8801, Median Homogeneity=1.0000
-2024-07-07 14:00:52,653 - INFO - Processing algorithm: fast_greedy, threshold: 0.009219219219219218
-2024-07-07 14:00:53,307 - INFO - fast_greedy 0.009219219219219218: Modularity=0.4010, Mean Homogeneity=0.8609, Median Homogeneity=1.0000
-2024-07-07 14:00:53,307 - INFO - Processing algorithm: fast_greedy, threshold: 0.00965965965965966
-2024-07-07 14:00:54,098 - INFO - fast_greedy 0.00965965965965966: Modularity=0.4092, Mean Homogeneity=0.8940, Median Homogeneity=1.0000
-2024-07-07 14:00:54,098 - INFO - Processing algorithm: fast_greedy, threshold: 0.00048048048048048047
-2024-07-07 14:01:43,381 - INFO - fast_greedy 0.00048048048048048047: Modularity=0.0931, Mean Homogeneity=0.2467, Median Homogeneity=0.2467
-2024-07-07 14:01:43,385 - INFO - Processing algorithm: fast_greedy, threshold: 0.0035135135135135136
-2024-07-07 14:01:46,943 - INFO - fast_greedy 0.0035135135135135136: Modularity=0.2337, Mean Homogeneity=0.3439, Median Homogeneity=0.3237
-2024-07-07 14:01:46,944 - INFO - Processing algorithm: fast_greedy, threshold: 0.004024024024024024
-2024-07-07 14:01:49,731 - INFO - fast_greedy 0.004024024024024024: Modularity=0.2502, Mean Homogeneity=0.5657, Median Homogeneity=0.3160
-2024-07-07 14:01:49,732 - INFO - Processing algorithm: fast_greedy, threshold: 0.004454454454454454
-2024-07-07 14:01:51,797 - INFO - fast_greedy 0.004454454454454454: Modularity=0.2728, Mean Homogeneity=0.2941, Median Homogeneity=0.2815
-2024-07-07 14:01:51,797 - INFO - Processing algorithm: fast_greedy, threshold: 0.005045045045045045
-2024-07-07 14:01:53,588 - INFO - fast_greedy 0.005045045045045045: Modularity=0.2903, Mean Homogeneity=0.5971, Median Homogeneity=0.6667
-2024-07-07 14:01:53,589 - INFO - Processing algorithm: fast_greedy, threshold: 0.005335335335335335
-2024-07-07 14:01:55,229 - INFO - fast_greedy 0.005335335335335335: Modularity=0.3028, Mean Homogeneity=0.6267, Median Homogeneity=0.5476
-2024-07-07 14:01:55,230 - INFO - Processing algorithm: fast_greedy, threshold: 0.005735735735735736
-2024-07-07 14:01:56,656 - INFO - fast_greedy 0.005735735735735736: Modularity=0.3077, Mean Homogeneity=0.6811, Median Homogeneity=0.7500
-2024-07-07 14:01:56,657 - INFO - Processing algorithm: fast_greedy, threshold: 0.006286286286286286
-2024-07-07 14:01:57,830 - INFO - fast_greedy 0.006286286286286286: Modularity=0.3254, Mean Homogeneity=0.7501, Median Homogeneity=1.0000
-2024-07-07 14:01:57,830 - INFO - Processing algorithm: fast_greedy, threshold: 0.007177177177177177
-2024-07-07 14:01:58,763 - INFO - fast_greedy 0.007177177177177177: Modularity=0.3506, Mean Homogeneity=0.9091, Median Homogeneity=1.0000
-2024-07-07 14:01:58,763 - INFO - Processing algorithm: fast_greedy, threshold: 0.007587587587587588
-2024-07-07 14:01:59,608 - INFO - fast_greedy 0.007587587587587588: Modularity=0.3570, Mean Homogeneity=0.8802, Median Homogeneity=1.0000
-2024-07-07 14:01:59,609 - INFO - Processing algorithm: fast_greedy, threshold: 0.008008008008008008
-2024-07-07 14:02:00,470 - INFO - fast_greedy 0.008008008008008008: Modularity=0.3734, Mean Homogeneity=0.8907, Median Homogeneity=1.0000
-2024-07-07 14:02:00,470 - INFO - Processing algorithm: fast_greedy, threshold: 0.008308308308308308
-2024-07-07 14:02:01,355 - INFO - fast_greedy 0.008308308308308308: Modularity=0.3818, Mean Homogeneity=0.8578, Median Homogeneity=1.0000
-2024-07-07 14:02:01,356 - INFO - Processing algorithm: fast_greedy, threshold: 0.008948948948948949
-2024-07-07 14:02:02,056 - INFO - fast_greedy 0.008948948948948949: Modularity=0.3810, Mean Homogeneity=0.8722, Median Homogeneity=1.0000
-2024-07-07 14:02:02,057 - INFO - Processing algorithm: fast_greedy, threshold: 0.009429429429429429
-2024-07-07 14:02:02,713 - INFO - fast_greedy 0.009429429429429429: Modularity=0.4037, Mean Homogeneity=0.8887, Median Homogeneity=1.0000
-2024-07-07 14:02:02,714 - INFO - Processing algorithm: fast_greedy, threshold: 0.0098998998998999
-2024-07-07 14:02:03,401 - INFO - fast_greedy 0.0098998998998999: Modularity=0.4281, Mean Homogeneity=0.8944, Median Homogeneity=1.0000
-2024-07-07 14:02:03,402 - INFO - Processing algorithm: fast_greedy, threshold: 0.00476995213776347
-2024-07-07 14:02:05,468 - INFO - fast_greedy 0.00476995213776347: Modularity=0.2707, Mean Homogeneity=0.6936, Median Homogeneity=1.0000
-2024-07-07 14:02:05,470 - INFO - Processing algorithm: fast_greedy, threshold: 0.004
-2024-07-07 14:02:08,787 - INFO - fast_greedy 0.004: Modularity=0.2495, Mean Homogeneity=0.6382, Median Homogeneity=0.6571
+2025-01-29 18:31:09,990 - INFO - Processing algorithm: louvain, threshold: 0.0036136136136136134
+2025-01-29 18:31:23,055 - INFO - Metrics calculated for louvain at threshold 0.0036136136136136134
+2025-01-29 18:31:23,057 - INFO - Modularity: 0.3229909743590621, Mean Homogeneity: 0.5929584197404434, Median Homogeneity: 0.7116564417177914
+2025-01-29 18:31:23,058 - INFO - NMI: 0.49765692643743537, ARI: 0.4264552848601493, F1: 0.357787417139459
+2025-01-29 18:31:23,058 - INFO - Processing algorithm: louvain, threshold: 0.004194194194194194
+2025-01-29 18:31:36,032 - INFO - Metrics calculated for louvain at threshold 0.004194194194194194
+2025-01-29 18:31:36,034 - INFO - Modularity: 0.34494596256536786, Mean Homogeneity: 0.5549332741675412, Median Homogeneity: 0.5654477561730471
+2025-01-29 18:31:36,034 - INFO - NMI: 0.4492091957033938, ARI: 0.2915499770857967, F1: 0.3177584319919267
+2025-01-29 18:31:36,034 - INFO - Processing algorithm: louvain, threshold: 0.004824824824824825
+2025-01-29 18:31:44,699 - INFO - Metrics calculated for louvain at threshold 0.004824824824824825
+2025-01-29 18:31:44,700 - INFO - Modularity: 0.36655709560172245, Mean Homogeneity: 0.5702477726969392, Median Homogeneity: 0.6231778425655976
+2025-01-29 18:31:44,700 - INFO - NMI: 0.4362985966708838, ARI: 0.34360075171060006, F1: 0.225759405634142
+2025-01-29 18:31:44,701 - INFO - Processing algorithm: louvain, threshold: 0.005205205205205205
+2025-01-29 18:31:52,768 - INFO - Metrics calculated for louvain at threshold 0.005205205205205205
+2025-01-29 18:31:52,775 - INFO - Modularity: 0.38250216513276597, Mean Homogeneity: 0.709015515477199, Median Homogeneity: 0.756838905775076
+2025-01-29 18:31:52,776 - INFO - NMI: 0.4468851321138699, ARI: 0.3338316831414511, F1: 0.33077879956806083
+2025-01-29 18:31:52,776 - INFO - Processing algorithm: louvain, threshold: 0.005495495495495496
+2025-01-29 18:32:01,909 - INFO - Metrics calculated for louvain at threshold 0.005495495495495496
+2025-01-29 18:32:01,909 - INFO - Modularity: 0.3901391647577212, Mean Homogeneity: 0.6855186918629805, Median Homogeneity: 0.7985948477751756
+2025-01-29 18:32:01,910 - INFO - NMI: 0.4742925671808498, ARI: 0.3334179283348672, F1: 0.37349322393581974
+2025-01-29 18:32:01,910 - INFO - Processing algorithm: louvain, threshold: 0.005995995995995996
+2025-01-29 18:32:10,933 - INFO - Metrics calculated for louvain at threshold 0.005995995995995996
+2025-01-29 18:32:10,935 - INFO - Modularity: 0.40877764318459336, Mean Homogeneity: 0.7842456188957734, Median Homogeneity: 0.8283980314089803
+2025-01-29 18:32:10,936 - INFO - NMI: 0.5121468342817873, ARI: 0.4248097302441459, F1: 0.3910250641920332
+2025-01-29 18:32:10,936 - INFO - Processing algorithm: louvain, threshold: 0.006666666666666666
+2025-01-29 18:32:16,110 - INFO - Metrics calculated for louvain at threshold 0.006666666666666666
+2025-01-29 18:32:16,113 - INFO - Modularity: 0.4286660260927341, Mean Homogeneity: 0.6367689297601247, Median Homogeneity: 0.6926470588235294
+2025-01-29 18:32:16,114 - INFO - NMI: 0.4518630906767933, ARI: 0.3579787962138625, F1: 0.30954890485491987
+2025-01-29 18:32:16,114 - INFO - Processing algorithm: louvain, threshold: 0.007417417417417417
+2025-01-29 18:32:19,826 - INFO - Metrics calculated for louvain at threshold 0.007417417417417417
+2025-01-29 18:32:19,828 - INFO - Modularity: 0.44573614428099234, Mean Homogeneity: 0.7128576930256497, Median Homogeneity: 0.7694444444444445
+2025-01-29 18:32:19,829 - INFO - NMI: 0.4664926304275408, ARI: 0.379750529535327, F1: 0.33602083305871333
+2025-01-29 18:32:19,829 - INFO - Processing algorithm: louvain, threshold: 0.007787787787787787
+2025-01-29 18:32:23,431 - INFO - Metrics calculated for louvain at threshold 0.007787787787787787
+2025-01-29 18:32:23,432 - INFO - Modularity: 0.45766792070491236, Mean Homogeneity: 0.7294787688099177, Median Homogeneity: 0.7767736743660012
+2025-01-29 18:32:23,433 - INFO - NMI: 0.517729635189126, ARI: 0.45867747867896697, F1: 0.41244878920494055
+2025-01-29 18:32:23,433 - INFO - Processing algorithm: louvain, threshold: 0.008128128128128128
+2025-01-29 18:32:26,788 - INFO - Metrics calculated for louvain at threshold 0.008128128128128128
+2025-01-29 18:32:26,789 - INFO - Modularity: 0.46855995240358705, Mean Homogeneity: 0.704461383658647, Median Homogeneity: 0.7135416666666666
+2025-01-29 18:32:26,789 - INFO - NMI: 0.5235211379791699, ARI: 0.4443749788241988, F1: 0.4483938754538969
+2025-01-29 18:32:26,789 - INFO - Processing algorithm: louvain, threshold: 0.008558558558558558
+2025-01-29 18:32:30,449 - INFO - Metrics calculated for louvain at threshold 0.008558558558558558
+2025-01-29 18:32:30,452 - INFO - Modularity: 0.4814207964589557, Mean Homogeneity: 0.6768197023257145, Median Homogeneity: 0.6666666666666666
+2025-01-29 18:32:30,452 - INFO - NMI: 0.4502234300756007, ARI: 0.31987215071207936, F1: 0.3538396680559377
+2025-01-29 18:32:30,453 - INFO - Processing algorithm: louvain, threshold: 0.009219219219219218
+2025-01-29 18:32:33,300 - INFO - Metrics calculated for louvain at threshold 0.009219219219219218
+2025-01-29 18:32:33,300 - INFO - Modularity: 0.4983599761161259, Mean Homogeneity: 0.7714034362036527, Median Homogeneity: 0.8915343915343915
+2025-01-29 18:32:33,301 - INFO - NMI: 0.4912739759022882, ARI: 0.3907174215615662, F1: 0.3579998333396221
+2025-01-29 18:32:33,301 - INFO - Processing algorithm: louvain, threshold: 0.00965965965965966
+2025-01-29 18:32:36,274 - INFO - Metrics calculated for louvain at threshold 0.00965965965965966
+2025-01-29 18:32:36,275 - INFO - Modularity: 0.5027430837675503, Mean Homogeneity: 0.7817634882978542, Median Homogeneity: 0.8875037436358191
+2025-01-29 18:32:36,275 - INFO - NMI: 0.5299165084078483, ARI: 0.46036948736136607, F1: 0.5031835355825507
+2025-01-29 18:32:36,276 - INFO - Processing algorithm: louvain, threshold: 0.0035135135135135136
+2025-01-29 18:32:54,929 - INFO - Metrics calculated for louvain at threshold 0.0035135135135135136
+2025-01-29 18:32:54,931 - INFO - Modularity: 0.3215846893622782, Mean Homogeneity: 0.6201754872204283, Median Homogeneity: 0.7
+2025-01-29 18:32:54,932 - INFO - NMI: 0.5682002361459376, ARI: 0.6036682375522151, F1: 0.2972907468233505
+2025-01-29 18:32:54,932 - INFO - Processing algorithm: louvain, threshold: 0.004024024024024024
+2025-01-29 18:33:04,294 - INFO - Metrics calculated for louvain at threshold 0.004024024024024024
+2025-01-29 18:33:04,294 - INFO - Modularity: 0.33946887745605875, Mean Homogeneity: 0.6565975085741484, Median Homogeneity: 0.7524371494959731
+2025-01-29 18:33:04,295 - INFO - NMI: 0.5744125023439365, ARI: 0.6205173274837653, F1: 0.3459050697305785
+2025-01-29 18:33:04,295 - INFO - Processing algorithm: louvain, threshold: 0.004454454454454454
+2025-01-29 18:33:15,369 - INFO - Metrics calculated for louvain at threshold 0.004454454454454454
+2025-01-29 18:33:15,371 - INFO - Modularity: 0.3531167778459599, Mean Homogeneity: 0.579491337572482, Median Homogeneity: 0.5668655668655669
+2025-01-29 18:33:15,371 - INFO - NMI: 0.3976661906799785, ARI: 0.2365797581240965, F1: 0.21444597432785112
+2025-01-29 18:33:15,372 - INFO - Processing algorithm: louvain, threshold: 0.005045045045045045
+2025-01-29 18:33:22,304 - INFO - Metrics calculated for louvain at threshold 0.005045045045045045
+2025-01-29 18:33:22,304 - INFO - Modularity: 0.37316066933096603, Mean Homogeneity: 0.6386251092252877, Median Homogeneity: 0.604312053925456
+2025-01-29 18:33:22,304 - INFO - NMI: 0.5229324998394833, ARI: 0.538568771783439, F1: 0.31882247373377026
+2025-01-29 18:33:22,305 - INFO - Processing algorithm: louvain, threshold: 0.005335335335335335
+2025-01-29 18:33:32,486 - INFO - Metrics calculated for louvain at threshold 0.005335335335335335
+2025-01-29 18:33:32,488 - INFO - Modularity: 0.3853105638988911, Mean Homogeneity: 0.5770877785840297, Median Homogeneity: 0.5130890052356021
+2025-01-29 18:33:32,489 - INFO - NMI: 0.412699975076956, ARI: 0.2774032780701867, F1: 0.2840212416139154
+2025-01-29 18:33:32,489 - INFO - Processing algorithm: louvain, threshold: 0.005735735735735736
+2025-01-29 18:33:38,916 - INFO - Metrics calculated for louvain at threshold 0.005735735735735736
+2025-01-29 18:33:38,919 - INFO - Modularity: 0.3985443829367811, Mean Homogeneity: 0.7615817051013042, Median Homogeneity: 0.7857023614761253
+2025-01-29 18:33:38,920 - INFO - NMI: 0.44928315862263574, ARI: 0.33652924439988363, F1: 0.3572673836859788
+2025-01-29 18:33:38,920 - INFO - Processing algorithm: louvain, threshold: 0.006286286286286286
+2025-01-29 18:33:42,940 - INFO - Metrics calculated for louvain at threshold 0.006286286286286286
+2025-01-29 18:33:42,940 - INFO - Modularity: 0.411890354076075, Mean Homogeneity: 0.7324130988742815, Median Homogeneity: 0.75
+2025-01-29 18:33:42,941 - INFO - NMI: 0.524662339377637, ARI: 0.4152678012724189, F1: 0.3707488860762842
+2025-01-29 18:33:42,941 - INFO - Processing algorithm: louvain, threshold: 0.007177177177177177
+2025-01-29 18:33:51,727 - INFO - Metrics calculated for louvain at threshold 0.007177177177177177
+2025-01-29 18:33:51,727 - INFO - Modularity: 0.44314153737262735, Mean Homogeneity: 0.6774174026849555, Median Homogeneity: 0.7776128266033254
+2025-01-29 18:33:51,728 - INFO - NMI: 0.46692207015486076, ARI: 0.3220284731032296, F1: 0.3690777000094575
+2025-01-29 18:33:51,728 - INFO - Processing algorithm: louvain, threshold: 0.007587587587587588
+2025-01-29 18:33:54,636 - INFO - Metrics calculated for louvain at threshold 0.007587587587587588
+2025-01-29 18:33:54,637 - INFO - Modularity: 0.4551932117686578, Mean Homogeneity: 0.6924044422995151, Median Homogeneity: 0.7095115681233933
+2025-01-29 18:33:54,637 - INFO - NMI: 0.461068540735832, ARI: 0.33976822631044684, F1: 0.37859452176408265
+2025-01-29 18:33:54,637 - INFO - Processing algorithm: louvain, threshold: 0.008008008008008008
+2025-01-29 18:33:58,219 - INFO - Metrics calculated for louvain at threshold 0.008008008008008008
+2025-01-29 18:33:58,220 - INFO - Modularity: 0.46805223780099536, Mean Homogeneity: 0.6782257746280623, Median Homogeneity: 0.7672955974842768
+2025-01-29 18:33:58,220 - INFO - NMI: 0.4662620717696105, ARI: 0.3450988624461435, F1: 0.4001520352724405
+2025-01-29 18:33:58,221 - INFO - Processing algorithm: louvain, threshold: 0.008308308308308308
+2025-01-29 18:34:02,684 - INFO - Metrics calculated for louvain at threshold 0.008308308308308308
+2025-01-29 18:34:02,685 - INFO - Modularity: 0.4730755524649165, Mean Homogeneity: 0.7680146854633143, Median Homogeneity: 0.8605053736975962
+2025-01-29 18:34:02,686 - INFO - NMI: 0.49307372069719213, ARI: 0.3769953366997348, F1: 0.3998615418471874
+2025-01-29 18:34:02,686 - INFO - Processing algorithm: louvain, threshold: 0.008948948948948949
+2025-01-29 18:34:06,600 - INFO - Metrics calculated for louvain at threshold 0.008948948948948949
+2025-01-29 18:34:06,601 - INFO - Modularity: 0.49166948976414665, Mean Homogeneity: 0.7136233755962957, Median Homogeneity: 0.7083333333333333
+2025-01-29 18:34:06,601 - INFO - NMI: 0.4764948874183255, ARI: 0.3571026267946708, F1: 0.398712399752215
+2025-01-29 18:34:06,602 - INFO - Processing algorithm: louvain, threshold: 0.009429429429429429
+2025-01-29 18:34:08,935 - INFO - Metrics calculated for louvain at threshold 0.009429429429429429
+2025-01-29 18:34:08,935 - INFO - Modularity: 0.5043397266356778, Mean Homogeneity: 0.7626222958964605, Median Homogeneity: 0.8852459016393442
+2025-01-29 18:34:08,936 - INFO - NMI: 0.5229922509056654, ARI: 0.4686537552346772, F1: 0.43897973111516475
+2025-01-29 18:34:08,936 - INFO - Processing algorithm: louvain, threshold: 0.0098998998998999
+2025-01-29 18:34:10,874 - INFO - Metrics calculated for louvain at threshold 0.0098998998998999
+2025-01-29 18:34:10,875 - INFO - Modularity: 0.5123859213263122, Mean Homogeneity: 0.7176739970686108, Median Homogeneity: 0.795095642168848
+2025-01-29 18:34:10,875 - INFO - NMI: 0.4751128094770125, ARI: 0.3384397600505803, F1: 0.39082253959517094
+2025-01-29 18:34:10,876 - INFO - Processing algorithm: louvain, threshold: 0.00476995213776347
+2025-01-29 18:34:19,115 - INFO - Metrics calculated for louvain at threshold 0.00476995213776347
+2025-01-29 18:34:19,115 - INFO - Modularity: 0.3682109025037489, Mean Homogeneity: 0.7256437142923015, Median Homogeneity: 0.7592592592592593
+2025-01-29 18:34:19,116 - INFO - NMI: 0.5962458999255936, ARI: 0.64030795061645, F1: 0.34658820050108347
+2025-01-29 18:34:19,116 - INFO - Processing algorithm: louvain, threshold: 0.004
+2025-01-29 18:34:29,219 - INFO - Metrics calculated for louvain at threshold 0.004
+2025-01-29 18:34:29,220 - INFO - Modularity: 0.33746470942885987, Mean Homogeneity: 0.5853869184200582, Median Homogeneity: 0.7051546391752578
+2025-01-29 18:34:29,221 - INFO - NMI: 0.4564869799220516, ARI: 0.2883157022597976, F1: 0.31857593492915276
+2025-01-29 18:34:29,221 - INFO - Processing algorithm: label_propagation, threshold: 0.0036136136136136134
+2025-01-29 18:34:30,401 - WARNING - Skipping label_propagation for threshold 0.0036136136136136134: partition has 1 or fewer communities
+2025-01-29 18:34:30,402 - INFO - Processing algorithm: label_propagation, threshold: 0.004194194194194194
+2025-01-29 18:34:31,867 - INFO - Metrics calculated for label_propagation at threshold 0.004194194194194194
+2025-01-29 18:34:31,867 - INFO - Modularity: 8.51989754493462e-05, Mean Homogeneity: 0.5739314115308151, Median Homogeneity: 0.5739314115308151
+2025-01-29 18:34:31,868 - INFO - NMI: 0.0017206325239164891, ARI: -0.00011143469204794825, F1: 0.021127138351553696
+2025-01-29 18:34:31,868 - INFO - Processing algorithm: label_propagation, threshold: 0.004824824824824825
+2025-01-29 18:34:32,912 - INFO - Metrics calculated for label_propagation at threshold 0.004824824824824825
+2025-01-29 18:34:32,913 - INFO - Modularity: 0.0006361245611140364, Mean Homogeneity: 1.0, Median Homogeneity: 1.0
+2025-01-29 18:34:32,913 - INFO - NMI: 0.6498506780849445, ARI: 0.32932345298816285, F1: 1.0
+2025-01-29 18:34:32,913 - INFO - Processing algorithm: label_propagation, threshold: 0.005205205205205205
+2025-01-29 18:34:33,761 - INFO - Metrics calculated for label_propagation at threshold 0.005205205205205205
+2025-01-29 18:34:33,761 - INFO - Modularity: 0.001463038659606673, Mean Homogeneity: 0.9871794871794872, Median Homogeneity: 1.0
+2025-01-29 18:34:33,762 - INFO - NMI: 0.7882884213629178, ARI: 0.5815140629691827, F1: 0.792
+2025-01-29 18:34:33,762 - INFO - Processing algorithm: label_propagation, threshold: 0.005495495495495496
+2025-01-29 18:34:34,563 - INFO - Metrics calculated for label_propagation at threshold 0.005495495495495496
+2025-01-29 18:34:34,564 - INFO - Modularity: 0.0018968653141529046, Mean Homogeneity: 0.9666666666666667, Median Homogeneity: 1.0
+2025-01-29 18:34:34,564 - INFO - NMI: 0.7085843022145981, ARI: 0.5046289031853131, F1: 0.6184121621621621
+2025-01-29 18:34:34,564 - INFO - Processing algorithm: label_propagation, threshold: 0.005995995995995996
+2025-01-29 18:34:35,385 - INFO - Metrics calculated for label_propagation at threshold 0.005995995995995996
+2025-01-29 18:34:35,385 - INFO - Modularity: 0.0027996491666467797, Mean Homogeneity: 0.7960648148148147, Median Homogeneity: 0.8875
+2025-01-29 18:34:35,386 - INFO - NMI: 0.6092830792661944, ARI: 0.3450569374936402, F1: 0.4553023108578665
+2025-01-29 18:34:35,386 - INFO - Processing algorithm: label_propagation, threshold: 0.006666666666666666
+2025-01-29 18:34:36,289 - INFO - Metrics calculated for label_propagation at threshold 0.006666666666666666
+2025-01-29 18:34:36,290 - INFO - Modularity: 0.00294383773694286, Mean Homogeneity: 0.8571428571428571, Median Homogeneity: 1.0
+2025-01-29 18:34:36,290 - INFO - NMI: 0.6431059002621082, ARI: 0.21079258010118043, F1: 0.8373015873015874
+2025-01-29 18:34:36,290 - INFO - Processing algorithm: label_propagation, threshold: 0.007417417417417417
+2025-01-29 18:34:37,016 - INFO - Metrics calculated for label_propagation at threshold 0.007417417417417417
+2025-01-29 18:34:37,017 - INFO - Modularity: 0.035420869848010565, Mean Homogeneity: 0.8895299145299145, Median Homogeneity: 1.0
+2025-01-29 18:34:37,017 - INFO - NMI: 0.5192375558962837, ARI: 0.10848982711140327, F1: 0.6638805143269428
+2025-01-29 18:34:37,017 - INFO - Processing algorithm: label_propagation, threshold: 0.007787787787787787
+2025-01-29 18:34:37,804 - INFO - Metrics calculated for label_propagation at threshold 0.007787787787787787
+2025-01-29 18:34:37,805 - INFO - Modularity: 0.006902092030529682, Mean Homogeneity: 0.8906666666666666, Median Homogeneity: 1.0
+2025-01-29 18:34:37,806 - INFO - NMI: 0.5670962120851916, ARI: 0.14301811372689863, F1: 0.7008411538553383
+2025-01-29 18:34:37,806 - INFO - Processing algorithm: label_propagation, threshold: 0.008128128128128128
+2025-01-29 18:34:38,544 - INFO - Metrics calculated for label_propagation at threshold 0.008128128128128128
+2025-01-29 18:34:38,545 - INFO - Modularity: 0.0074704206557832924, Mean Homogeneity: 0.8948717948717948, Median Homogeneity: 1.0
+2025-01-29 18:34:38,545 - INFO - NMI: 0.6462351435821185, ARI: 0.15301214742074618, F1: 0.8035064935064934
+2025-01-29 18:34:38,545 - INFO - Processing algorithm: label_propagation, threshold: 0.008558558558558558
+2025-01-29 18:34:39,180 - INFO - Metrics calculated for label_propagation at threshold 0.008558558558558558
+2025-01-29 18:34:39,181 - INFO - Modularity: 0.048721365292878446, Mean Homogeneity: 0.9057471264367816, Median Homogeneity: 1.0
+2025-01-29 18:34:39,181 - INFO - NMI: 0.6212550971652214, ARI: 0.14668050058281776, F1: 0.8070486891385767
+2025-01-29 18:34:39,182 - INFO - Processing algorithm: label_propagation, threshold: 0.009219219219219218
+2025-01-29 18:34:39,843 - INFO - Metrics calculated for label_propagation at threshold 0.009219219219219218
+2025-01-29 18:34:39,843 - INFO - Modularity: 0.09310086939813839, Mean Homogeneity: 0.8966179653679652, Median Homogeneity: 1.0
+2025-01-29 18:34:39,844 - INFO - NMI: 0.5510092509908968, ARI: 0.08327728116542141, F1: 0.7592078796624251
+2025-01-29 18:34:39,844 - INFO - Processing algorithm: label_propagation, threshold: 0.00965965965965966
+2025-01-29 18:34:40,521 - INFO - Metrics calculated for label_propagation at threshold 0.00965965965965966
+2025-01-29 18:34:40,522 - INFO - Modularity: 0.12047973382883588, Mean Homogeneity: 0.8977665308547661, Median Homogeneity: 1.0
+2025-01-29 18:34:40,522 - INFO - NMI: 0.5949385857710161, ARI: 0.11917899189079134, F1: 0.7656218680986483
+2025-01-29 18:34:40,523 - INFO - Processing algorithm: label_propagation, threshold: 0.0035135135135135136
+2025-01-29 18:34:41,492 - WARNING - Skipping label_propagation for threshold 0.0035135135135135136: partition has 1 or fewer communities
+2025-01-29 18:34:41,493 - INFO - Processing algorithm: label_propagation, threshold: 0.004024024024024024
+2025-01-29 18:34:43,182 - INFO - Metrics calculated for label_propagation at threshold 0.004024024024024024
+2025-01-29 18:34:43,183 - INFO - Modularity: 8.2592349909082e-05, Mean Homogeneity: 0.5739314115308151, Median Homogeneity: 0.5739314115308151
+2025-01-29 18:34:43,183 - INFO - NMI: 0.0017206325239164891, ARI: -0.00011143469204794825, F1: 0.021127138351553696
+2025-01-29 18:34:43,184 - INFO - Processing algorithm: label_propagation, threshold: 0.004454454454454454
+2025-01-29 18:34:44,240 - INFO - Metrics calculated for label_propagation at threshold 0.004454454454454454
+2025-01-29 18:34:44,241 - INFO - Modularity: 0.0002666657412488332, Mean Homogeneity: 1.0, Median Homogeneity: 1.0
+2025-01-29 18:34:44,241 - INFO - NMI: 0.5948298198400553, ARI: 0.3716755319148936, F1: 1.0
+2025-01-29 18:34:44,241 - INFO - Processing algorithm: label_propagation, threshold: 0.005045045045045045
+2025-01-29 18:34:45,201 - INFO - Metrics calculated for label_propagation at threshold 0.005045045045045045
+2025-01-29 18:34:45,201 - INFO - Modularity: 0.0014262281250301929, Mean Homogeneity: 0.9871794871794872, Median Homogeneity: 1.0
+2025-01-29 18:34:45,202 - INFO - NMI: 0.7882884213629178, ARI: 0.5815140629691827, F1: 0.792
+2025-01-29 18:34:45,202 - INFO - Processing algorithm: label_propagation, threshold: 0.005335335335335335
+2025-01-29 18:34:46,062 - INFO - Metrics calculated for label_propagation at threshold 0.005335335335335335
+2025-01-29 18:34:46,063 - INFO - Modularity: 0.0015165424590055305, Mean Homogeneity: 0.9705128205128206, Median Homogeneity: 1.0
+2025-01-29 18:34:46,063 - INFO - NMI: 0.748841297827233, ARI: 0.5560286433133346, F1: 0.7465945945945947
+2025-01-29 18:34:46,063 - INFO - Processing algorithm: label_propagation, threshold: 0.005735735735735736
+2025-01-29 18:34:46,898 - INFO - Metrics calculated for label_propagation at threshold 0.005735735735735736
+2025-01-29 18:34:46,898 - INFO - Modularity: 0.002685644191896086, Mean Homogeneity: 0.8544444444444445, Median Homogeneity: 0.95
+2025-01-29 18:34:46,899 - INFO - NMI: 0.6296294588953487, ARI: 0.3472185104613379, F1: 0.467863823419379
+2025-01-29 18:34:46,899 - INFO - Processing algorithm: label_propagation, threshold: 0.006286286286286286
+2025-01-29 18:34:47,676 - INFO - Metrics calculated for label_propagation at threshold 0.006286286286286286
+2025-01-29 18:34:47,677 - INFO - Modularity: 0.0031903091647379166, Mean Homogeneity: 0.8285714285714285, Median Homogeneity: 1.0
+2025-01-29 18:34:47,677 - INFO - NMI: 0.44838272404389157, ARI: 0.10229012193573919, F1: 0.5972222222222222
+2025-01-29 18:34:47,678 - INFO - Processing algorithm: label_propagation, threshold: 0.007177177177177177
+2025-01-29 18:34:48,493 - INFO - Metrics calculated for label_propagation at threshold 0.007177177177177177
+2025-01-29 18:34:48,494 - INFO - Modularity: 0.029433185703983684, Mean Homogeneity: 0.8735702614379086, Median Homogeneity: 1.0
+2025-01-29 18:34:48,494 - INFO - NMI: 0.5295718026109983, ARI: 0.17701827110822463, F1: 0.49324934690788347
+2025-01-29 18:34:48,494 - INFO - Processing algorithm: label_propagation, threshold: 0.007587587587587588
+2025-01-29 18:34:49,356 - INFO - Metrics calculated for label_propagation at threshold 0.007587587587587588
+2025-01-29 18:34:49,357 - INFO - Modularity: 0.006835925859204055, Mean Homogeneity: 0.8906666666666666, Median Homogeneity: 1.0
+2025-01-29 18:34:49,357 - INFO - NMI: 0.567181241751541, ARI: 0.1436557861460654, F1: 0.7010263390405235
+2025-01-29 18:34:49,357 - INFO - Processing algorithm: label_propagation, threshold: 0.008008008008008008
+2025-01-29 18:34:50,200 - INFO - Metrics calculated for label_propagation at threshold 0.008008008008008008
+2025-01-29 18:34:50,200 - INFO - Modularity: 0.0075599088481080445, Mean Homogeneity: 0.9028985507246376, Median Homogeneity: 1.0
+2025-01-29 18:34:50,201 - INFO - NMI: 0.6165682802918238, ARI: 0.142213518310306, F1: 0.7242664742664743
+2025-01-29 18:34:50,201 - INFO - Processing algorithm: label_propagation, threshold: 0.008308308308308308
+2025-01-29 18:34:50,909 - INFO - Metrics calculated for label_propagation at threshold 0.008308308308308308
+2025-01-29 18:34:50,909 - INFO - Modularity: 0.04441535764355476, Mean Homogeneity: 0.8947278911564626, Median Homogeneity: 1.0
+2025-01-29 18:34:50,909 - INFO - NMI: 0.6462196579452558, ARI: 0.2053605832215903, F1: 0.8044123373373608
+2025-01-29 18:34:50,910 - INFO - Processing algorithm: label_propagation, threshold: 0.008948948948948949
+2025-01-29 18:34:51,540 - INFO - Metrics calculated for label_propagation at threshold 0.008948948948948949
+2025-01-29 18:34:51,541 - INFO - Modularity: 0.0904333858222953, Mean Homogeneity: 0.9054367201426023, Median Homogeneity: 1.0
+2025-01-29 18:34:51,541 - INFO - NMI: 0.5742545946815502, ARI: 0.10247447794553585, F1: 0.8576673326673326
+2025-01-29 18:34:51,542 - INFO - Processing algorithm: label_propagation, threshold: 0.009429429429429429
+2025-01-29 18:34:52,284 - INFO - Metrics calculated for label_propagation at threshold 0.009429429429429429
+2025-01-29 18:34:52,285 - INFO - Modularity: 0.08861695031034622, Mean Homogeneity: 0.8980737004930553, Median Homogeneity: 1.0
+2025-01-29 18:34:52,285 - INFO - NMI: 0.601152869862388, ARI: 0.1329579688122491, F1: 0.7476560981563217
+2025-01-29 18:34:52,286 - INFO - Processing algorithm: label_propagation, threshold: 0.0098998998998999
+2025-01-29 18:34:52,966 - INFO - Metrics calculated for label_propagation at threshold 0.0098998998998999
+2025-01-29 18:34:52,966 - INFO - Modularity: 0.13505145343423108, Mean Homogeneity: 0.9112812487812487, Median Homogeneity: 1.0
+2025-01-29 18:34:52,967 - INFO - NMI: 0.5937353220784655, ARI: 0.11216848639312307, F1: 0.8070835950269726
+2025-01-29 18:34:52,967 - INFO - Processing algorithm: label_propagation, threshold: 0.00476995213776347
+2025-01-29 18:34:53,899 - INFO - Metrics calculated for label_propagation at threshold 0.00476995213776347
+2025-01-29 18:34:53,899 - INFO - Modularity: 0.0006304778615920101, Mean Homogeneity: 1.0, Median Homogeneity: 1.0
+2025-01-29 18:34:53,900 - INFO - NMI: 0.6498506780849445, ARI: 0.32932345298816285, F1: 1.0
+2025-01-29 18:34:53,900 - INFO - Processing algorithm: label_propagation, threshold: 0.004
+2025-01-29 18:34:55,617 - INFO - Metrics calculated for label_propagation at threshold 0.004
+2025-01-29 18:34:55,617 - INFO - Modularity: 8.222202272966848e-05, Mean Homogeneity: 0.5739314115308151, Median Homogeneity: 0.5739314115308151
+2025-01-29 18:34:55,618 - INFO - NMI: 0.0017206325239164891, ARI: -0.00011143469204794825, F1: 0.021127138351553696
+2025-01-29 18:34:55,618 - INFO - Processing algorithm: fast_greedy, threshold: 0.0036136136136136134
+2025-01-29 18:34:59,035 - INFO - Metrics calculated for fast_greedy at threshold 0.0036136136136136134
+2025-01-29 18:34:59,035 - INFO - Modularity: 0.2355609573618296, Mean Homogeneity: 0.4682753347741673, Median Homogeneity: 0.32180066954833453
+2025-01-29 18:34:59,036 - INFO - NMI: 0.24755953301711464, ARI: 0.11867895256620659, F1: 0.09683741883406222
+2025-01-29 18:34:59,036 - INFO - Processing algorithm: fast_greedy, threshold: 0.004194194194194194
+2025-01-29 18:35:01,632 - INFO - Metrics calculated for fast_greedy at threshold 0.004194194194194194
+2025-01-29 18:35:01,633 - INFO - Modularity: 0.25013530163488834, Mean Homogeneity: 0.29323340175690454, Median Homogeneity: 0.29083665338645415
+2025-01-29 18:35:01,634 - INFO - NMI: 0.26251440521877667, ARI: 0.1299379931946648, F1: 0.09460203152402671
+2025-01-29 18:35:01,634 - INFO - Processing algorithm: fast_greedy, threshold: 0.004824824824824825
+2025-01-29 18:35:03,428 - INFO - Metrics calculated for fast_greedy at threshold 0.004824824824824825
+2025-01-29 18:35:03,429 - INFO - Modularity: 0.28443778216047516, Mean Homogeneity: 0.3007206128096904, Median Homogeneity: 0.31319038336582194
+2025-01-29 18:35:03,429 - INFO - NMI: 0.2968590279978193, ARI: 0.17191229200549205, F1: 0.1020833825563965
+2025-01-29 18:35:03,430 - INFO - Processing algorithm: fast_greedy, threshold: 0.005205205205205205
+2025-01-29 18:35:05,080 - INFO - Metrics calculated for fast_greedy at threshold 0.005205205205205205
+2025-01-29 18:35:05,080 - INFO - Modularity: 0.3020115055302714, Mean Homogeneity: 0.599704154260477, Median Homogeneity: 0.5098870056497176
+2025-01-29 18:35:05,081 - INFO - NMI: 0.32025958069921956, ARI: 0.17837206346852633, F1: 0.11122976593155562
+2025-01-29 18:35:05,081 - INFO - Processing algorithm: fast_greedy, threshold: 0.005495495495495496
+2025-01-29 18:35:06,571 - INFO - Metrics calculated for fast_greedy at threshold 0.005495495495495496
+2025-01-29 18:35:06,571 - INFO - Modularity: 0.304824685708699, Mean Homogeneity: 0.29408189216604463, Median Homogeneity: 0.319693094629156
+2025-01-29 18:35:06,571 - INFO - NMI: 0.3091298996152725, ARI: 0.17519607446743546, F1: 0.10043133331153126
+2025-01-29 18:35:06,572 - INFO - Processing algorithm: fast_greedy, threshold: 0.005995995995995996
+2025-01-29 18:35:07,736 - INFO - Metrics calculated for fast_greedy at threshold 0.005995995995995996
+2025-01-29 18:35:07,737 - INFO - Modularity: 0.3224687540438877, Mean Homogeneity: 0.7453445967447321, Median Homogeneity: 1.0
+2025-01-29 18:35:07,737 - INFO - NMI: 0.3251913773858494, ARI: 0.20050490807000684, F1: 0.1138621798327534
+2025-01-29 18:35:07,738 - INFO - Processing algorithm: fast_greedy, threshold: 0.006666666666666666
+2025-01-29 18:35:08,790 - INFO - Metrics calculated for fast_greedy at threshold 0.006666666666666666
+2025-01-29 18:35:08,790 - INFO - Modularity: 0.3355137579675405, Mean Homogeneity: 0.8911764705882352, Median Homogeneity: 1.0
+2025-01-29 18:35:08,791 - INFO - NMI: 0.6868073868321731, ARI: 0.3352775234748487, F1: 0.7065741276267592
+2025-01-29 18:35:08,791 - INFO - Processing algorithm: fast_greedy, threshold: 0.007417417417417417
+2025-01-29 18:35:09,626 - INFO - Metrics calculated for fast_greedy at threshold 0.007417417417417417
+2025-01-29 18:35:09,626 - INFO - Modularity: 0.3519323812611539, Mean Homogeneity: 0.8819444444444445, Median Homogeneity: 1.0
+2025-01-29 18:35:09,627 - INFO - NMI: 0.7425550831686163, ARI: 0.5397166935628475, F1: 0.8634756082124504
+2025-01-29 18:35:09,627 - INFO - Processing algorithm: fast_greedy, threshold: 0.007787787787787787
+2025-01-29 18:35:10,420 - INFO - Metrics calculated for fast_greedy at threshold 0.007787787787787787
+2025-01-29 18:35:10,420 - INFO - Modularity: 0.3549086417974374, Mean Homogeneity: 0.8678571428571429, Median Homogeneity: 1.0
+2025-01-29 18:35:10,421 - INFO - NMI: 0.6945760220177029, ARI: 0.41670055992685173, F1: 0.6537878787878788
+2025-01-29 18:35:10,421 - INFO - Processing algorithm: fast_greedy, threshold: 0.008128128128128128
+2025-01-29 18:35:11,154 - INFO - Metrics calculated for fast_greedy at threshold 0.008128128128128128
+2025-01-29 18:35:11,154 - INFO - Modularity: 0.3770731910895197, Mean Homogeneity: 0.865, Median Homogeneity: 1.0
+2025-01-29 18:35:11,155 - INFO - NMI: 0.7301312341149565, ARI: 0.44167696725806, F1: 0.834973418394471
+2025-01-29 18:35:11,155 - INFO - Processing algorithm: fast_greedy, threshold: 0.008558558558558558
+2025-01-29 18:35:11,847 - INFO - Metrics calculated for fast_greedy at threshold 0.008558558558558558
+2025-01-29 18:35:11,848 - INFO - Modularity: 0.37468958769099736, Mean Homogeneity: 0.880050505050505, Median Homogeneity: 1.0
+2025-01-29 18:35:11,848 - INFO - NMI: 0.6992959200078059, ARI: 0.36248562793893074, F1: 0.7772297808012093
+2025-01-29 18:35:11,849 - INFO - Processing algorithm: fast_greedy, threshold: 0.009219219219219218
+2025-01-29 18:35:12,491 - INFO - Metrics calculated for fast_greedy at threshold 0.009219219219219218
+2025-01-29 18:35:12,491 - INFO - Modularity: 0.4009619429274635, Mean Homogeneity: 0.8609307359307359, Median Homogeneity: 1.0
+2025-01-29 18:35:12,492 - INFO - NMI: 0.7273124685561219, ARI: 0.39877538764159853, F1: 0.671115091804747
+2025-01-29 18:35:12,492 - INFO - Processing algorithm: fast_greedy, threshold: 0.00965965965965966
+2025-01-29 18:35:13,068 - INFO - Metrics calculated for fast_greedy at threshold 0.00965965965965966
+2025-01-29 18:35:13,069 - INFO - Modularity: 0.4092330409412273, Mean Homogeneity: 0.894047619047619, Median Homogeneity: 1.0
+2025-01-29 18:35:13,069 - INFO - NMI: 0.732705379212614, ARI: 0.4454490821678322, F1: 0.8066546231546232
+2025-01-29 18:35:13,070 - INFO - Processing algorithm: fast_greedy, threshold: 0.0035135135135135136
+2025-01-29 18:35:16,699 - INFO - Metrics calculated for fast_greedy at threshold 0.0035135135135135136
+2025-01-29 18:35:16,699 - INFO - Modularity: 0.23365302366816595, Mean Homogeneity: 0.3439065049865369, Median Homogeneity: 0.3237207331425824
+2025-01-29 18:35:16,700 - INFO - NMI: 0.24720099812628563, ARI: 0.11820773478751437, F1: 0.0957737974461135
+2025-01-29 18:35:16,700 - INFO - Processing algorithm: fast_greedy, threshold: 0.004024024024024024
+2025-01-29 18:35:19,864 - INFO - Metrics calculated for fast_greedy at threshold 0.004024024024024024
+2025-01-29 18:35:19,880 - INFO - Modularity: 0.2501884365802064, Mean Homogeneity: 0.5656872180362461, Median Homogeneity: 0.315989847715736
+2025-01-29 18:35:19,881 - INFO - NMI: 0.26266966013764104, ARI: 0.1347875318495212, F1: 0.09765109263106748
+2025-01-29 18:35:19,882 - INFO - Processing algorithm: fast_greedy, threshold: 0.004454454454454454
+2025-01-29 18:35:23,839 - INFO - Metrics calculated for fast_greedy at threshold 0.004454454454454454
+2025-01-29 18:35:23,840 - INFO - Modularity: 0.27283233040831795, Mean Homogeneity: 0.29407988786636136, Median Homogeneity: 0.2814726840855107
+2025-01-29 18:35:23,840 - INFO - NMI: 0.2886281179344994, ARI: 0.15760426495543445, F1: 0.1001132887969405
+2025-01-29 18:35:23,840 - INFO - Processing algorithm: fast_greedy, threshold: 0.005045045045045045
+2025-01-29 18:35:25,686 - INFO - Metrics calculated for fast_greedy at threshold 0.005045045045045045
+2025-01-29 18:35:25,686 - INFO - Modularity: 0.29028177546744766, Mean Homogeneity: 0.5971257460673703, Median Homogeneity: 0.6666666666666666
+2025-01-29 18:35:25,687 - INFO - NMI: 0.33355248136465043, ARI: 0.17971923868752568, F1: 0.111419312033732
+2025-01-29 18:35:25,688 - INFO - Processing algorithm: fast_greedy, threshold: 0.005335335335335335
+2025-01-29 18:35:27,394 - INFO - Metrics calculated for fast_greedy at threshold 0.005335335335335335
+2025-01-29 18:35:27,395 - INFO - Modularity: 0.3027553446279459, Mean Homogeneity: 0.6266518231708312, Median Homogeneity: 0.5475524475524476
+2025-01-29 18:35:27,395 - INFO - NMI: 0.3824817016378159, ARI: 0.23234798241808136, F1: 0.17733378613933765
+2025-01-29 18:35:27,396 - INFO - Processing algorithm: fast_greedy, threshold: 0.005735735735735736
+2025-01-29 18:35:28,983 - INFO - Metrics calculated for fast_greedy at threshold 0.005735735735735736
+2025-01-29 18:35:28,983 - INFO - Modularity: 0.30773535607734565, Mean Homogeneity: 0.6810776163728485, Median Homogeneity: 0.75
+2025-01-29 18:35:28,984 - INFO - NMI: 0.33226210298359476, ARI: 0.18602008122733868, F1: 0.11316805696139413
+2025-01-29 18:35:28,984 - INFO - Processing algorithm: fast_greedy, threshold: 0.006286286286286286
+2025-01-29 18:35:30,374 - INFO - Metrics calculated for fast_greedy at threshold 0.006286286286286286
+2025-01-29 18:35:30,375 - INFO - Modularity: 0.32540845597579726, Mean Homogeneity: 0.7500736668409536, Median Homogeneity: 1.0
+2025-01-29 18:35:30,376 - INFO - NMI: 0.3324581877962988, ARI: 0.1871204193747091, F1: 0.11821663400573794
+2025-01-29 18:35:30,376 - INFO - Processing algorithm: fast_greedy, threshold: 0.007177177177177177
+2025-01-29 18:35:31,277 - INFO - Metrics calculated for fast_greedy at threshold 0.007177177177177177
+2025-01-29 18:35:31,277 - INFO - Modularity: 0.35060448983665354, Mean Homogeneity: 0.9090909090909091, Median Homogeneity: 1.0
+2025-01-29 18:35:31,278 - INFO - NMI: 0.9031717415701271, ARI: 0.9633770892375803, F1: 0.8283313325330132
+2025-01-29 18:35:31,279 - INFO - Processing algorithm: fast_greedy, threshold: 0.007587587587587588
+2025-01-29 18:35:32,096 - INFO - Metrics calculated for fast_greedy at threshold 0.007587587587587588
+2025-01-29 18:35:32,097 - INFO - Modularity: 0.35702136852411603, Mean Homogeneity: 0.8802083333333334, Median Homogeneity: 1.0
+2025-01-29 18:35:32,097 - INFO - NMI: 0.7239947090654835, ARI: 0.40933697654917484, F1: 0.7568317099567099
+2025-01-29 18:35:32,098 - INFO - Processing algorithm: fast_greedy, threshold: 0.008008008008008008
+2025-01-29 18:35:32,841 - INFO - Metrics calculated for fast_greedy at threshold 0.008008008008008008
+2025-01-29 18:35:32,841 - INFO - Modularity: 0.3733587615781714, Mean Homogeneity: 0.8907203907203907, Median Homogeneity: 1.0
+2025-01-29 18:35:32,842 - INFO - NMI: 0.7302617913217976, ARI: 0.42583521544011965, F1: 0.8583404376243251
+2025-01-29 18:35:32,842 - INFO - Processing algorithm: fast_greedy, threshold: 0.008308308308308308
+2025-01-29 18:35:33,560 - INFO - Metrics calculated for fast_greedy at threshold 0.008308308308308308
+2025-01-29 18:35:33,561 - INFO - Modularity: 0.3818165036111985, Mean Homogeneity: 0.857843137254902, Median Homogeneity: 1.0
+2025-01-29 18:35:33,561 - INFO - NMI: 0.7379802601656841, ARI: 0.46984997114829774, F1: 0.7594461697722567
+2025-01-29 18:35:33,562 - INFO - Processing algorithm: fast_greedy, threshold: 0.008948948948948949
+2025-01-29 18:35:34,232 - INFO - Metrics calculated for fast_greedy at threshold 0.008948948948948949
+2025-01-29 18:35:34,232 - INFO - Modularity: 0.3809999135693265, Mean Homogeneity: 0.872192513368984, Median Homogeneity: 1.0
+2025-01-29 18:35:34,233 - INFO - NMI: 0.6746117752966103, ARI: 0.3225980860381711, F1: 0.6784437946718648
+2025-01-29 18:35:34,233 - INFO - Processing algorithm: fast_greedy, threshold: 0.009429429429429429
+2025-01-29 18:35:34,834 - INFO - Metrics calculated for fast_greedy at threshold 0.009429429429429429
+2025-01-29 18:35:34,835 - INFO - Modularity: 0.4036668381969912, Mean Homogeneity: 0.8886904761904763, Median Homogeneity: 1.0
+2025-01-29 18:35:34,835 - INFO - NMI: 0.7590639278791408, ARI: 0.3825167630467946, F1: 0.7875757575757576
+2025-01-29 18:35:34,836 - INFO - Processing algorithm: fast_greedy, threshold: 0.0098998998998999
+2025-01-29 18:35:35,409 - INFO - Metrics calculated for fast_greedy at threshold 0.0098998998998999
+2025-01-29 18:35:35,410 - INFO - Modularity: 0.42805735974143255, Mean Homogeneity: 0.8944444444444445, Median Homogeneity: 1.0
+2025-01-29 18:35:35,410 - INFO - NMI: 0.77783545471287, ARI: 0.4780397492806317, F1: 0.8308982683982684
+2025-01-29 18:35:35,410 - INFO - Processing algorithm: fast_greedy, threshold: 0.00476995213776347
+2025-01-29 18:35:37,657 - INFO - Metrics calculated for fast_greedy at threshold 0.00476995213776347
+2025-01-29 18:35:37,659 - INFO - Modularity: 0.27070007459130674, Mean Homogeneity: 0.6936152690066145, Median Homogeneity: 1.0
+2025-01-29 18:35:37,660 - INFO - NMI: 0.28430257788312885, ARI: 0.1563742907970159, F1: 0.10413457539211103
+2025-01-29 18:35:37,661 - INFO - Processing algorithm: fast_greedy, threshold: 0.004
+2025-01-29 18:35:40,588 - INFO - Metrics calculated for fast_greedy at threshold 0.004
+2025-01-29 18:35:40,589 - INFO - Modularity: 0.2494837696883171, Mean Homogeneity: 0.6381761250451028, Median Homogeneity: 0.6571246819338422
+2025-01-29 18:35:40,590 - INFO - NMI: 0.26536989551491713, ARI: 0.135736780784581, F1: 0.09838121677637278
+2025-01-29 18:35:40,590 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0036136136136136134
+2025-01-29 18:35:43,654 - INFO - Metrics calculated for leading_eigenvector at threshold 0.0036136136136136134
+2025-01-29 18:35:43,655 - INFO - Modularity: 0.2590284392925844, Mean Homogeneity: 0.3690348894034884, Median Homogeneity: 0.33048459246379397
+2025-01-29 18:35:43,655 - INFO - NMI: 0.33516069955561184, ARI: 0.220084821787939, F1: 0.15400236231211323
+2025-01-29 18:35:43,656 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004194194194194194
+2025-01-29 18:35:47,128 - INFO - Metrics calculated for leading_eigenvector at threshold 0.004194194194194194
+2025-01-29 18:35:47,136 - INFO - Modularity: 0.2773241226693132, Mean Homogeneity: 0.48964394917315474, Median Homogeneity: 0.5858747993579454
+2025-01-29 18:35:47,138 - INFO - NMI: 0.3615265434957897, ARI: 0.30991342092601837, F1: 0.1409186118054144
+2025-01-29 18:35:47,141 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004824824824824825
+2025-01-29 18:35:52,485 - INFO - Metrics calculated for leading_eigenvector at threshold 0.004824824824824825
+2025-01-29 18:35:52,495 - INFO - Modularity: 0.2936051251208687, Mean Homogeneity: 0.5830008621637525, Median Homogeneity: 0.5
+2025-01-29 18:35:52,497 - INFO - NMI: 0.3714173008218635, ARI: 0.31955348486200313, F1: 0.19132718273128801
+2025-01-29 18:35:52,498 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005205205205205205
+2025-01-29 18:35:54,688 - INFO - Metrics calculated for leading_eigenvector at threshold 0.005205205205205205
+2025-01-29 18:35:54,689 - INFO - Modularity: 0.2964115965384784, Mean Homogeneity: 0.48314691575779256, Median Homogeneity: 0.4880660020925366
+2025-01-29 18:35:54,689 - INFO - NMI: 0.3569232307501949, ARI: 0.2926088533035256, F1: 0.18176395001516546
+2025-01-29 18:35:54,689 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005495495495495496
+2025-01-29 18:35:56,659 - INFO - Metrics calculated for leading_eigenvector at threshold 0.005495495495495496
+2025-01-29 18:35:56,660 - INFO - Modularity: 0.3097392126228714, Mean Homogeneity: 0.49194353660709905, Median Homogeneity: 0.4973300643623023
+2025-01-29 18:35:56,660 - INFO - NMI: 0.37811439240238415, ARI: 0.2970161325109757, F1: 0.18578106168589884
+2025-01-29 18:35:56,661 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005995995995995996
+2025-01-29 18:35:58,278 - INFO - Metrics calculated for leading_eigenvector at threshold 0.005995995995995996
+2025-01-29 18:35:58,278 - INFO - Modularity: 0.3196898687762334, Mean Homogeneity: 0.4740663594463367, Median Homogeneity: 0.47268815458309654
+2025-01-29 18:35:58,279 - INFO - NMI: 0.3573885703374341, ARI: 0.2589092900615877, F1: 0.17790781820666238
+2025-01-29 18:35:58,279 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.006666666666666666
+2025-01-29 18:35:59,755 - INFO - Metrics calculated for leading_eigenvector at threshold 0.006666666666666666
+2025-01-29 18:35:59,755 - INFO - Modularity: 0.3322846859515968, Mean Homogeneity: 0.5045763395483798, Median Homogeneity: 0.42015706806282727
+2025-01-29 18:35:59,756 - INFO - NMI: 0.28939214330139923, ARI: 0.1730188946764372, F1: 0.19698610207966655
+2025-01-29 18:35:59,756 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007417417417417417
+2025-01-29 18:36:01,157 - INFO - Metrics calculated for leading_eigenvector at threshold 0.007417417417417417
+2025-01-29 18:36:01,158 - INFO - Modularity: 0.3600151355590993, Mean Homogeneity: 0.7907650094621784, Median Homogeneity: 1.0
+2025-01-29 18:36:01,158 - INFO - NMI: 0.41524844445756687, ARI: 0.4114746433776241, F1: 0.19663260382955897
+2025-01-29 18:36:01,159 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007787787787787787
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/igraph/community.py:98: RuntimeWarning: ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged) at src/linalg/arpack.c:899
+  membership, _, q = GraphBase.community_leading_eigenvector(graph, clusters, **kwds)
+2025-01-29 18:36:02,724 - ERROR - Error in leading_eigenvector for threshold 0.007787787787787787: Error at src/community/leading_eigenvector.c:564: ARPACK did not converge. -- No eigenvalues to sufficient accuracy
+2025-01-29 18:36:02,725 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008128128128128128
+2025-01-29 18:36:03,769 - INFO - Metrics calculated for leading_eigenvector at threshold 0.008128128128128128
+2025-01-29 18:36:03,770 - INFO - Modularity: 0.3813387942064757, Mean Homogeneity: 0.6601821327260705, Median Homogeneity: 0.620919881305638
+2025-01-29 18:36:03,770 - INFO - NMI: 0.3687889641042073, ARI: 0.35428169738769744, F1: 0.21048740692516238
+2025-01-29 18:36:03,771 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008558558558558558
+2025-01-29 18:36:04,630 - INFO - Metrics calculated for leading_eigenvector at threshold 0.008558558558558558
+2025-01-29 18:36:04,630 - INFO - Modularity: 0.39146478726439066, Mean Homogeneity: 0.7058280330009487, Median Homogeneity: 0.8009669960058861
+2025-01-29 18:36:04,631 - INFO - NMI: 0.25453847756308196, ARI: 0.12527230922077054, F1: 0.15966079104699205
+2025-01-29 18:36:04,631 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.009219219219219218
+2025-01-29 18:36:05,902 - INFO - Metrics calculated for leading_eigenvector at threshold 0.009219219219219218
+2025-01-29 18:36:05,903 - INFO - Modularity: 0.41535343063741065, Mean Homogeneity: 0.7444444444444445, Median Homogeneity: 0.5
+2025-01-29 18:36:05,903 - INFO - NMI: 0.633583889212106, ARI: 0.09448463687485378, F1: 0.6079298644221125
+2025-01-29 18:36:05,903 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.00965965965965966
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/igraph/community.py:98: RuntimeWarning: ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged) at src/linalg/arpack.c:899
+  membership, _, q = GraphBase.community_leading_eigenvector(graph, clusters, **kwds)
+2025-01-29 18:36:07,507 - ERROR - Error in leading_eigenvector for threshold 0.00965965965965966: Error at src/community/leading_eigenvector.c:564: ARPACK did not converge. -- No eigenvalues to sufficient accuracy
+2025-01-29 18:36:07,507 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0035135135135135136
+2025-01-29 18:36:10,551 - INFO - Metrics calculated for leading_eigenvector at threshold 0.0035135135135135136
+2025-01-29 18:36:10,551 - INFO - Modularity: 0.25433764776798423, Mean Homogeneity: 0.36280227117822883, Median Homogeneity: 0.3219476744186046
+2025-01-29 18:36:10,552 - INFO - NMI: 0.33065679969917183, ARI: 0.21664469843371778, F1: 0.1543495312725905
+2025-01-29 18:36:10,552 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004024024024024024
+2025-01-29 18:36:13,327 - INFO - Metrics calculated for leading_eigenvector at threshold 0.004024024024024024
+2025-01-29 18:36:13,328 - INFO - Modularity: 0.27014015916400147, Mean Homogeneity: 0.4843897203684129, Median Homogeneity: 0.5624036979969184
+2025-01-29 18:36:13,328 - INFO - NMI: 0.357975923923275, ARI: 0.2963482373147977, F1: 0.14094074825313174
+2025-01-29 18:36:13,329 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004454454454454454
+2025-01-29 18:36:15,636 - INFO - Metrics calculated for leading_eigenvector at threshold 0.004454454454454454
+2025-01-29 18:36:15,637 - INFO - Modularity: 0.28745733544276125, Mean Homogeneity: 0.3730937466555389, Median Homogeneity: 0.3357142857142857
+2025-01-29 18:36:15,637 - INFO - NMI: 0.3070051224902216, ARI: 0.19868969456515895, F1: 0.19114863564546017
+2025-01-29 18:36:15,637 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005045045045045045
+2025-01-29 18:36:17,295 - INFO - Metrics calculated for leading_eigenvector at threshold 0.005045045045045045
+2025-01-29 18:36:17,295 - INFO - Modularity: 0.28786572189051884, Mean Homogeneity: 0.36858116349258635, Median Homogeneity: 0.31262114527190077
+2025-01-29 18:36:17,296 - INFO - NMI: 0.244933186575573, ARI: 0.13172347012045255, F1: 0.15223810432383297
+2025-01-29 18:36:17,296 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005335335335335335
+2025-01-29 18:36:19,318 - INFO - Metrics calculated for leading_eigenvector at threshold 0.005335335335335335
+2025-01-29 18:36:19,319 - INFO - Modularity: 0.305746871656597, Mean Homogeneity: 0.4890709268373725, Median Homogeneity: 0.4910245329432883
+2025-01-29 18:36:19,319 - INFO - NMI: 0.37709589723382175, ARI: 0.30564314832531786, F1: 0.18467103526428638
+2025-01-29 18:36:19,319 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.005735735735735736
+2025-01-29 18:36:21,162 - INFO - Metrics calculated for leading_eigenvector at threshold 0.005735735735735736
+2025-01-29 18:36:21,163 - INFO - Modularity: 0.31489582623291135, Mean Homogeneity: 0.4945783203267703, Median Homogeneity: 0.49564751286449404
+2025-01-29 18:36:21,163 - INFO - NMI: 0.36752834690038083, ARI: 0.2816529179732451, F1: 0.18483864884067813
+2025-01-29 18:36:21,163 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.006286286286286286
+2025-01-29 18:36:22,985 - INFO - Metrics calculated for leading_eigenvector at threshold 0.006286286286286286
+2025-01-29 18:36:22,986 - INFO - Modularity: 0.3322050579082924, Mean Homogeneity: 0.5059883142759183, Median Homogeneity: 0.4444444444444444
+2025-01-29 18:36:22,987 - INFO - NMI: 0.3107131834194082, ARI: 0.196443577769841, F1: 0.20418430861537795
+2025-01-29 18:36:22,987 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007177177177177177
+2025-01-29 18:36:24,366 - INFO - Metrics calculated for leading_eigenvector at threshold 0.007177177177177177
+2025-01-29 18:36:24,366 - INFO - Modularity: 0.347090392141146, Mean Homogeneity: 0.714936321193045, Median Homogeneity: 0.7621397999451578
+2025-01-29 18:36:24,367 - INFO - NMI: 0.40750657494962533, ARI: 0.38462332791770276, F1: 0.16959754307211333
+2025-01-29 18:36:24,367 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.007587587587587588
+2025-01-29 18:36:25,797 - INFO - Metrics calculated for leading_eigenvector at threshold 0.007587587587587588
+2025-01-29 18:36:25,798 - INFO - Modularity: 0.3668659250040281, Mean Homogeneity: 0.7786761582246503, Median Homogeneity: 1.0
+2025-01-29 18:36:25,798 - INFO - NMI: 0.41181146367826477, ARI: 0.42109701190884546, F1: 0.21691058616316378
+2025-01-29 18:36:25,798 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008008008008008008
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/igraph/community.py:98: RuntimeWarning: ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged) at src/linalg/arpack.c:899
+  membership, _, q = GraphBase.community_leading_eigenvector(graph, clusters, **kwds)
+2025-01-29 18:36:27,458 - ERROR - Error in leading_eigenvector for threshold 0.008008008008008008: Error at src/community/leading_eigenvector.c:564: ARPACK did not converge. -- No eigenvalues to sufficient accuracy
+2025-01-29 18:36:27,459 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008308308308308308
+2025-01-29 18:36:28,332 - INFO - Metrics calculated for leading_eigenvector at threshold 0.008308308308308308
+2025-01-29 18:36:28,333 - INFO - Modularity: 0.38482799263224393, Mean Homogeneity: 0.7016821825479423, Median Homogeneity: 0.7866143027189576
+2025-01-29 18:36:28,333 - INFO - NMI: 0.2502406773525904, ARI: 0.12519841759435202, F1: 0.1574354620739868
+2025-01-29 18:36:28,334 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.008948948948948949
+2025-01-29 18:36:29,171 - INFO - Metrics calculated for leading_eigenvector at threshold 0.008948948948948949
+2025-01-29 18:36:29,171 - INFO - Modularity: 0.4026580723009589, Mean Homogeneity: 0.7088302729596657, Median Homogeneity: 0.8041502507163324
+2025-01-29 18:36:29,172 - INFO - NMI: 0.2570545874049646, ARI: 0.12763381447625738, F1: 0.1636273767280881
+2025-01-29 18:36:29,172 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.009429429429429429
+2025-01-29 18:36:30,104 - INFO - Metrics calculated for leading_eigenvector at threshold 0.009429429429429429
+2025-01-29 18:36:30,104 - INFO - Modularity: 0.42010887621772897, Mean Homogeneity: 0.821655328798186, Median Homogeneity: 1.0
+2025-01-29 18:36:30,105 - INFO - NMI: 0.7088494590809216, ARI: 0.45827732595808873, F1: 0.7313668448679891
+2025-01-29 18:36:30,105 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.0098998998998999
+/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/site-packages/igraph/community.py:98: RuntimeWarning: ARPACK solver failed to converge (10001 iterations, 0/1 eigenvectors converged) at src/linalg/arpack.c:899
+  membership, _, q = GraphBase.community_leading_eigenvector(graph, clusters, **kwds)
+2025-01-29 18:36:31,356 - ERROR - Error in leading_eigenvector for threshold 0.0098998998998999: Error at src/community/leading_eigenvector.c:564: ARPACK did not converge. -- No eigenvalues to sufficient accuracy
+2025-01-29 18:36:31,357 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.00476995213776347
+2025-01-29 18:36:33,276 - INFO - Metrics calculated for leading_eigenvector at threshold 0.00476995213776347
+2025-01-29 18:36:33,277 - INFO - Modularity: 0.2835190015571863, Mean Homogeneity: 0.36575639446204355, Median Homogeneity: 0.3164699825756375
+2025-01-29 18:36:33,277 - INFO - NMI: 0.24604062020851397, ARI: 0.1331071860063107, F1: 0.15176362822188277
+2025-01-29 18:36:33,277 - INFO - Processing algorithm: leading_eigenvector, threshold: 0.004
+2025-01-29 18:36:35,792 - INFO - Metrics calculated for leading_eigenvector at threshold 0.004
+2025-01-29 18:36:35,793 - INFO - Modularity: 0.2655306786838425, Mean Homogeneity: 0.36105456631004645, Median Homogeneity: 0.3332720951509607
+2025-01-29 18:36:35,793 - INFO - NMI: 0.25542162195709595, ARI: 0.14365004391531178, F1: 0.14456986743577444
+2025-01-29 18:36:35,793 - INFO - Processing algorithm: walktrap, threshold: 0.0036136136136136134
+2025-01-29 18:36:51,764 - INFO - Metrics calculated for walktrap at threshold 0.0036136136136136134
+2025-01-29 18:36:51,765 - INFO - Modularity: 0.21371140222019222, Mean Homogeneity: 0.832013082243044, Median Homogeneity: 0.9830508474576272
+2025-01-29 18:36:51,766 - INFO - NMI: 0.4412022591572441, ARI: 0.22107102038530407, F1: 0.39568668001162766
+2025-01-29 18:36:51,766 - INFO - Processing algorithm: walktrap, threshold: 0.004194194194194194
+2025-01-29 18:37:04,414 - INFO - Metrics calculated for walktrap at threshold 0.004194194194194194
+2025-01-29 18:37:04,415 - INFO - Modularity: 0.21719655637124394, Mean Homogeneity: 0.8297646063142059, Median Homogeneity: 0.9371482176360225
+2025-01-29 18:37:04,415 - INFO - NMI: 0.3985686247222689, ARI: 0.09532742160103055, F1: 0.46879937922781667
+2025-01-29 18:37:04,415 - INFO - Processing algorithm: walktrap, threshold: 0.004824824824824825
+2025-01-29 18:37:16,728 - INFO - Metrics calculated for walktrap at threshold 0.004824824824824825
+2025-01-29 18:37:16,735 - INFO - Modularity: 0.2585383717219648, Mean Homogeneity: 0.8335832558564362, Median Homogeneity: 0.94
+2025-01-29 18:37:16,736 - INFO - NMI: 0.49148058210334955, ARI: 0.16458822303401202, F1: 0.5214183812796462
+2025-01-29 18:37:16,736 - INFO - Processing algorithm: walktrap, threshold: 0.005205205205205205
+2025-01-29 18:37:26,019 - INFO - Metrics calculated for walktrap at threshold 0.005205205205205205
+2025-01-29 18:37:26,020 - INFO - Modularity: 0.2357225231484407, Mean Homogeneity: 0.8164829863322994, Median Homogeneity: 0.9553571428571428
+2025-01-29 18:37:26,020 - INFO - NMI: 0.4807856147667847, ARI: 0.12075783943624528, F1: 0.5882893939511071
+2025-01-29 18:37:26,021 - INFO - Processing algorithm: walktrap, threshold: 0.005495495495495496
+2025-01-29 18:37:36,749 - INFO - Metrics calculated for walktrap at threshold 0.005495495495495496
+2025-01-29 18:37:36,750 - INFO - Modularity: 0.26306458214344225, Mean Homogeneity: 0.8351907974720157, Median Homogeneity: 1.0
+2025-01-29 18:37:36,751 - INFO - NMI: 0.5174748023065797, ARI: 0.11274348189996562, F1: 0.6368170481883548
+2025-01-29 18:37:36,751 - INFO - Processing algorithm: walktrap, threshold: 0.005995995995995996
+2025-01-29 18:37:46,551 - INFO - Metrics calculated for walktrap at threshold 0.005995995995995996
+2025-01-29 18:37:46,552 - INFO - Modularity: 0.2991130992079571, Mean Homogeneity: 0.8402133705472563, Median Homogeneity: 1.0
+2025-01-29 18:37:46,552 - INFO - NMI: 0.47032741890469126, ARI: 0.11048820167329948, F1: 0.6428265446037725
+2025-01-29 18:37:46,553 - INFO - Processing algorithm: walktrap, threshold: 0.006666666666666666
+2025-01-29 18:37:53,268 - INFO - Metrics calculated for walktrap at threshold 0.006666666666666666
+2025-01-29 18:37:53,270 - INFO - Modularity: 0.3140840183911238, Mean Homogeneity: 0.8723484696989663, Median Homogeneity: 1.0
+2025-01-29 18:37:53,270 - INFO - NMI: 0.5173994994584226, ARI: 0.07902700857336734, F1: 0.7445677569768466
+2025-01-29 18:37:53,271 - INFO - Processing algorithm: walktrap, threshold: 0.007417417417417417
+2025-01-29 18:37:59,598 - INFO - Metrics calculated for walktrap at threshold 0.007417417417417417
+2025-01-29 18:37:59,599 - INFO - Modularity: 0.3255132048357256, Mean Homogeneity: 0.8827353266589378, Median Homogeneity: 1.0
+2025-01-29 18:37:59,600 - INFO - NMI: 0.5151804756795167, ARI: 0.06217079279767308, F1: 0.6846846027514192
+2025-01-29 18:37:59,601 - INFO - Processing algorithm: walktrap, threshold: 0.007787787787787787
+2025-01-29 18:38:05,636 - INFO - Metrics calculated for walktrap at threshold 0.007787787787787787
+2025-01-29 18:38:05,636 - INFO - Modularity: 0.3236996909912488, Mean Homogeneity: 0.8719621672276617, Median Homogeneity: 1.0
+2025-01-29 18:38:05,636 - INFO - NMI: 0.5138143302481707, ARI: 0.07541752857050557, F1: 0.7455474502381015
+2025-01-29 18:38:05,637 - INFO - Processing algorithm: walktrap, threshold: 0.008128128128128128
+2025-01-29 18:38:11,042 - INFO - Metrics calculated for walktrap at threshold 0.008128128128128128
+2025-01-29 18:38:11,043 - INFO - Modularity: 0.344792585462258, Mean Homogeneity: 0.8864921476990443, Median Homogeneity: 1.0
+2025-01-29 18:38:11,043 - INFO - NMI: 0.5161688856895943, ARI: 0.0539643230703387, F1: 0.7570517367710373
+2025-01-29 18:38:11,044 - INFO - Processing algorithm: walktrap, threshold: 0.008558558558558558
+2025-01-29 18:38:17,048 - INFO - Metrics calculated for walktrap at threshold 0.008558558558558558
+2025-01-29 18:38:17,050 - INFO - Modularity: 0.36502249031614786, Mean Homogeneity: 0.8916878646045313, Median Homogeneity: 1.0
+2025-01-29 18:38:17,050 - INFO - NMI: 0.5113187836706136, ARI: 0.05192623438254107, F1: 0.7563482586579218
+2025-01-29 18:38:17,051 - INFO - Processing algorithm: walktrap, threshold: 0.009219219219219218
+2025-01-29 18:38:20,624 - INFO - Metrics calculated for walktrap at threshold 0.009219219219219218
+2025-01-29 18:38:20,625 - INFO - Modularity: 0.373150465960857, Mean Homogeneity: 0.8935796584773567, Median Homogeneity: 1.0
+2025-01-29 18:38:20,625 - INFO - NMI: 0.5210056172644696, ARI: 0.055311907454489204, F1: 0.7788441226572441
+2025-01-29 18:38:20,626 - INFO - Processing algorithm: walktrap, threshold: 0.00965965965965966
+2025-01-29 18:38:23,792 - INFO - Metrics calculated for walktrap at threshold 0.00965965965965966
+2025-01-29 18:38:23,793 - INFO - Modularity: 0.4060421504071366, Mean Homogeneity: 0.9052543158382574, Median Homogeneity: 1.0
+2025-01-29 18:38:23,793 - INFO - NMI: 0.5339242198308524, ARI: 0.04826253234020507, F1: 0.8090017294268702
+2025-01-29 18:38:23,794 - INFO - Processing algorithm: walktrap, threshold: 0.0035135135135135136
+2025-01-29 18:38:42,047 - INFO - Metrics calculated for walktrap at threshold 0.0035135135135135136
+2025-01-29 18:38:42,049 - INFO - Modularity: 0.2264208538610073, Mean Homogeneity: 0.8454653334730227, Median Homogeneity: 0.9544534412955465
+2025-01-29 18:38:42,050 - INFO - NMI: 0.48421934563512015, ARI: 0.2923218949862248, F1: 0.42377447151238806
+2025-01-29 18:38:42,050 - INFO - Processing algorithm: walktrap, threshold: 0.004024024024024024
+2025-01-29 18:38:56,584 - INFO - Metrics calculated for walktrap at threshold 0.004024024024024024
+2025-01-29 18:38:56,586 - INFO - Modularity: 0.2406545745546574, Mean Homogeneity: 0.81253969502334, Median Homogeneity: 0.9230769230769231
+2025-01-29 18:38:56,587 - INFO - NMI: 0.4313960698418862, ARI: 0.16885328050559884, F1: 0.4187007936494114
+2025-01-29 18:38:56,588 - INFO - Processing algorithm: walktrap, threshold: 0.004454454454454454
+2025-01-29 18:39:10,254 - INFO - Metrics calculated for walktrap at threshold 0.004454454454454454
+2025-01-29 18:39:10,255 - INFO - Modularity: 0.24296724099690137, Mean Homogeneity: 0.8173804448912664, Median Homogeneity: 0.9512195121951219
+2025-01-29 18:39:10,255 - INFO - NMI: 0.4608028538145393, ARI: 0.14813336082638293, F1: 0.5202658902838541
+2025-01-29 18:39:10,256 - INFO - Processing algorithm: walktrap, threshold: 0.005045045045045045
+2025-01-29 18:39:24,752 - INFO - Metrics calculated for walktrap at threshold 0.005045045045045045
+2025-01-29 18:39:24,754 - INFO - Modularity: 0.25975459980053217, Mean Homogeneity: 0.8289168703911283, Median Homogeneity: 0.9629629629629629
+2025-01-29 18:39:24,754 - INFO - NMI: 0.5091760908484805, ARI: 0.12481293043826419, F1: 0.6932023850136982
+2025-01-29 18:39:24,754 - INFO - Processing algorithm: walktrap, threshold: 0.005335335335335335
+2025-01-29 18:39:40,771 - INFO - Metrics calculated for walktrap at threshold 0.005335335335335335
+2025-01-29 18:39:40,772 - INFO - Modularity: 0.24754382382733914, Mean Homogeneity: 0.8263049783761774, Median Homogeneity: 0.9614814814814814
+2025-01-29 18:39:40,773 - INFO - NMI: 0.46869317836600916, ARI: 0.09911613443859676, F1: 0.6401386372618184
+2025-01-29 18:39:40,773 - INFO - Processing algorithm: walktrap, threshold: 0.005735735735735736
+2025-01-29 18:39:49,425 - INFO - Metrics calculated for walktrap at threshold 0.005735735735735736
+2025-01-29 18:39:49,427 - INFO - Modularity: 0.26977170630762976, Mean Homogeneity: 0.8464915534471618, Median Homogeneity: 1.0
+2025-01-29 18:39:49,427 - INFO - NMI: 0.49603077791002714, ARI: 0.07580250050273618, F1: 0.6540689027445304
+2025-01-29 18:39:49,427 - INFO - Processing algorithm: walktrap, threshold: 0.006286286286286286
+2025-01-29 18:40:02,169 - INFO - Metrics calculated for walktrap at threshold 0.006286286286286286
+2025-01-29 18:40:02,170 - INFO - Modularity: 0.31448208824607177, Mean Homogeneity: 0.8339367606589262, Median Homogeneity: 1.0
+2025-01-29 18:40:02,171 - INFO - NMI: 0.48794620769315744, ARI: 0.08743959614031474, F1: 0.6944107283214894
+2025-01-29 18:40:02,171 - INFO - Processing algorithm: walktrap, threshold: 0.007177177177177177
+2025-01-29 18:40:10,114 - INFO - Metrics calculated for walktrap at threshold 0.007177177177177177
+2025-01-29 18:40:10,116 - INFO - Modularity: 0.31394992971188324, Mean Homogeneity: 0.8807357071033541, Median Homogeneity: 1.0
+2025-01-29 18:40:10,116 - INFO - NMI: 0.5166445927522484, ARI: 0.06856062227260672, F1: 0.755539904112481
+2025-01-29 18:40:10,117 - INFO - Processing algorithm: walktrap, threshold: 0.007587587587587588
+2025-01-29 18:40:15,107 - INFO - Metrics calculated for walktrap at threshold 0.007587587587587588
+2025-01-29 18:40:15,108 - INFO - Modularity: 0.3522003856071741, Mean Homogeneity: 0.8645675147590955, Median Homogeneity: 1.0
+2025-01-29 18:40:15,108 - INFO - NMI: 0.5173184597387703, ARI: 0.09380975515712309, F1: 0.7446384996863517
+2025-01-29 18:40:15,108 - INFO - Processing algorithm: walktrap, threshold: 0.008008008008008008
+2025-01-29 18:40:19,927 - INFO - Metrics calculated for walktrap at threshold 0.008008008008008008
+2025-01-29 18:40:19,929 - INFO - Modularity: 0.34227731293120595, Mean Homogeneity: 0.8857938869640997, Median Homogeneity: 1.0
+2025-01-29 18:40:19,929 - INFO - NMI: 0.5137211914928353, ARI: 0.04970739596981571, F1: 0.7589533147449123
+2025-01-29 18:40:19,930 - INFO - Processing algorithm: walktrap, threshold: 0.008308308308308308
+2025-01-29 18:40:25,654 - INFO - Metrics calculated for walktrap at threshold 0.008308308308308308
+2025-01-29 18:40:25,655 - INFO - Modularity: 0.36025838932873544, Mean Homogeneity: 0.8909796854026664, Median Homogeneity: 1.0
+2025-01-29 18:40:25,655 - INFO - NMI: 0.5177871791850609, ARI: 0.05684962742850306, F1: 0.7597865032034904
+2025-01-29 18:40:25,656 - INFO - Processing algorithm: walktrap, threshold: 0.008948948948948949
+2025-01-29 18:40:29,570 - INFO - Metrics calculated for walktrap at threshold 0.008948948948948949
+2025-01-29 18:40:29,571 - INFO - Modularity: 0.39816372152078067, Mean Homogeneity: 0.8849793568013907, Median Homogeneity: 1.0
+2025-01-29 18:40:29,572 - INFO - NMI: 0.515669979463103, ARI: 0.047444043256768764, F1: 0.770497124437198
+2025-01-29 18:40:29,572 - INFO - Processing algorithm: walktrap, threshold: 0.009429429429429429
+2025-01-29 18:40:32,865 - INFO - Metrics calculated for walktrap at threshold 0.009429429429429429
+2025-01-29 18:40:32,865 - INFO - Modularity: 0.38242878416869985, Mean Homogeneity: 0.8964493461575174, Median Homogeneity: 1.0
+2025-01-29 18:40:32,866 - INFO - NMI: 0.5196335957574978, ARI: 0.0488038469737983, F1: 0.7866269855271089
+2025-01-29 18:40:32,866 - INFO - Processing algorithm: walktrap, threshold: 0.0098998998998999
+2025-01-29 18:40:36,062 - INFO - Metrics calculated for walktrap at threshold 0.0098998998998999
+2025-01-29 18:40:36,062 - INFO - Modularity: 0.3912584788417418, Mean Homogeneity: 0.9018447293447294, Median Homogeneity: 1.0
+2025-01-29 18:40:36,063 - INFO - NMI: 0.5340301675496509, ARI: 0.052429553916877786, F1: 0.7432814423786189
+2025-01-29 18:40:36,063 - INFO - Processing algorithm: walktrap, threshold: 0.00476995213776347
+2025-01-29 18:40:47,036 - INFO - Metrics calculated for walktrap at threshold 0.00476995213776347
+2025-01-29 18:40:47,038 - INFO - Modularity: 0.2689042318641948, Mean Homogeneity: 0.8279037515136426, Median Homogeneity: 0.9705882352941176
+2025-01-29 18:40:47,038 - INFO - NMI: 0.4617872307393664, ARI: 0.12763749949320058, F1: 0.501971784982686
+2025-01-29 18:40:47,039 - INFO - Processing algorithm: walktrap, threshold: 0.004
+2025-01-29 18:41:01,557 - INFO - Metrics calculated for walktrap at threshold 0.004
+2025-01-29 18:41:01,559 - INFO - Modularity: 0.2364121432660283, Mean Homogeneity: 0.8284329018895693, Median Homogeneity: 0.96
+2025-01-29 18:41:01,560 - INFO - NMI: 0.43954757413397794, ARI: 0.21076969423019987, F1: 0.35472712185428695
+2025-01-29 18:41:01,565 - INFO - Processing completed for all algorithms and thresholds.
