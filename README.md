@@ -99,9 +99,9 @@ We used homogeneity, which takes into account the MCC (most common category) in 
 When it comes to Overlapping communities, we weight the contribution based on how many communities a given node has been assigned. 
 
 The results are provided below.
-| ![CD1](./results/louvaingnewman.png) | ![CD2](./results/leadineigwalktrap.png) |
+| ![CD1](./results/louvainlabel.png) | ![CD2](./results/leadingfastgreedy.png) |
 |--------------------------------------|--------------------------------------|
-| ![CD3](./results/labelpropfastgreedy.png) | ![OCD1](./results/graphencoreexp.png) |
+| ![CD3](./results/walktrap.png) | ![OCD1](./results/graphencoreexp.png) |
 | ![OCD2](./results/angeldemon.png) | ![OCD3](./results/slpamulticom.png) |
 
 
