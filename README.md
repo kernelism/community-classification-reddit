@@ -101,8 +101,9 @@ When it comes to Overlapping communities, we weight the contribution based on ho
 The results are provided below.
 | ![CD1](./results/louvainlabel.png) | ![CD2](./results/leadingfastgreedy.png) |
 |--------------------------------------|--------------------------------------|
-| ![CD3](./results/walktrapinfomap.png) | ![OCD1](./results/graphencoreexp.png) |
-| ![OCD2](./results/angeldemon.png) | ![OCD3](./results/slpamulticom.png) |
+| ![CD3](./results/walktrapinfomap.png) | ![CD4](./results/leidenmultilevel.png) |
+| ![OCD1](./results/angeldemon.png) | ![OCD2](./results/multicom.png) |
+| ![OCD3](./results/slpacoreexp.png) |                                      |
 
 
 #### Clustering
