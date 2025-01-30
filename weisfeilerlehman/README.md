@@ -11,17 +11,17 @@ The Weisfeiler-Lehman kernel is a widely used graph kernel that computes similar
 
 1. combination_kmatrix.py
 
-- This script computes pairwise Weisfeiler-Lehman kernel matrices for subsets of graphs. It processes every combination of subset since each has unique graphs which need to be compared. 
+    - This script computes pairwise Weisfeiler-Lehman kernel matrices for subsets of graphs. It processes every combination of subset since each has unique graphs which need to be compared. 
 
-- However, for a given pair of subsets *i* & *j* they produce duplicates because WL comparisons return `(A+B, A+B)` similarity matrix where `A` and `B` are the sizes of the subset *i* & *j*.
+    - However, for a given pair of subsets *i* & *j* they produce duplicates because WL comparisons return `(A+B, A+B)` similarity matrix where `A` and `B` are the sizes of the subset *i* & *j*.
 
 2. generate_final_kmatrix.py
 
-- This script merges the individual kernel matrices into a single complete kernel matrix.
+    - This script merges the individual kernel matrices into a single complete kernel matrix.
 
-- This script takes into account the duplicates and offsets the indexing appropriately to capture only the similarities from the graphs not accounted for yet, using the sizes of the batches.
+    - This script takes into account the duplicates and offsets the indexing appropriately to capture only the similarities from the graphs not accounted for yet, using the sizes of the batches.
 
-- This allows for fast and efficient graph comparison computations with memory issues when constraints exist.
+    - This allows for fast and efficient graph comparison computations with memory issues when constraints exist.
 
 ## Metrics
 Loading 4000+ graphs combined with a one-shot run of WL would crash after a **50 min** exec.
