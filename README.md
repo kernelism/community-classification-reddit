@@ -129,7 +129,6 @@ TBD
 | Angel                 | 0.0098    | 0.69        | -0.014     | N/A            | 0.56 | 0.41  | 0.02  |
 | Demon                 | 0.0098    | 0.65        | 0.06       | N/A            | 0.61 | 0.39  | 0.05  |
 | Core Expansion        | 0.0089    | 0.69        | 0.05       | N/A            | 0.68 | 0.39  | 0.03  |
-| Graph Entropy         | 0.0089    | 0.69        | 0.0639     | N/A            | N/A  | N/A   | N/A   |
 | GNN                   | 0.11      | N/A         | N/A        | 84% (average)  | N/A  | N/A   | N/A   |
 | Clustering            | TBD       | TBD         | TBD        | N/A            | TBD  | TBD   | TBD   |
 

@@ -26,7 +26,6 @@ The Weisfeiler-Lehman kernel is a widely used graph kernel that computes similar
 ## Metrics
 Loading 4000+ graphs combined with a one-shot run of WL would crash after a **50 min** exec.
 
-Post batching:
 <br/>
 **Average time to load a pair of batches (around 800 files)**: ~`00:04:20`
 <br/>
