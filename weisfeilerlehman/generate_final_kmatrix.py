@@ -1,44 +1,47 @@
-import glob
-import os
-import numpy as np
-import networkx as nx
-import pickle
-import logging
-from itertools import combinations
+from combination_kmatrix import *
+
+TOTAL_GRAPHS = 4032
+KERNEL_MATRICES_BP = "./kernel_matrices/"
+GRAPHS_BP = "/Users/arjuns/Downloads/notebooks_v2/v2/graphs"
 
 def load_kernel_matrix(filename):
     with open(filename, 'rb') as f:
         return pickle.load(f)
     
-def merge_kernel_matrices(n_subsets=10):
+def get_sizes():
     sizes = [405, 405, 405, 405, 393, 399, 405, 405, 405, 405]
+    return sizes
+    
+def merge_kernel_matrices(n_subsets=10):
+    sizes = get_sizes()
+
     # Initialize an empty kernel matrix
-    total_graphs = 4032
-    complete_kernel_matrix = np.zeros((total_graphs, total_graphs))
+    complete_kernel_matrix = np.zeros((TOTAL_GRAPHS, TOTAL_GRAPHS))
 
     # List of all graph files
-    list_of_files = glob.glob('v2/graphs/*/*.graphml')
+    list_of_files = glob.glob(f'{GRAPHS_BP}/*/*.graphml')
     file_subsets = np.array_split(list_of_files, n_subsets)
+
     # Files with no nodes to be removed
     files_with_no_nodes = [
-        'v2/graphs/Technology/learnmachinelearning.json.graphml',
-        'v2/graphs/Technology/DataHoarder.json.graphml',
-        'v2/graphs/Technology/talesfromtechsupport.json.graphml',
-        'v2/graphs/Technology/technews.json.graphml',
-        'v2/graphs/Technology/apolloapp.json.graphml',
-        'v2/graphs/Technology/ipad.json.graphml',
-        'v2/graphs/Technology/onions.json.graphml',
-        'v2/graphs/Technology/Windows10.json.graphml',
-        'v2/graphs/Art/AnalogCommunity.json.graphml',
-        'v2/graphs/Art/iWallpaper.json.graphml',
-        'v2/graphs/Art/ImaginaryHorrors.json.graphml',
-        'v2/graphs/Art/pic.json.graphml',
-        'v2/graphs/Art/ArtHistory.json.graphml',
-        'v2/graphs/Art/80s.json.graphml',
-        'v2/graphs/Art/Pyrography.json.graphml',
-        'v2/graphs/Art/blenderhelp.json.graphml',
-        'v2/graphs/Art/MobileWallpaper.json.graphml',
-        'v2/graphs/Art/wallpaperengine.json.graphml'
+        f'{GRAPHS_BP}/Technology/learnmachinelearning.json.graphml',
+        f'{GRAPHS_BP}/Technology/DataHoarder.json.graphml',
+        f'{GRAPHS_BP}/Technology/talesfromtechsupport.json.graphml',
+        f'{GRAPHS_BP}/Technology/technews.json.graphml',
+        f'{GRAPHS_BP}/Technology/apolloapp.json.graphml',
+        f'{GRAPHS_BP}/Technology/ipad.json.graphml',
+        f'{GRAPHS_BP}/Technology/onions.json.graphml',
+        f'{GRAPHS_BP}/Technology/Windows10.json.graphml',
+        f'{GRAPHS_BP}/Art/AnalogCommunity.json.graphml',
+        f'{GRAPHS_BP}/Art/iWallpaper.json.graphml',
+        f'{GRAPHS_BP}/Art/ImaginaryHorrors.json.graphml',
+        f'{GRAPHS_BP}/Art/pic.json.graphml',
+        f'{GRAPHS_BP}/Art/ArtHistory.json.graphml',
+        f'{GRAPHS_BP}/Art/80s.json.graphml',
+        f'{GRAPHS_BP}/Art/Pyrography.json.graphml',
+        f'{GRAPHS_BP}/Art/blenderhelp.json.graphml',
+        f'{GRAPHS_BP}/Art/MobileWallpaper.json.graphml',
+        f'{GRAPHS_BP}/Art/wallpaperengine.json.graphml'
     ]
 
     # Remove files with no nodes
@@ -59,7 +62,7 @@ def merge_kernel_matrices(n_subsets=10):
     kernel_matrices = {}
     # load all kernel matrices
     for i, j in combinations(range(n_subsets), 2):
-        kernel_matrix = load_kernel_matrix(f'v2/kernel_matrices/kernel_matrix_{i}_{j}.pkl')
+        kernel_matrix = load_kernel_matrix(f'{KERNEL_MATRICES_BP}/kernel_matrix_{i}_{j}.pkl')
         kernel_matrices[(i, j)] = kernel_matrix
 
     logging.info('Loaded all kernel matrices')
@@ -100,11 +103,13 @@ def merge_kernel_matrices(n_subsets=10):
 
     return complete_kernel_matrix
 
+start_time = time.time()    
 if __name__ == '__main__':
     # Configure logging
     logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
-    # Merge the matrices and save the complete kernel matrix
     complete_kernel_matrix = merge_kernel_matrices()
-    with open('complete_kernel_matrix.pkl', 'wb') as f:
+    end_time = time.time()  
+    logging.info(f"Total time taken: {end_time - start_time}")
+    with open('./final_kernel_matrix/complete_kernel_matrix_v3.pkl', 'wb') as f:
         pickle.dump(complete_kernel_matrix, f)
     logging.info('Saved complete kernel matrix')
