@@ -140,7 +140,7 @@ This study demonstrates that even unsupervised techniques, such as community and
 3. Investigate alternative techniques for threshold selection, including adaptive thresholds or dynamic methods based on graph properties.
 
 ## Contributors
-- Dayanand V
-- Pranav Deepak
-- Arjhun Sreedar
+- [Dayanand V](mailto:v_dayanand@cb.amrita.edu)
+- [Pranav Deepak](mailto:pranavdeepak13@gmail.com)
+- [Arjhun Sreedar](mailto:contactarjhun@gmail.com)
 
