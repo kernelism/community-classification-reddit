@@ -99,15 +99,9 @@ We used homogeneity, which takes into account the MCC (most common category) in 
 When it comes to Overlapping communities, we weight the contribution based on how many communities a given node has been assigned. 
 
 The results are provided below.
-| ![CD1](./results/louvainlabel.png) | ![CD2](./results/leadingfastgreedy.png) |
-|--------------------------------------|--------------------------------------|
-| ![CD3](./results/walktrapinfomap.png) | ![CD4](./results/leidenmultilevel.png) |
-| ![OCD1](./results/angeldemon.png) | ![OCD2](./results/multicom.png) |
-| ![OCD3](./results/slpacoreexp.png) |                                      |
+![CD](./results/all_outs.png)
 
-
-#### Clustering
-TBD
+![OCD](./results/ocd_all.png)
 
 ### What do these results mean? 
 TBD
@@ -129,8 +123,7 @@ TBD
 | Angel                 | 0.0098    | 0.69        | -0.014     | N/A            | 0.56 | 0.41  | 0.02  |
 | Demon                 | 0.0098    | 0.65        | 0.06       | N/A            | 0.61 | 0.39  | 0.05  |
 | Core Expansion        | 0.0089    | 0.69        | 0.05       | N/A            | 0.68 | 0.39  | 0.03  |
-| GNN                   | 0.11      | N/A         | N/A        | 84% (average)  | N/A  | N/A   | N/A   |
-| Clustering            | TBD       | TBD         | TBD        | N/A            | TBD  | TBD   | TBD   |
+| GNN                   | 0.11      | N/A         | N/A        | 84% (average)  | 0.90  | 0.90   | 0.84   |
 
 
 ## Conclusion
