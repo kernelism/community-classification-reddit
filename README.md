@@ -126,18 +126,20 @@ TBD
 | GNN                   | 0.11      | N/A         | N/A        | 84% (average)  | 0.90  | 0.90   | 0.84   |
 
 
-## Conclusion
+## Cite
+If you build upon or use our work in a scientific publication, please cite our paper - (https://hahaweaintpublishedyet.com/best-paper-of-2025)
 
-This study demonstrates that even unsupervised techniques, such as community and overlapping community detection, can provide a good approximation of which structures belong together based on similarity. However, there are notable challenges:  
-1. Threshold identification for Level 2 graph generation. 
-2. Level 1 graph data collection.
-3. Computational limitations to processing Level 1 graphs.
-
-## Future Work
-
-1. Include **content embeddings** (e.g., from posts and comments) to complement the network structure for better classification results.  
-2. Scale the study by experimenting with a significantly **larger number of graphs**.  
-3. Investigate alternative techniques for threshold selection, including adaptive thresholds or dynamic methods based on graph properties.
+```
+@article{hahaweaintpublishedyet,
+  author  = {Dayanand V, Arjhun Sreedar and Pranav Deepak},
+  title   = {hahaweaintpublishedyet},
+  journal = {Journal of hahaweaintpublishedyet},
+  year    = {2025},
+  volume  = {?},
+  number  = {?},
+  pages   = {?}
+}
+```
 
 ## Contributors
 - [Dayanand V](mailto:v_dayanand@cb.amrita.edu)
