@@ -99,7 +99,7 @@ We used homogeneity, which takes into account the MCC (most common category) in 
 When it comes to Overlapping communities, we weight the contribution based on how many communities a given node has been assigned. 
 
 The results are provided below.
-![CD](./results/all_outs.png)
+![CD](./results/cd_all.png)
 
 ![OCD](./results/ocd_all.png)
 
@@ -110,20 +110,20 @@ TBD
 
 | Algorithm             | Threshold | Homogeneity | Modularity | Accuracy (GNN) | F1   | NMI   | ARI   |
 |-----------------------|-----------|-------------|------------|----------------|------|-------|-------|
-| Louvain               | 0.0096    | 0.7817      | 0.50       | N/A            | 0.50 | 0.53  | 0.46  |
-| Label Propagation     | 0.0052    | 0.98        | 0.001      | N/A            | 0.79 | 0.788 | 0.58  |
-| Fast Greedy           | 0.0071    | 0.9090      | 0.3506     | N/A            | 0.82 | 0.90  | 0.96  |
-| Leading Eigenvector   | 0.0075    | 0.7648      | 0.3669     | N/A            | 0.73 | 0.70  | 0.45  |
-| Walktrap              | 0.0096    | 0.9053      | 0.4060     | N/A            | 0.80 | 0.53  | 0.04  |
-| Infomap               | 0.0096    | 0.844       | 0.462      | N/A            | 0.71 | 0.52  | 0.09  |
-| Multilevel            | 0.0075    | 0.821       | 0.427      | N/A            | 0.37 | 0.635 | 0.65  |
-| leiden                | 0.0047    | 0.748       | 0.365      | N/A            | 0.37 | 0.65  | 0.63  |
-| SLPA                  | 0.0074    | 0.86        | 0.51       | N/A            | 0.5  | 0.64  | 0.44  |
+| Louvain               | 0.0096    | 0.73        | 0.50       | N/A            | 0.46 | 0.48  | 0.34  |
+| Label Propagation     | 0.0098    | 0.87        | 0.13       | N/A            | 0.22 | 0.27  | 0.05  |
+| Fast Greedy           | 0.0098    | 0.80        | 0.42       | N/A            | 0.19 | 0.37  | 0.24  |
+| Leading Eigenvector   | 0.0092    | 0.71        | 0.41       | N/A            | 0.32 | 0.36  | 0.20  |
+| Walktrap              | 0.0096    | 0.89        | 0.40       | N/A            | 0.68 | 0.50  | 0.26  |
+| Infomap               | 0.0098    | 0.85        | 0.47       | N/A            | 0.70 | 0.51  | 0.22  |
+| Multilevel            | 0.0094    | 0.77        | 0.49       | N/A            | 0.37 | 0.48  | 0.34  |
+| leiden                | 0.0094    | 0.74        | 0.50       | N/A            | 0.46 | 0.47  | 0.32  |
+| SLPA                  | 0.0074    | 0.86        | 0.51       | N/A            | 0.50 | 0.64  | 0.44  |
 | MultiCOM              | 0.0096    | 0.55        | -0.05      | N/A            | 0.15 | 0.34  | 0/38  |
-| Angel                 | 0.0098    | 0.69        | -0.014     | N/A            | 0.56 | 0.41  | 0.02  |
+| Angel                 | 0.0098    | 0.69        | -0.01      | N/A            | 0.56 | 0.41  | 0.02  |
 | Demon                 | 0.0098    | 0.65        | 0.06       | N/A            | 0.61 | 0.39  | 0.05  |
 | Core Expansion        | 0.0089    | 0.69        | 0.05       | N/A            | 0.68 | 0.39  | 0.03  |
-| GNN                   | 0.11      | N/A         | N/A        | 84% (average)  | 0.90  | 0.90   | 0.84   |
+| GNN                   | 0.11      | N/A         | N/A        | 84% (average)  | 0.90  | 0.90 | 0.84  |
 
 
 ## Conclusion
