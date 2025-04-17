@@ -134,7 +134,7 @@ The results are provided below.
 
 
 ## Cite
-If you build upon or use our work in a scientific publication, please cite our paper - (https://hahaweaintpublishedyet.com/best-paper-of-2025)
+If you build upon or use our work in a scientific publication, please cite our paper.
 
 ```
 @article{hahaweaintpublishedyet,
