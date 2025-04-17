@@ -1,11 +1,9 @@
 
 #  The Rhythm of Conversation: Content-Agnostic Community Classification using Meta-Graph Representations of Conversational Dynamics
 
-This project attempts to follow several (supervised & unsupervised) approaches towards topical classification on Reddit data that is modelled as a conversational graph. More on the data setup below. 
+This research investigates the potential of structure-only approaches for classifying communities in online social networks, leveraging graph abstraction techniques that intentionally exclude content or semantics. Instead, we explore how the rhythm and flow of conversation alone — encoded through interaction patterns — can reveal the nature of digital communities.
 
-We strictly use *only* the network structure itself in our methods and have not leveraged the content for this study. 
-
-**This project is part of a research paper that is still work-in-progress.**
+Note: This work is part of an ongoing research paper.
 
 ## Data
 The raw Reddit JSON data is structured like this.
@@ -27,23 +25,37 @@ This was processed into a graph with the following rules:
 
 These graphs will be referred to as `level-1` graphs.
 
+List of topics/labels:
+```
+Animals and Pets
+Art
+Business, Economics, and Finance
+Food and Drink
+Funny
+Gaming
+Internet Culture and Memes
+Learning and Education
+Music
+Place
+Sports
+Technology
+Television
+```
+
 The raw dataset can be found [here](https://zenodo.org/records/13343578).
 
 ## Approaches
 
-We propose a graph abstraction technique, discussed in detail in our [paper](attachpaperlink.com), wherein we condense the structural similarity information into a `level-2` graph, in which a node represents an entire level-1 graph and an edge exists between any two nodes (or subreddits) if their similarity score exceeds a predefined threshold. 
+A novel meta-graph abstraction is introduced, wherein Level-1 interaction graphs are embedded and aggregated to construct a Level-2 graph — a network of networks.
+
+Each node in the Level-2 graph corresponds to a Level-1 graph (i.e., subreddit conversation), and edges are drawn between nodes with structural similarity above a threshold. This allows for high-level reasoning across communities based solely on conversation dynamics.
 
 ![l1tol2.png](./results/l1tol2.png)
 
 ### Graph Embeddings 
-We used [Graph2Vec](https://karateclub.readthedocs.io/en/latest/_modules/karateclub/graph_embedding/graph2vec.html) to embed the level-1 graphs into 128-dimensional vectors. Graph2Vec leverages Weisfeiler-Lehman subtree kernels to capture structural features, which are then encoded into fixed-size embeddings.
+Using [Graph2Vec](https://karateclub.readthedocs.io/en/latest/_modules/karateclub/graph_embedding/graph2vec.html), each Level-1 graph is embedded into a 128-dimensional vector space. Graph2Vec relies on the Weisfeiler-Lehman subtree kernel to capture local and global structural features effectively.
 
-Using the resulting embeddings, we created level-2 graphs where nodes represent Level 1 graphs, and edges connect nodes with `cosine similarity` scores above a chosen threshold. 
-
-We used percentile thresholding to consider
-values from the range where most of the similarity scores
-lie. Specifically, we consider the range between 0.05 and 0.6,
-which captures 95% of the similarity scores
+To build the Level-2 graph, cosine similarity scores between graph embeddings are calculated. Thresholds are selected from the 5th to 60th percentile of the similarity distribution, capturing the most informative relationships.
 
 ![cosinesimvalues.png](./results/cosinesimvalues.png)
 
@@ -55,20 +67,18 @@ The GNN architecture and results are given below.
 | ![Test Accuracy](./results/testacc.png) | ![Loss Curves](./results/losscurves3d.png) |
 |----------------------------------------|--------------------------------------------|
 
-Through cross-validation, we were able to achieve an `~83%` average test accuracy across folds, for `~200` graphs per label for a total of `13` labels.
+Graph-level embeddings were fed into a GNN-based architecture trained to classify subreddits solely from structural signals. Cross-validation yielded an average test accuracy of ~83% across 13 labels. Approximately 200 graphs per class were used
 
 Additionally, we also experimented with clustering techniques, which yielded poor results.
 
 ### Overlapping and Non-Overlapping Community Detection
 
-We ran the famous WeisfeilerLehman Isomorphism test to generate similarity scores for every pair of level-1 graphs. 
-Instead of using percentile thresholding, we used KDE to identify points of significance. 
+To further probe structural similarities, pairwise Weisfeiler-Lehman isomorphism scores were used instead of embeddings. Key inflection points were extracted using Kernel Density Estimation (KDE), offering a principled alternative to percentile-based thresholds.
 
 | ![infpoints.png](./results/infpoints.png) | ![thredge.png](./results/thresholdedge.png) |
 |----------------------------------------|--------------------------------------------|
 
-Once we had the thresholds, we built the new `Level 2` graphs.
-
+Level 2 graph building algorithm:
 ```
 Initialize an empty dictionary `graphs`
 
@@ -89,12 +99,10 @@ For each `threshold` in `inflection_points`:
     Store graph `G` in `graphs`
 ```
 
-Once we have the graphs, we ran both community and overlapping community detection algorithms. 
+These thresholds informed the construction of multiple Level-2 graphs for both overlapping and non-overlapping community detection experiments. A weighted contribution model was adopted for overlapping assignments.
 
 | ![homog.png](./results/homogeneity.png) | ![overlappinghomog.png](./results/homogeneity_OCD.png) |
 |--------------------------------|--------------------------------|
-
-When it comes to Overlapping communities, we weight the contribution based on how many communities a given node has been assigned. 
 
 The results are provided below.
 ![CD](./results/cd_all.png)
@@ -139,6 +147,7 @@ If you build upon or use our work in a scientific publication, please cite our p
   pages   = {?}
 }
 ```
+Preprint coming soon: https://hahaweaintpublishedyet.com/best-paper-of-2025
 
 ## Contributors
 - [Dayanand V](mailto:v_dayanand@cb.amrita.edu)
