@@ -111,27 +111,26 @@ The results are provided below.
 
 ## Algorithm Performance Table
 
-| Algorithm             | Threshold | Homogeneity | Modularity | Accuracy (GNN) | F1   | NMI   | ARI   |
-|-----------------------|-----------|-------------|------------|----------------|------|-------|-------|
-| Louvain               | 0.0089    | 0.73        | 0.50       | N/A            | 0.46 | 0.48  | 0.34  |
-| Label Propagation     | 0.0098    | 0.87        | 0.13       | N/A            | 0.22 | 0.27  | 0.05  |
-| Fast Greedy           | 0.0098    | 0.80        | 0.42       | N/A            | 0.19 | 0.37  | 0.24  |
-| Leading Eigenvector   | 0.0092    | 0.71        | 0.41       | N/A            | 0.32 | 0.36  | 0.20  |
-| Walktrap              | 0.0096    | 0.89        | 0.40       | N/A            | 0.68 | 0.50  | 0.26  |
-| Infomap               | 0.0096    | 0.85        | 0.47       | N/A            | 0.70 | 0.51  | 0.22  |
-| Multilevel            | 0.0096    | 0.77        | 0.49       | N/A            | 0.37 | 0.48  | 0.34  |
-| leiden                | 0.0094    | 0.74        | 0.50       | N/A            | 0.46 | 0.47  | 0.32  |
-| SLPA                  | 0.0077    | 0.86        | 0.51       | N/A            | 0.50 | 0.64  | 0.44  |
-| Angel                 | 0.0094    | 0.69        | -0.01      | N/A            | 0.56 | 0.41  | 0.02  |
-| Demon                 | 0.0098    | 0.65        | 0.06       | N/A            | 0.61 | 0.39  | 0.05  |
-| Core Expansion        | 0.0092    | 0.69        | 0.05       | N/A            | 0.68 | 0.39  | 0.03  |
+| Algorithm                  | Type            | Threshold | Homogeneity | Modularity | F1-Score | Accuracy | NMI  | ARI  |
+|---------------------------|-----------------|-----------|-------------|------------|----------|----------|------|------|
+| Louvain [Blondel2008]     | Non-Overlapping | 0.0089    | 0.74        | **0.49**   | 0.47     | 0.58     | **0.49** | 0.37 |
+| Label Propagation [Cordasco2011] | Non-Overlapping | 0.0098    | **0.89**    | 0.13      | 0.22     | 0.32     | 0.27 | 0.05 |
+| Fast Greedy [Clauset2004] | Non-Overlapping | 0.0098    | 0.80        | 0.42       | 0.19     | 0.40     | 0.37 | 0.24 |
+| Leading Eigenvector [Newman2006] | Non-Overlapping | 0.0092    | 0.74        | 0.41      | 0.32     | 0.45     | 0.36 | 0.20 |
+| Walktrap [Pons2005]       | Non-Overlapping | 0.0096    | **0.89**    | 0.40       | **0.68** | **0.73** | **0.50** | 0.26 |
+| Infomap [Rosvall2008]     | Non-Overlapping | 0.0096    | **0.85**    | **0.47**   | **0.70** | **0.73** | **0.51** | 0.22 |
+| Multilevel [Blondel2008]  | Non-Overlapping | 0.0094    | 0.77        | **0.49**   | 0.37     | 0.55     | 0.48 | 0.35 |
+| Leiden [Traag2019]        | Non-Overlapping | 0.0094    | 0.74        | **0.50**   | 0.46     | 0.51     | 0.47 | 0.32 |
+| SLPA [Xie2011]            | Overlapping     | 0.0077    | **0.81**    | 0.41       | 0.16     | 0.27     | 0.19 | 0.02 |
+| Angel [Rossetti2020]      | Overlapping     | 0.0094    | 0.65        | -0.016     | 0.41     | 0.48     | 0.44 | 0.18 |
+| Demon [Coscia2012]        | Overlapping     | 0.0098    | 0.56        | 0.06       | 0.40     | 0.45     | 0.40 | 0.13 |
+| Core Expansion [Choumane2020] | Overlapping | 0.0092    | 0.60        | 0.06       | **0.70** | **0.70** | **0.59** | **0.46** |
 
-| Algorithm             | Threshold | Homogeneity | Sihoutte Score | Accuracy (GNN) | F1   | NMI   | ARI   |
-|-----------------------|-----------|-------------|----------------|----------------|------|-------|-------|
-| GraphSAGE Mean        | 0.11      | 0.81        | N/A            | 0.83           | 0.83 | 0.81  | 0.71  |
-| Kmeans                | 13        | 0.15        | 0.33           | 0.07           | 0.24 | 0.15  | 0.05  |
-| DBSCAN                | 13        | 0.007       | 0.34           | 0.01           | 0.08 | 0.01  | 0.0001|
-
+| Algorithm                          | Type         | Threshold/Clusters | Homogeneity | Silhouette Score | F1-Score | Accuracy | NMI  | ARI   |
+|-----------------------------------|--------------|---------------------|-------------|-------------------|----------|----------|------|-------|
+| GraphSAGE Mean [Hamilton2017]     | Supervised   | 0.11                | **0.81**    | -                 | **0.83** | **0.83** | **0.81** | **0.71** |
+| K-Means                           | Unsupervised | 13                  | 0.15        | 0.33              | 0.07     | 0.24     | 0.15 | 0.05  |
+| DBSCAN                            | Unsupervised | 13                  | 0.007       | 0.34              | 0.01     | 0.08     | 0.01 | 0.0001 |
 
 ## Cite
 If you build upon or use our work in a scientific publication, please cite our paper.
