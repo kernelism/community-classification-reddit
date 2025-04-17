@@ -3,7 +3,7 @@
 
 This research investigates the potential of structure-only approaches for classifying communities in online social networks, leveraging graph abstraction techniques that intentionally exclude content or semantics. Instead, we explore how the rhythm and flow of conversation alone — encoded through interaction patterns — can reveal the nature of digital communities.
 
-Note: This work is part of an ongoing research paper.
+> ⚠️ **Note**: This work is part of an ongoing research paper.
 
 ## Data
 The raw Reddit JSON data is structured like this.
