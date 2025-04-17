@@ -113,22 +113,22 @@ The results are provided below.
 
 | Algorithm                  | Type            | Threshold | Homogeneity | Modularity | F1-Score | Accuracy | NMI  | ARI  |
 |---------------------------|-----------------|-----------|-------------|------------|----------|----------|------|------|
-| Louvain [Blondel2008]     | Non-Overlapping | 0.0089    | 0.74        | **0.49**   | 0.47     | 0.58     | **0.49** | 0.37 |
-| Label Propagation [Cordasco2011] | Non-Overlapping | 0.0098    | **0.89**    | 0.13      | 0.22     | 0.32     | 0.27 | 0.05 |
-| Fast Greedy [Clauset2004] | Non-Overlapping | 0.0098    | 0.80        | 0.42       | 0.19     | 0.40     | 0.37 | 0.24 |
-| Leading Eigenvector [Newman2006] | Non-Overlapping | 0.0092    | 0.74        | 0.41      | 0.32     | 0.45     | 0.36 | 0.20 |
-| Walktrap [Pons2005]       | Non-Overlapping | 0.0096    | **0.89**    | 0.40       | **0.68** | **0.73** | **0.50** | 0.26 |
-| Infomap [Rosvall2008]     | Non-Overlapping | 0.0096    | **0.85**    | **0.47**   | **0.70** | **0.73** | **0.51** | 0.22 |
-| Multilevel [Blondel2008]  | Non-Overlapping | 0.0094    | 0.77        | **0.49**   | 0.37     | 0.55     | 0.48 | 0.35 |
-| Leiden [Traag2019]        | Non-Overlapping | 0.0094    | 0.74        | **0.50**   | 0.46     | 0.51     | 0.47 | 0.32 |
-| SLPA [Xie2011]            | Overlapping     | 0.0077    | **0.81**    | 0.41       | 0.16     | 0.27     | 0.19 | 0.02 |
-| Angel [Rossetti2020]      | Overlapping     | 0.0094    | 0.65        | -0.016     | 0.41     | 0.48     | 0.44 | 0.18 |
-| Demon [Coscia2012]        | Overlapping     | 0.0098    | 0.56        | 0.06       | 0.40     | 0.45     | 0.40 | 0.13 |
-| Core Expansion [Choumane2020] | Overlapping | 0.0092    | 0.60        | 0.06       | **0.70** | **0.70** | **0.59** | **0.46** |
+| Louvain     | Non-Overlapping | 0.0089    | 0.74        | **0.49**   | 0.47     | 0.58     | **0.49** | 0.37 |
+| Label Propagation  | Non-Overlapping | 0.0098    | **0.89**    | 0.13      | 0.22     | 0.32     | 0.27 | 0.05 |
+| Fast Greedy  | Non-Overlapping | 0.0098    | 0.80        | 0.42       | 0.19     | 0.40     | 0.37 | 0.24 |
+| Leading Eigenvector  | Non-Overlapping | 0.0092    | 0.74        | 0.41      | 0.32     | 0.45     | 0.36 | 0.20 |
+| Walktrap        | Non-Overlapping | 0.0096    | **0.89**    | 0.40       | **0.68** | **0.73** | **0.50** | 0.26 |
+| Infomap     | Non-Overlapping | 0.0096    | **0.85**    | **0.47**   | **0.70** | **0.73** | **0.51** | 0.22 |
+| Multilevel   | Non-Overlapping | 0.0094    | 0.77        | **0.49**   | 0.37     | 0.55     | 0.48 | 0.35 |
+| Leiden         | Non-Overlapping | 0.0094    | 0.74        | **0.50**   | 0.46     | 0.51     | 0.47 | 0.32 |
+| SLPA            | Overlapping     | 0.0077    | **0.81**    | 0.41       | 0.16     | 0.27     | 0.19 | 0.02 |
+| Angel       | Overlapping     | 0.0094    | 0.65        | -0.016     | 0.41     | 0.48     | 0.44 | 0.18 |
+| Demon         | Overlapping     | 0.0098    | 0.56        | 0.06       | 0.40     | 0.45     | 0.40 | 0.13 |
+| Core Expansion  | Overlapping | 0.0092    | 0.60        | 0.06       | **0.70** | **0.70** | **0.59** | **0.46** |
 
 | Algorithm                          | Type         | Threshold/Clusters | Homogeneity | Silhouette Score | F1-Score | Accuracy | NMI  | ARI   |
 |-----------------------------------|--------------|---------------------|-------------|-------------------|----------|----------|------|-------|
-| GraphSAGE Mean [Hamilton2017]     | Supervised   | 0.11                | **0.81**    | -                 | **0.83** | **0.83** | **0.81** | **0.71** |
+| GraphSAGE Mean     | Supervised   | 0.11                | **0.81**    | -                 | **0.83** | **0.83** | **0.81** | **0.71** |
 | K-Means                           | Unsupervised | 13                  | 0.15        | 0.33              | 0.07     | 0.24     | 0.15 | 0.05  |
 | DBSCAN                            | Unsupervised | 13                  | 0.007       | 0.34              | 0.01     | 0.08     | 0.01 | 0.0001 |
 
