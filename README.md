@@ -104,10 +104,12 @@ These thresholds informed the construction of multiple Level-2 graphs for both o
 | ![homog.png](./results/homogeneity.png) | ![overlappinghomog.png](./results/homogeneity_OCD.png) |
 |--------------------------------|--------------------------------|
 
-The results are provided below.
+The results obtained post non-overlapping and overlapping community detection runs are provided below.
 ![CD](./results/cd_all.png)
 
 ![OCD](./results/ocd_all.png)
+
+> A neat visualization can be found [here](https://kernelism.github.io/paper-viz/)
 
 ## Algorithm Performance Table
 
