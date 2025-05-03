@@ -1,9 +1,7 @@
 import json
 import os
-import platform
-import subprocess
 import time
-from typing import List, Optional, Dict
+from typing import List, Dict
 
 import click
 from bs4 import BeautifulSoup
