@@ -1,0 +1,3 @@
+[submodule "reddit-scraper"]
+	path = reddit-scraper
+	url = https://github.com/kernelism/reddit-scraper
