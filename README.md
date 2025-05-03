@@ -147,9 +147,9 @@ If you build upon or use our work in a scientific publication, please cite our p
   number  = {?},
   pages   = {?}
 }
+```
 > A template citation for when its actually published. We are not published yet!
 
-```
 [Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5238558)
 
 ## Contributors
