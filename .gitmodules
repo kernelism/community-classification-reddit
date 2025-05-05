@@ -1,3 +1,6 @@
 [submodule "reddit-scraper"]
 	path = reddit-scraper
 	url = https://github.com/kernelism/reddit-scraper
+[submodule "WL-split-merge"]
+	path = WL-split-merge
+	url = https://github.com/kernelism/WL-split-merge
