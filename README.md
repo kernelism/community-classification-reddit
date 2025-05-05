@@ -3,7 +3,7 @@
 
 This research investigates the potential of structure-only approaches for classifying communities in online social networks, leveraging graph abstraction techniques that intentionally exclude content or semantics. Instead, we explore how the rhythm and flow of conversation alone — encoded through interaction patterns — can reveal the nature of digital communities.
 
-> ⚠️ **Note**: This work is part of an ongoing research paper.
+> Early stage research [preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5238558) is available on ssrn. 
 
 ## Data
 The raw Reddit JSON data is structured like this.
@@ -137,8 +137,6 @@ The results obtained post non-overlapping and overlapping community detection ru
 ## Cite
 
 > Our manuscript has been submitted to [Online Social Networks and Media](https://www.sciencedirect.com/journal/online-social-networks-and-media) and is currently under peer-review. We are not published yet!
-
-However, an early stage research [preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5238558) is available on ssrn.
 
 ## Contributors
 - [Dayanand V](mailto:v_dayanand@cb.amrita.edu)
