@@ -135,22 +135,10 @@ The results obtained post non-overlapping and overlapping community detection ru
 | DBSCAN                            | Unsupervised | 13                  | 0.007       | 0.34              | 0.01     | 0.08     | 0.01 | 0.0001 |
 
 ## Cite
-If you build upon or use our work in a scientific publication, please cite our paper.
 
-```
-@article{hahaweaintpublishedyet,
-  author  = {Arjhun Sreedar, Pranav Deepak and Dayanand V},
-  title   = {hahaweaintpublishedyet},
-  journal = {Journal of hahaweaintpublishedyet},
-  year    = {2025},
-  volume  = {?},
-  number  = {?},
-  pages   = {?}
-}
-```
-> A template citation for when its actually published. We are not published yet!
+> Our manuscript has been submitted to [Online Social Networks and Media](https://www.sciencedirect.com/journal/online-social-networks-and-media) and is currently under peer-review. We are not published yet!
 
-[Preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5238558)
+However, an early stage research [preprint](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5238558) is available on ssrn.
 
 ## Contributors
 - [Dayanand V](mailto:v_dayanand@cb.amrita.edu)
